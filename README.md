@@ -1,9 +1,9 @@
 # Project Readme
 
 ## A. Problem Context
-Provide a brief description of the problem you're addressing. Include any background information necessary to understand the project.
+Aviation is one of the most data-intensive industries, with thousands of flights operating daily across hundreds of airports. Airlines, airport authorities, and regulators need reliable insights into air traffic patterns, flight cancellations, and route distributions to optimize operations, improve customer experience, and reduce costs.
 
-*Problem description goes here.*
+This project focuses on building a data warehouse solution to analyze air traffic data for three major New York area airports: ISP (Long Island MacArthur Airport), JFK (John F. Kennedy International Airport), and LGA (LaGuardia Airport). By analyzing traffic patterns, cancellation trends, and route information, stakeholders can make data-driven decisions to improve airline operations and passenger satisfaction.
 
 ## B. Requirements
 
@@ -14,44 +14,45 @@ Provide a brief description of the problem you're addressing. Include any backgr
     - Data Analyst: Responsible for data analysis and reporting.
     - IT Manager: Oversees technical implementation.
 - Risks
-  - Identify potential risks and challenges.
-  - Example:
-    - Data privacy concerns
-    - Integration with existing systems
+  - Data quality issues (missing fields, inconsistent formats in the provided dataset).
+  - The Aviationstack API is expensive, so the project relies on a professor-provided dataset which may have limited coverage.
+  - Cancellation reason data is not included in the dataset; external research is required to infer causes.
+  - Team coding experience ranges from beginner to intermediate, which may slow development.
 - Costs
   - Estimate the costs associated with the project.
   - Example:
     - Software licenses: $X
     - Hardware upgrades: $Y
 - Timeline
-  - Provide a high-level timeline for the project.
-  - Example:
-    - Phase 1: Requirements Gathering (Month 1)
-    - Phase 2: Development (Months 2-4)
-    - Phase 3: Testing and Deployment (Month 5)
+  - Phase 1: Requirements Gathering, Cost/Benefits/Risks, Architecture — February 28, 2026
+  - Phase 2: Data Modeling — March 14, 2026
+  - Phase 3: Data Pipeline Started — March 28, 2026
+  - Phase 4: Data Pipeline Midway — April 11, 2026
+  - Phase 5: Visualization Started — April 25, 2026
 - Benefits
-  - Outline the expected benefits of the project.
-  - Example:
-    - Improved data accuracy
-    - Enhanced decision-making capabilities
+  - Identify peak traffic periods (by hour, day, week, month, quarter) for better resource planning.
+  - Pinpoint airlines with the highest cancellation rates and suggest actionable improvements.
+  - Visualize the most popular flight destinations via heat maps for route optimization.
+  - Distinguish domestic vs. international flight volumes to understand airport utilization.
 
 ### 2. Business Requirements
-- List the high-level business goals and objectives the project aims to achieve.
-- Example:
-  - Reduce operational costs
-  - Improve data accessibility for decision-makers
+- Analyze air traffic patterns of ISP, JFK, and LGA.
+- Identify the most frequent flight destinations from each airport.
+- Determine whether traffic follows a uniform or normal distribution pattern.
+- Analyze domestic flight vs. international flight volumes.
 
 ### 3. Functional Requirements
-- List the functional requirements for the project, detailing the core features and actions.
-- Example:
-  - System must allow users to query and analyze data
-  - Data entry form must support multiple input types
+- Track cancelled flights by airline (cancelled vs. non-cancelled).
+- Identify the airline with the most cancellations.
+- Provide recommendations to reduce flight cancellations.
+- Generate traffic pattern reports filterable by hour, day, week, month, and quarter.
+- Display a heat map showing the concentration of flight destinations.
+- Classify and count domestic vs. international flights.
 
 ### 4. Data Requirements
-- Outline the types and sources of data required for the project.
-- Example:
-  - Structured data from internal databases
-  - Unstructured data from external sources (e.g., social media, surveys)
+- Structured flight data provided by the professor (sourced from the Aviationstack database).
+- Reference data for airports (airport codes, names, locations with latitude/longitude for heat maps).
+- External research data on flight cancellation causes (to supplement the dataset, which does not include cancellation reasons).
 
 ## C. Architecture
 
