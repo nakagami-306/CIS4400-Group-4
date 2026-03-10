@@ -21,8 +21,14 @@ This project focuses on building a data warehouse solution to analyze air traffi
 - Costs
   - Estimate the costs associated with the project.
   - Example:
-    - Software licenses: $X
-    - Hardware upgrades: $Y
+    - Software licenses: $0-$120
+    - Real costs : $0
+    - The project will utilze open source tools like python, pandas, numpy, etc for ETL and data analysis. The visualization tools such as power BI or tableau are also free. So no software licensong fees are required.
+    - Optional Cost: $0-$70/ month
+    - if the poject were using in a production level senario, then we can use paid versions of these tools which would be $10 per month for power bi pro, or upto $70 per month for tableu creator, these tools are used for more advanced projects.
+    - also for API costs we can be paying $0 if we use the free version of Aviationstack API, which gives us a limited number of requests that fit our project, but if we where to use the Aviationstack Basic plan we can be looing at $50 per month which will allows us to pull up to 10,000 monthly api requests, but we wouldnt need this.
+    - Hardware upgrades: $0-$250+
+    - If the prject is running on a personal computer that meets the 8GB ram and 100gb storgae than the costs are free assuming we already have these computers, but hypotheically if we didnt have these we would be looking at a fixed cost of $250 or more if we where to buy a computer for this project.
 - Timeline
   - Phase 1: Requirements Gathering, Cost/Benefits/Risks, Architecture — February 28, 2026
   - Phase 2: Data Modeling — March 14, 2026
@@ -129,7 +135,7 @@ Provide details of the visualizations created for the project.
 Highlight any key insights gained from the project.
 
 - Provide an overview of what was learned or discovered through data analysis.
-- Example:
+- Example:  
   - High correlation between customer satisfaction and response time.
   - Significant opportunity for cost reduction in supply chain operations.
 
