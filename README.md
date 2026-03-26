@@ -79,10 +79,10 @@ This project focuses on building a data warehouse solution to analyze air traffi
     - Python for data analysis
     - Azure for cloud computing
 
-### 4. Product Architecture
+### 4. Product Architecture  
 - Provide an overview of the product's overall structure.
 - Include any major components and how they interact.
-
+- ![Data Architecture Diagram](PRODUCT.drawio.png)
 ## D. Modeling
 
 ### 1. Dimensional Modeling
