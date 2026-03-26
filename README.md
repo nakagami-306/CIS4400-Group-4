@@ -70,7 +70,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
 - Include diagrams or images if necessary. 
-  - ![Data Architecture Diagram](DATA ARCH.drawio.png)
+  - ![Data Architecture Diagram](DATAARCH.drawio.png)
 
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
