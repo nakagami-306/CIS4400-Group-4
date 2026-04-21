@@ -75,23 +75,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - ![Data Architecture Diagram](DATAARCH.drawio.png)
 
 ### 3. Technical Architecture
-- **Data Sources**
-  - Daily flight records from the Aviationstack dataset in JSON format for JFK, LGA, and ISP airports
-  - Reference data (CSV) for airports, airlines, aircraft, cities, and countries
-- **Data Integration**
-  - Python-based batch ETL scripts using pandas and numpy for ingestion, cleaning, and transformation (parsing nested JSON, standardizing timestamps, and deriving delay minutes, cancellation flags, codeshare flags, and route classification)
-  - Apache Airflow for pipeline orchestration, running the ETL DAG on a daily schedule
-- **Data Warehouse and BI Data Stores**
-  - Google Cloud Storage (GCS) for raw and staged data
-  - Google BigQuery as the relational data warehouse, hosting the dimensional model (Fact_Flight and dimensions for Date, Airport, Airline, Flight_Status, Route, and Aircraft)
-  - Reference tables for airport, airline, aircraft, and city/country enrichment data
-- **Business Intelligence**
-  - SQL (BigQuery) for ad-hoc analysis
-  - Interactive dashboards in Tableau Desktop, connected directly to BigQuery
-  - Python visualization libraries such as Matplotlib for exploratory reporting
-- **Hardware**
-  - Developer workstations with 8 GB RAM and 100 GB storage minimum, running ETL scripts locally and connecting to cloud storage for shared staging
-- ![Technical Architecture Diagram](TECHARCH.drawio.png)
+- ![Technical Architecture Diagram](TECHARCH-Page-3.jpg)
 
 ### 4. Product Architecture  
 - Provide an overview of the product's overall structure.
