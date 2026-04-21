@@ -20,15 +20,17 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - Team coding experience ranges from beginner to intermediate, which may slow development.
 - Costs
   - Estimate the costs associated with the project.
-  - Example:
-    - Software licenses: $0-$120
-    - Real costs : $0
-    - The project will utilze open source tools like python, pandas, numpy, etc for ETL and data analysis. The visualization tools such as power BI or tableau are also free. So no software licensong fees are required.
-    - Optional Cost: $0-$70/ month
-    - if the poject were using in a production level senario, then we can use paid versions of these tools which would be $10 per month for power bi pro, or upto $70 per month for tableu creator, these tools are used for more advanced projects.
-    - also for API costs we can be paying $0 if we use the free version of Aviationstack API, which gives us a limited number of requests that fit our project, but if we where to use the Aviationstack Basic plan we can be looing at $50 per month which will allows us to pull up to 10,000 monthly api requests, but we wouldnt need this.
+    - Software licenses: $0
+    - Real costs: $0
+    - The project will utilize open source tools like python, pandas, numpy, and Apache Airflow for ETL, orchestration, and data analysis. Tableau Desktop is free for students through the Tableau for Students program using a Baruch .edu email, so no visualization licensing fees are required.
+    - Optional Cost: $0-$70/month
+    - In a production-level scenario we could use paid versions such as Tableau Creator at $70 per month, or a managed orchestration service like Google Cloud Composer; these are not needed for this project.
+    - Data source costs: $0
+    - The flight data is sourced from the Aviationstack database but is provided as a static JSON file by the professor, so there are no API subscription costs for the team. If we were to pull directly from the Aviationstack API instead, the Basic plan would cost about $50 per month for 10,000 requests, but we do not need this.
+    - Cloud infrastructure costs: $0
+    - The project uses Google Cloud Storage (GCS) for raw and staged data, and Google BigQuery as the data warehouse. Both fit within the GCP free tier for our expected data volume (roughly tens of GB of storage and well under 1 TB of queries per month), so no cloud costs are incurred.
     - Hardware upgrades: $0-$250+
-    - If the prject is running on a personal computer that meets the 8GB ram and 100gb storgae than the costs are free assuming we already have these computers, but hypotheically if we didnt have these we would be looking at a fixed cost of $250 or more if we where to buy a computer for this project.
+    - If the project is running on a personal computer that meets the 8GB ram and 100gb storage than the costs are free assuming we already have these computers, but hypothetically if we didnt have these we would be looking at a fixed cost of $250 or more if we were to buy a computer for this project.
 - Timeline
   - Phase 1: Requirements Gathering, Cost/Benefits/Risks, Architecture — February 28, 2026
   - Phase 2: Data Modeling — March 14, 2026
@@ -73,11 +75,23 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - ![Data Architecture Diagram](DATAARCH.drawio.png)
 
 ### 3. Technical Architecture
-- Define the software and hardware systems involved in the project.
-- List any key technologies, tools, or platforms used. 
-  - Example: 
-    - Python for data analysis
-    - Azure for cloud computing
+- **Data Sources**
+  - Daily flight records from the Aviationstack dataset in JSON format for JFK, LGA, and ISP airports
+  - Reference data (CSV) for airports, airlines, aircraft, cities, and countries
+- **Data Integration**
+  - Python-based batch ETL scripts using pandas and numpy for ingestion, cleaning, and transformation (parsing nested JSON, standardizing timestamps, and deriving delay minutes, cancellation flags, codeshare flags, and route classification)
+  - Apache Airflow for pipeline orchestration, running the ETL DAG on a daily schedule
+- **Data Warehouse and BI Data Stores**
+  - Google Cloud Storage (GCS) for raw and staged data
+  - Google BigQuery as the relational data warehouse, hosting the dimensional model (Fact_Flight and dimensions for Date, Airport, Airline, Flight_Status, Route, and Aircraft)
+  - Reference tables for airport, airline, aircraft, and city/country enrichment data
+- **Business Intelligence**
+  - SQL (BigQuery) for ad-hoc analysis
+  - Interactive dashboards in Tableau Desktop, connected directly to BigQuery
+  - Python visualization libraries such as Matplotlib for exploratory reporting
+- **Hardware**
+  - Developer workstations with 8 GB RAM and 100 GB storage minimum, running ETL scripts locally and connecting to cloud storage for shared staging
+- ![Technical Architecture Diagram](TECHARCH.drawio.png)
 
 ### 4. Product Architecture  
 - Provide an overview of the product's overall structure.
@@ -129,7 +143,7 @@ Provide details of the visualizations created for the project.
 
 - Include charts, graphs, and any other visual representation of the data.
   - ![Visualization Example](path_to_image)
-- Mention any libraries or tools used for visualization (e.g., Matplotlib, Power BI).
+- Mention any libraries or tools used for visualization (e.g., Matplotlib, Tableau).
 
 ## G. Insights
 Highlight any key insights gained from the project.
