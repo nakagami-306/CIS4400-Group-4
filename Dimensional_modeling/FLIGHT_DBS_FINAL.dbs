@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="FLIGHTSDBS" database="LogicalDesign" id="1ae31637-f149-413b-86dc-c8b8827cebd7" >
+	<diagram_group name="Default" id="0f049888-6d90-4025-a533-8c17cc317221" >
+		<diagram name="Default Diagram" id="acc4f51f-1627-495e-9ba4-bb2192bd7be5" show_relation="columns" >
+			<entity schema="cis4400" name="dim_aircraft" color="3986C1" x="1178" y="361" />
+			<entity schema="cis4400" name="dim_airline" color="3986C1" x="1140" y="1045" />
+			<entity schema="cis4400" name="dim_airport" color="3986C1" x="57" y="969" />
+			<entity schema="cis4400" name="dim_date" color="3986C1" x="703" y="57" />
+			<entity schema="cis4400" name="dim_flight_status" color="3986C1" x="133" y="285" />
+			<entity schema="cis4400" name="dim_route" color="3986C1" x="703" y="1425" />
+			<entity schema="cis4400" name="fact_flight" color="3986C1" x="665" y="437" />
+		</diagram>
+	</diagram_group>
+</project>
