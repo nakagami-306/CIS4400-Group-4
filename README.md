@@ -90,7 +90,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - **Dimension**: include all dimensions
 
 *Include any necessary images or diagrams to clarify the architecture.*
-  - ![Dimensional Modeling Diagram](path_to_image)
+  - ![Dimensional Modeling Diagram](Dimensional_modeling/FLIGHTS_DB_PNG.png)
 
 
 ### 2. Medallion Architecture
