@@ -80,7 +80,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
 ### 4. Product Architecture  
 - Provide an overview of the product's overall structure.
 - Include any major components and how they interact.
-- ![Product Architecture Diagram](PRODUCT.drawio.png)
+- ![Product Architecture Diagram](Architectures/PRODUCT_ARCH.drawio.png)
 ## D. Modeling
 
 ### 1. Dimensional Modeling
