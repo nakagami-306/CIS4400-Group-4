@@ -75,7 +75,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - ![Data Architecture Diagram](Architectures/DATAARCH.drawio.png)
 
 ### 3. Technical Architecture
-- ![Technical Architecture Diagram](TECHARCH-Page-3.jpg)
+- ![Technical Architecture Diagram](Architectures/TECHARCH-Page-3.jpg)
 
 ### 4. Product Architecture  
 - Provide an overview of the product's overall structure.
