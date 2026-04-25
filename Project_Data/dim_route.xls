@@ -1,0 +1,1386 @@
+route_key,origin_iata_code,origin_icao_code,destination_iata_code,destination_icao_code,route_name,is_domestic,is_international,origin_country_name,destination_country_name,origin_timezone,destination_timezone
+1,ISP,KISP,SXM,TNCM,ISP-SXM,0,1,United States,Sint Maarten,America/New_York,America/Lower_Princes
+2,ISP,KISP,FLL,KFLL,ISP-FLL,1,0,United States,United States,America/New_York,America/New_York
+3,ISP,KISP,BWI,KBWI,ISP-BWI,1,0,United States,United States,America/New_York,America/New_York
+4,ISP,KISP,RSW,KRSW,ISP-RSW,1,0,United States,United States,America/New_York,America/New_York
+5,ISP,KISP,PBI,KPBI,ISP-PBI,1,0,United States,United States,America/New_York,America/New_York
+6,ISP,KISP,MCO,KMCO,ISP-MCO,1,0,United States,United States,America/New_York,America/New_York
+7,ISP,KISP,OPF,KOPF,ISP-OPF,1,0,United States,United States,America/New_York,America/New_York
+8,ISP,KISP,VRB,KVRB,ISP-VRB,1,0,United States,United States,America/New_York,America/New_York
+9,ISP,KISP,ASE,KASE,ISP-ASE,1,0,United States,United States,America/New_York,America/Denver
+10,ISP,KISP,MIV,KMIV,ISP-MIV,1,0,United States,United States,America/New_York,America/New_York
+11,ISP,KISP,TPA,KTPA,ISP-TPA,1,0,United States,United States,America/New_York,America/New_York
+12,ISP,KISP,CHS,KCHS,ISP-CHS,1,0,United States,United States,America/New_York,America/New_York
+13,JFK,KJFK,MSP,KMSP,JFK-MSP,1,0,United States,United States,America/New_York,America/Chicago
+14,JFK,KJFK,SLK,KSLK,JFK-SLK,1,0,United States,United States,America/New_York,America/New_York
+15,JFK,KJFK,BRU,EBBR,JFK-BRU,0,1,United States,Belgium,America/New_York,Europe/Brussels
+16,JFK,KJFK,STI,MDST,JFK-STI,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+17,JFK,KJFK,MVY,KMVY,JFK-MVY,1,0,United States,United States,America/New_York,America/New_York
+18,JFK,KJFK,BQN,TJBQ,JFK-BQN,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+19,JFK,KJFK,BUF,KBUF,JFK-BUF,1,0,United States,United States,America/New_York,America/New_York
+20,JFK,KJFK,SYR,KSYR,JFK-SYR,1,0,United States,United States,America/New_York,America/New_York
+21,JFK,KJFK,CHS,KCHS,JFK-CHS,1,0,United States,United States,America/New_York,America/New_York
+22,JFK,KJFK,GND,TGPY,JFK-GND,0,0,United States,,America/New_York,America/Grenada
+23,JFK,KJFK,PVG,ZSPD,JFK-PVG,0,1,United States,China,America/New_York,Asia/Shanghai
+24,JFK,KJFK,UIO,SEQM,JFK-UIO,0,1,United States,Ecuador,America/New_York,America/Guayaquil
+25,JFK,KJFK,TPE,RCTP,JFK-TPE,0,1,United States,Taiwan,America/New_York,Asia/Taipei
+26,JFK,KJFK,ANC,PANC,JFK-ANC,1,0,United States,United States,America/New_York,America/Anchorage
+27,JFK,KJFK,IST,LTFM,JFK-IST,0,1,United States,Turkey,America/New_York,Europe/Istanbul
+28,JFK,KJFK,MDE,SKRG,JFK-MDE,0,1,United States,Colombia,America/New_York,America/Bogota
+29,JFK,KJFK,HND,RJTT,JFK-HND,0,1,United States,Japan,America/New_York,Asia/Tokyo
+30,JFK,KJFK,ICN,RKSI,JFK-ICN,0,1,United States,South Korea,America/New_York,Asia/Seoul
+31,JFK,KJFK,CDG,LFPG,JFK-CDG,0,1,United States,France,America/New_York,Europe/Paris
+32,JFK,KJFK,MEX,MMMX,JFK-MEX,0,1,United States,Mexico,America/New_York,America/Mexico_City
+33,JFK,KJFK,GYE,SEGU,JFK-GYE,0,1,United States,Ecuador,America/New_York,America/Guayaquil
+34,JFK,KJFK,PTY,MPTO,JFK-PTY,0,1,United States,Panama,America/New_York,America/Panama
+35,JFK,KJFK,DOH,OTHH,JFK-DOH,0,1,United States,Qatar,America/New_York,Asia/Qatar
+36,JFK,KJFK,HKG,VHHH,JFK-HKG,0,1,United States,Hong Kong,America/New_York,Asia/Hong_Kong
+37,JFK,KJFK,SAL,MSLP,JFK-SAL,0,1,United States,El Salvador,America/New_York,America/El_Salvador
+38,JFK,KJFK,MNL,RPLL,JFK-MNL,0,1,United States,Philippines,America/New_York,Asia/Manila
+39,JFK,KJFK,PEI,SKPE,JFK-PEI,0,1,United States,Colombia,America/New_York,America/Bogota
+40,JFK,KJFK,LGA,KLGA,JFK-LGA,1,0,United States,United States,America/New_York,America/New_York
+41,JFK,KJFK,GUA,MGGT,JFK-GUA,0,1,United States,Guatemala,America/New_York,America/Guatemala
+42,JFK,KJFK,YHZ,CYHZ,JFK-YHZ,0,1,United States,Canada,America/New_York,America/Halifax
+43,JFK,KJFK,GEO,SYCJ,JFK-GEO,0,1,United States,Guyana,America/New_York,America/Guyana
+44,JFK,KJFK,SDQ,MDSD,JFK-SDQ,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+45,JFK,KJFK,FLL,KFLL,JFK-FLL,1,0,United States,United States,America/New_York,America/New_York
+46,JFK,KJFK,KIN,MKJP,JFK-KIN,0,0,United States,,America/New_York,America/Jamaica
+47,JFK,KJFK,MCO,KMCO,JFK-MCO,1,0,United States,United States,America/New_York,America/New_York
+48,JFK,KJFK,ZAZ,LEZG,JFK-ZAZ,0,1,United States,Spain,America/New_York,Europe/Madrid
+49,JFK,KJFK,MIA,KMIA,JFK-MIA,1,0,United States,United States,America/New_York,America/New_York
+50,JFK,KJFK,LAX,KLAX,JFK-LAX,1,0,United States,United States,America/New_York,America/Los_Angeles
+51,JFK,KJFK,SFO,KSFO,JFK-SFO,1,0,United States,United States,America/New_York,America/Los_Angeles
+52,JFK,KJFK,PHX,KPHX,JFK-PHX,1,0,United States,United States,America/New_York,America/Phoenix
+53,JFK,KJFK,SJU,TJSJ,JFK-SJU,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+54,JFK,KJFK,ATL,KATL,JFK-ATL,1,0,United States,United States,America/New_York,America/New_York
+55,JFK,KJFK,AUA,TNCA,JFK-AUA,0,1,United States,Aruba,America/New_York,America/Aruba
+56,JFK,KJFK,CLT,KCLT,JFK-CLT,1,0,United States,United States,America/New_York,America/New_York
+57,JFK,KJFK,MBJ,MKJS,JFK-MBJ,0,0,United States,,America/New_York,America/Jamaica
+58,JFK,KJFK,BOG,SKBO,JFK-BOG,0,1,United States,Colombia,America/New_York,America/Bogota
+59,JFK,KJFK,BNA,KBNA,JFK-BNA,1,0,United States,United States,America/New_York,America/Chicago
+60,JFK,KJFK,RSW,KRSW,JFK-RSW,1,0,United States,United States,America/New_York,America/New_York
+61,JFK,KJFK,CUN,MMUN,JFK-CUN,0,1,United States,Mexico,America/New_York,America/Cancun
+62,JFK,KJFK,SAN,KSAN,JFK-SAN,1,0,United States,United States,America/New_York,America/Los_Angeles
+63,JFK,KJFK,SLC,KSLC,JFK-SLC,1,0,United States,United States,America/New_York,America/Denver
+64,JFK,KJFK,BGI,TBPB,JFK-BGI,0,1,United States,Barbados,America/New_York,America/Barbados
+65,JFK,KJFK,PUJ,MDPC,JFK-PUJ,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+66,JFK,KJFK,SEA,KSEA,JFK-SEA,1,0,United States,United States,America/New_York,America/Los_Angeles
+67,JFK,KJFK,PLS,MBPV,JFK-PLS,0,1,United States,Turks and Caicos Islands,America/New_York,America/Grand_Turk
+68,JFK,KJFK,DEN,KDEN,JFK-DEN,1,0,United States,United States,America/New_York,America/Denver
+69,JFK,KJFK,AUS,KAUS,JFK-AUS,1,0,United States,United States,America/New_York,America/Chicago
+70,JFK,KJFK,SVD,TVSA,JFK-SVD,0,1,United States,Saint Vincent and the Grenadines,America/New_York,America/St_Vincent
+71,JFK,KJFK,DTW,KDTW,JFK-DTW,1,0,United States,United States,America/New_York,America/Detroit
+72,JFK,KJFK,PBI,KPBI,JFK-PBI,1,0,United States,United States,America/New_York,America/New_York
+73,JFK,KJFK,LAS,KLAS,JFK-LAS,1,0,United States,United States,America/New_York,America/Los_Angeles
+74,JFK,KJFK,NAS,MYNN,JFK-NAS,0,1,United States,Bahamas,America/New_York,America/Nassau
+75,JFK,KJFK,SXM,TNCM,JFK-SXM,0,1,United States,Sint Maarten,America/New_York,America/Lower_Princes
+76,JFK,KJFK,EGE,KEGE,JFK-EGE,1,0,United States,United States,America/New_York,America/Denver
+77,JFK,KJFK,ANU,TAPA,JFK-ANU,0,1,United States,Antigua and Barbuda,America/New_York,America/Antigua
+78,JFK,KJFK,ORD,KORD,JFK-ORD,1,0,United States,United States,America/New_York,America/Chicago
+79,JFK,KJFK,TPA,KTPA,JFK-TPA,1,0,United States,United States,America/New_York,America/New_York
+80,JFK,KJFK,YYZ,CYYZ,JFK-YYZ,0,1,United States,Canada,America/New_York,America/Toronto
+81,JFK,KJFK,BDA,TXKF,JFK-BDA,0,1,United States,Bermuda,America/New_York,Atlantic/Bermuda
+82,JFK,KJFK,DCA,KDCA,JFK-DCA,1,0,United States,United States,America/New_York,America/New_York
+83,JFK,KJFK,SRQ,KSRQ,JFK-SRQ,1,0,United States,United States,America/New_York,America/New_York
+84,JFK,KJFK,IAH,KIAH,JFK-IAH,1,0,United States,United States,America/New_York,America/Chicago
+85,JFK,KJFK,JAX,KJAX,JFK-JAX,1,0,United States,United States,America/New_York,America/New_York
+86,JFK,KJFK,BOS,KBOS,JFK-BOS,1,0,United States,United States,America/New_York,America/New_York
+87,JFK,KJFK,DFW,KDFW,JFK-DFW,1,0,United States,United States,America/New_York,America/Chicago
+88,JFK,KJFK,LHR,EGLL,JFK-LHR,0,1,United States,United Kingdom,America/New_York,Europe/London
+89,JFK,KJFK,GCM,MWCR,JFK-GCM,0,1,United States,Cayman Islands,America/New_York,America/Cayman
+90,JFK,KJFK,PVD,KPVD,JFK-PVD,1,0,United States,United States,America/New_York,America/New_York
+91,JFK,KJFK,MSY,KMSY,JFK-MSY,1,0,United States,United States,America/New_York,America/Chicago
+92,JFK,KJFK,RDU,KRDU,JFK-RDU,1,0,United States,United States,America/New_York,America/New_York
+93,JFK,KJFK,STT,TIST,JFK-STT,0,1,United States,U.S. Virgin Islands,America/New_York,America/St_Thomas
+94,JFK,KJFK,CLE,KCLE,JFK-CLE,1,0,United States,United States,America/New_York,America/New_York
+95,JFK,KJFK,SAV,KSAV,JFK-SAV,1,0,United States,United States,America/New_York,America/New_York
+96,JFK,KJFK,POP,MDPP,JFK-POP,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+97,JFK,KJFK,ROC,KROC,JFK-ROC,1,0,United States,United States,America/New_York,America/New_York
+98,JFK,KJFK,PWM,KPWM,JFK-PWM,1,0,United States,United States,America/New_York,America/New_York
+99,JFK,KJFK,HNL,PHNL,JFK-HNL,1,0,United States,United States,America/New_York,Pacific/Honolulu
+100,JFK,KJFK,BZE,MZBZ,JFK-BZE,0,1,United States,Belize,America/New_York,America/Belize
+101,JFK,KJFK,YUL,CYUL,JFK-YUL,0,1,United States,Canada,America/New_York,America/Montreal
+102,JFK,KJFK,CTG,SKCG,JFK-CTG,0,1,United States,Colombia,America/New_York,America/Bogota
+103,JFK,KJFK,CUR,TNCC,JFK-CUR,0,1,United States,Curaçao,America/New_York,America/Curacao
+104,JFK,KJFK,POS,TTPP,JFK-POS,0,1,United States,Trinidad and Tobago,America/New_York,America/Port_of_Spain
+105,JFK,KJFK,SAT,KSAT,JFK-SAT,1,0,United States,United States,America/New_York,America/Chicago
+106,JFK,KJFK,SJD,MMSD,JFK-SJD,0,1,United States,Mexico,America/New_York,America/Mazatlan
+107,JFK,KJFK,DXB,OMDB,JFK-DXB,0,1,United States,United Arab Emirates,America/New_York,Asia/Dubai
+108,JFK,KJFK,LIR,MRLB,JFK-LIR,0,1,United States,Costa Rica,America/New_York,America/Costa_Rica
+109,JFK,KJFK,DEL,VIDP,JFK-DEL,0,1,United States,India,America/New_York,Asia/Kolkata
+110,JFK,KJFK,JED,OEJN,JFK-JED,0,1,United States,Saudi Arabia,America/New_York,Asia/Riyadh
+111,JFK,KJFK,UVF,TLPL,JFK-UVF,0,1,United States,Saint Lucia,America/New_York,America/St_Lucia
+112,JFK,KJFK,PSP,KPSP,JFK-PSP,1,0,United States,United States,America/New_York,America/Los_Angeles
+113,JFK,KJFK,BOM,VABB,JFK-BOM,0,1,United States,India,America/New_York,Asia/Kolkata
+114,JFK,KJFK,HYA,KHYA,JFK-HYA,1,0,United States,United States,America/New_York,America/New_York
+115,JFK,KJFK,CMH,KCMH,JFK-CMH,1,0,United States,United States,America/New_York,America/New_York
+116,JFK,KJFK,BGR,KBGR,JFK-BGR,1,0,United States,United States,America/New_York,America/New_York
+117,JFK,KJFK,CAN,ZGGG,JFK-CAN,0,1,United States,China,America/New_York,Asia/Shanghai
+118,JFK,KJFK,LEJ,EDDP,JFK-LEJ,0,1,United States,Germany,America/New_York,Europe/Berlin
+119,JFK,KJFK,CAI,HECA,JFK-CAI,0,1,United States,Egypt,America/New_York,Africa/Cairo
+120,JFK,KJFK,LIM,SPJC,JFK-LIM,0,1,United States,Peru,America/New_York,America/Lima
+121,JFK,KJFK,PIT,KPIT,JFK-PIT,1,0,United States,United States,America/New_York,America/New_York
+122,JFK,KJFK,TEB,KTEB,JFK-TEB,1,0,United States,United States,America/New_York,America/New_York
+123,JFK,KJFK,TLV,LLBG,JFK-TLV,0,1,United States,Israel,America/New_York,Asia/Jerusalem
+124,JFK,KJFK,ORH,KORH,JFK-ORH,1,0,United States,United States,America/New_York,America/New_York
+125,JFK,KJFK,AUH,OMAA,JFK-AUH,0,1,United States,United Arab Emirates,America/New_York,Asia/Dubai
+126,JFK,KJFK,NBO,HKJK,JFK-NBO,0,1,United States,Kenya,America/New_York,Africa/Nairobi
+127,JFK,KJFK,LGG,EBLG,JFK-LGG,0,1,United States,Belgium,America/New_York,Europe/Brussels
+128,JFK,KJFK,CVG,KCVG,JFK-CVG,1,0,United States,United States,America/New_York,America/New_York
+129,JFK,KJFK,RIC,KRIC,JFK-RIC,1,0,United States,United States,America/New_York,America/New_York
+130,JFK,KJFK,IAD,KIAD,JFK-IAD,1,0,United States,United States,America/New_York,America/New_York
+131,JFK,KJFK,FRA,EDDF,JFK-FRA,0,1,United States,Germany,America/New_York,Europe/Berlin
+132,JFK,KJFK,LOS,DNMM,JFK-LOS,0,1,United States,Nigeria,America/New_York,Africa/Lagos
+133,JFK,KJFK,ORF,KORF,JFK-ORF,1,0,United States,United States,America/New_York,America/New_York
+134,JFK,KJFK,ZRH,LSZH,JFK-ZRH,0,1,United States,Switzerland,America/New_York,Europe/Zurich
+135,JFK,KJFK,ACC,DGAA,JFK-ACC,0,1,United States,Ghana,America/New_York,Africa/Accra
+136,JFK,KJFK,BTV,KBTV,JFK-BTV,1,0,United States,United States,America/New_York,America/New_York
+137,JFK,KJFK,FCO,LIRF,JFK-FCO,0,1,United States,Italy,America/New_York,Europe/Rome
+138,JFK,KJFK,AMS,EHAM,JFK-AMS,0,1,United States,Netherlands,America/New_York,Europe/Amsterdam
+139,JFK,KJFK,KWI,OKKK,JFK-KWI,0,1,United States,Kuwait,America/New_York,Asia/Kuwait
+140,JFK,KJFK,DUB,EIDW,JFK-DUB,0,1,United States,Ireland,America/New_York,Europe/Dublin
+141,JFK,KJFK,MAD,LEMD,JFK-MAD,0,1,United States,Spain,America/New_York,Europe/Madrid
+142,JFK,KJFK,MKE,KMKE,JFK-MKE,1,0,United States,United States,America/New_York,America/Chicago
+143,JFK,KJFK,AKL,NZAA,JFK-AKL,0,1,United States,New Zealand,America/New_York,Pacific/Auckland
+144,JFK,KJFK,PDX,KPDX,JFK-PDX,1,0,United States,United States,America/New_York,America/Los_Angeles
+145,JFK,KJFK,SJO,MROC,JFK-SJO,0,1,United States,Costa Rica,America/New_York,America/Costa_Rica
+146,JFK,KJFK,MUC,EDDM,JFK-MUC,0,1,United States,Germany,America/New_York,Europe/Berlin
+147,JFK,KJFK,GRU,SBGR,JFK-GRU,0,1,United States,Brazil,America/New_York,America/Sao_Paulo
+148,JFK,KJFK,YYC,CYYC,JFK-YYC,0,1,United States,Canada,America/New_York,America/Edmonton
+149,JFK,KJFK,MXP,LIMC,JFK-MXP,0,1,United States,Italy,America/New_York,Europe/Rome
+150,JFK,KJFK,CPH,EKCH,JFK-CPH,0,1,United States,Denmark,America/New_York,Europe/Copenhagen
+151,JFK,KJFK,YVR,CYVR,JFK-YVR,0,1,United States,Canada,America/New_York,America/Vancouver
+152,JFK,KJFK,ATH,LGAV,JFK-ATH,0,1,United States,Greece,America/New_York,Europe/Athens
+153,JFK,KJFK,OTP,LROP,JFK-OTP,0,1,United States,Romania,America/New_York,Europe/Bucharest
+154,JFK,KJFK,OPF,KOPF,JFK-OPF,1,0,United States,United States,America/New_York,America/New_York
+155,JFK,KJFK,IND,KIND,JFK-IND,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+156,JFK,KJFK,BCN,LEBL,JFK-BCN,0,1,United States,Spain,America/New_York,Europe/Madrid
+157,JFK,KJFK,SCL,SCEL,JFK-SCL,0,0,United States,,America/New_York,America/Santiago
+158,JFK,KJFK,SNN,EINN,JFK-SNN,0,1,United States,Ireland,America/New_York,Europe/Dublin
+159,JFK,KJFK,MCI,KMCI,JFK-MCI,1,0,United States,United States,America/New_York,America/Chicago
+160,JFK,KJFK,RNO,KRNO,JFK-RNO,1,0,United States,United States,America/New_York,America/Los_Angeles
+161,JFK,KJFK,MAN,EGCC,JFK-MAN,0,1,United States,United Kingdom,America/New_York,Europe/London
+162,JFK,KJFK,ACK,KACK,JFK-ACK,1,0,United States,United States,America/New_York,America/New_York
+163,JFK,KJFK,KEF,BIKF,JFK-KEF,0,1,United States,Iceland,America/New_York,Atlantic/Reykjavik
+164,JFK,KJFK,DSS,GOBD,JFK-DSS,0,1,United States,Senegal,America/New_York,
+165,JFK,KJFK,GVA,LSGG,JFK-GVA,0,1,United States,Switzerland,America/New_York,Europe/Zurich
+166,JFK,KJFK,ITH,KITH,JFK-ITH,1,0,United States,United States,America/New_York,America/New_York
+167,JFK,KJFK,CMN,GMMN,JFK-CMN,0,1,United States,Morocco,America/New_York,Africa/Casablanca
+168,JFK,KJFK,GIG,SBGL,JFK-GIG,0,1,United States,Brazil,America/New_York,America/Sao_Paulo
+169,JFK,KJFK,LIS,LPPT,JFK-LIS,0,1,United States,Portugal,America/New_York,Europe/Lisbon
+170,JFK,KJFK,EZE,SAEZ,JFK-EZE,0,1,United States,Argentina,America/New_York,America/Argentina/Buenos_Aires
+171,JFK,KJFK,ABJ,DIAP,JFK-ABJ,0,0,United States,,America/New_York,Africa/Abidjan
+172,JFK,KJFK,PDL,LPPD,JFK-PDL,0,1,United States,Portugal,America/New_York,Atlantic/Azores
+173,JFK,KJFK,LGW,EGKK,JFK-LGW,0,1,United States,United Kingdom,America/New_York,Europe/London
+174,JFK,KJFK,STL,KSTL,JFK-STL,1,0,United States,United States,America/New_York,America/Chicago
+175,JFK,KJFK,EDI,EGPH,JFK-EDI,0,1,United States,United Kingdom,America/New_York,Europe/London
+176,JFK,KJFK,PSE,TJPS,JFK-PSE,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+177,JFK,KJFK,SIN,WSSS,JFK-SIN,0,1,United States,Singapore,America/New_York,Asia/Singapore
+178,JFK,KJFK,HEL,EFHK,JFK-HEL,0,1,United States,Finland,America/New_York,Europe/Helsinki
+179,JFK,KJFK,WAW,EPWA,JFK-WAW,0,1,United States,Poland,America/New_York,Europe/Warsaw
+180,JFK,KJFK,FOC,ZSFZ,JFK-FOC,0,1,United States,China,America/New_York,Asia/Shanghai
+181,JFK,KJFK,NRT,RJAA,JFK-NRT,0,1,United States,Japan,America/New_York,Asia/Tokyo
+182,JFK,KJFK,LUX,ELLX,JFK-LUX,0,1,United States,Luxembourg,America/New_York,Europe/Luxembourg
+183,JFK,KJFK,YHM,CYHM,JFK-YHM,0,1,United States,Canada,America/New_York,America/Toronto
+184,LGA,KLGA,CAE,KCAE,LGA-CAE,1,0,United States,United States,America/New_York,America/New_York
+185,LGA,KLGA,SRQ,KSRQ,LGA-SRQ,1,0,United States,United States,America/New_York,America/New_York
+186,LGA,KLGA,ALB,KALB,LGA-ALB,1,0,United States,United States,America/New_York,America/New_York
+187,LGA,KLGA,SDF,KSDF,LGA-SDF,1,0,United States,United States,America/New_York,America/Kentucky/Louisville
+188,LGA,KLGA,MEM,KMEM,LGA-MEM,1,0,United States,United States,America/New_York,America/Chicago
+189,LGA,KLGA,SAV,KSAV,LGA-SAV,1,0,United States,United States,America/New_York,America/New_York
+190,LGA,KLGA,OMA,KOMA,LGA-OMA,1,0,United States,United States,America/New_York,America/Chicago
+191,LGA,KLGA,MCO,KMCO,LGA-MCO,1,0,United States,United States,America/New_York,America/New_York
+192,LGA,KLGA,CLT,KCLT,LGA-CLT,1,0,United States,United States,America/New_York,America/New_York
+193,LGA,KLGA,MIA,KMIA,LGA-MIA,1,0,United States,United States,America/New_York,America/New_York
+194,LGA,KLGA,DFW,KDFW,LGA-DFW,1,0,United States,United States,America/New_York,America/Chicago
+195,LGA,KLGA,PBI,KPBI,LGA-PBI,1,0,United States,United States,America/New_York,America/New_York
+196,LGA,KLGA,YYZ,CYYZ,LGA-YYZ,0,1,United States,Canada,America/New_York,America/Toronto
+197,LGA,KLGA,ATL,KATL,LGA-ATL,1,0,United States,United States,America/New_York,America/New_York
+198,LGA,KLGA,ORD,KORD,LGA-ORD,1,0,United States,United States,America/New_York,America/Chicago
+199,LGA,KLGA,FLL,KFLL,LGA-FLL,1,0,United States,United States,America/New_York,America/New_York
+200,LGA,KLGA,DTW,KDTW,LGA-DTW,1,0,United States,United States,America/New_York,America/Detroit
+201,LGA,KLGA,MSP,KMSP,LGA-MSP,1,0,United States,United States,America/New_York,America/Chicago
+202,LGA,KLGA,IAD,KIAD,LGA-IAD,1,0,United States,United States,America/New_York,America/New_York
+203,LGA,KLGA,BNA,KBNA,LGA-BNA,1,0,United States,United States,America/New_York,America/Chicago
+204,LGA,KLGA,DAL,KDAL,LGA-DAL,1,0,United States,United States,America/New_York,America/Chicago
+205,LGA,KLGA,PHL,KPHL,LGA-PHL,1,0,United States,United States,America/New_York,America/New_York
+206,LGA,KLGA,YUL,CYUL,LGA-YUL,0,1,United States,Canada,America/New_York,America/Montreal
+207,LGA,KLGA,MDW,KMDW,LGA-MDW,1,0,United States,United States,America/New_York,America/Chicago
+208,LGA,KLGA,RSW,KRSW,LGA-RSW,1,0,United States,United States,America/New_York,America/New_York
+209,LGA,KLGA,TPA,KTPA,LGA-TPA,1,0,United States,United States,America/New_York,America/New_York
+210,LGA,KLGA,MYR,KMYR,LGA-MYR,1,0,United States,United States,America/New_York,America/New_York
+211,LGA,KLGA,STL,KSTL,LGA-STL,1,0,United States,United States,America/New_York,America/Chicago
+212,LGA,KLGA,HOU,KHOU,LGA-HOU,1,0,United States,United States,America/New_York,America/Chicago
+213,LGA,KLGA,DEN,KDEN,LGA-DEN,1,0,United States,United States,America/New_York,America/Denver
+214,LGA,KLGA,IAH,KIAH,LGA-IAH,1,0,United States,United States,America/New_York,America/Chicago
+215,LGA,KLGA,BOS,KBOS,LGA-BOS,1,0,United States,United States,America/New_York,America/New_York
+216,LGA,KLGA,RIC,KRIC,LGA-RIC,1,0,United States,United States,America/New_York,America/New_York
+217,LGA,KLGA,GSP,KGSP,LGA-GSP,1,0,United States,United States,America/New_York,America/New_York
+218,LGA,KLGA,RDU,KRDU,LGA-RDU,1,0,United States,United States,America/New_York,America/New_York
+219,LGA,KLGA,PIT,KPIT,LGA-PIT,1,0,United States,United States,America/New_York,America/New_York
+220,LGA,KLGA,JAX,KJAX,LGA-JAX,1,0,United States,United States,America/New_York,America/New_York
+221,LGA,KLGA,CVG,KCVG,LGA-CVG,1,0,United States,United States,America/New_York,America/New_York
+222,LGA,KLGA,CHS,KCHS,LGA-CHS,1,0,United States,United States,America/New_York,America/New_York
+223,LGA,KLGA,MSY,KMSY,LGA-MSY,1,0,United States,United States,America/New_York,America/Chicago
+224,LGA,KLGA,ILM,KILM,LGA-ILM,1,0,United States,United States,America/New_York,America/New_York
+225,LGA,KLGA,DCA,KDCA,LGA-DCA,1,0,United States,United States,America/New_York,America/New_York
+226,LGA,KLGA,AVL,KAVL,LGA-AVL,1,0,United States,United States,America/New_York,America/New_York
+227,LGA,KLGA,GSO,KGSO,LGA-GSO,1,0,United States,United States,America/New_York,America/New_York
+228,LGA,KLGA,GRR,KGRR,LGA-GRR,1,0,United States,United States,America/New_York,America/Detroit
+229,LGA,KLGA,NAS,MYNN,LGA-NAS,0,1,United States,Bahamas,America/New_York,America/Nassau
+230,LGA,KLGA,EYW,KEYW,LGA-EYW,1,0,United States,United States,America/New_York,America/New_York
+231,LGA,KLGA,MSN,KMSN,LGA-MSN,1,0,United States,United States,America/New_York,America/Chicago
+232,LGA,KLGA,ORF,KORF,LGA-ORF,1,0,United States,United States,America/New_York,America/New_York
+233,LGA,KLGA,BHM,KBHM,LGA-BHM,1,0,United States,United States,America/New_York,America/Chicago
+234,LGA,KLGA,CLE,KCLE,LGA-CLE,1,0,United States,United States,America/New_York,America/New_York
+235,LGA,KLGA,PNS,KPNS,LGA-PNS,1,0,United States,United States,America/New_York,America/Chicago
+236,LGA,KLGA,MCI,KMCI,LGA-MCI,1,0,United States,United States,America/New_York,America/Chicago
+237,LGA,KLGA,ROC,KROC,LGA-ROC,1,0,United States,United States,America/New_York,America/New_York
+238,LGA,KLGA,CMH,KCMH,LGA-CMH,1,0,United States,United States,America/New_York,America/New_York
+239,LGA,KLGA,IND,KIND,LGA-IND,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+240,LGA,KLGA,MKE,KMKE,LGA-MKE,1,0,United States,United States,America/New_York,America/Chicago
+241,LGA,KLGA,BTV,KBTV,LGA-BTV,1,0,United States,United States,America/New_York,America/New_York
+242,LGA,KLGA,OKC,KOKC,LGA-OKC,1,0,United States,United States,America/New_York,America/Chicago
+243,LGA,KLGA,TYS,KTYS,LGA-TYS,1,0,United States,United States,America/New_York,America/New_York
+244,LGA,KLGA,DSM,KDSM,LGA-DSM,1,0,United States,United States,America/New_York,America/Chicago
+245,LGA,KLGA,LIT,KLIT,LGA-LIT,1,0,United States,United States,America/New_York,America/Chicago
+246,LGA,KLGA,CHO,KCHO,LGA-CHO,1,0,United States,United States,America/New_York,America/New_York
+247,LGA,KLGA,XNA,KXNA,LGA-XNA,1,0,United States,United States,America/New_York,America/Chicago
+248,LGA,KLGA,BGR,KBGR,LGA-BGR,1,0,United States,United States,America/New_York,America/New_York
+249,LGA,KLGA,BUF,KBUF,LGA-BUF,1,0,United States,United States,America/New_York,America/New_York
+250,LGA,KLGA,PWM,KPWM,LGA-PWM,1,0,United States,United States,America/New_York,America/New_York
+251,LGA,KLGA,TUL,KTUL,LGA-TUL,1,0,United States,United States,America/New_York,America/Chicago
+252,LGA,KLGA,SYR,KSYR,LGA-SYR,1,0,United States,United States,America/New_York,America/New_York
+253,LGA,KLGA,MPO,KMPO,LGA-MPO,1,0,United States,United States,America/New_York,America/New_York
+254,LGA,KLGA,HPN,KHPN,LGA-HPN,1,0,United States,United States,America/New_York,America/New_York
+255,ISP,KISP,PIT,KPIT,ISP-PIT,1,0,United States,United States,America/New_York,America/New_York
+256,ISP,KISP,MIA,KMIA,ISP-MIA,1,0,United States,United States,America/New_York,America/New_York
+257,ISP,KISP,GHB,MYEM,ISP-GHB,0,1,United States,Bahamas,America/New_York,America/Nassau
+258,ISP,KISP,RDU,KRDU,ISP-RDU,1,0,United States,United States,America/New_York,America/New_York
+259,ISP,KISP,BCT,KBCT,ISP-BCT,1,0,United States,United States,America/New_York,America/New_York
+260,ISP,KISP,TEB,KTEB,ISP-TEB,1,0,United States,United States,America/New_York,America/New_York
+261,ISP,KISP,APF,KAPF,ISP-APF,1,0,United States,United States,America/New_York,America/New_York
+262,ISP,KISP,MHT,KMHT,ISP-MHT,1,0,United States,United States,America/New_York,America/New_York
+263,ISP,KISP,SRQ,KSRQ,ISP-SRQ,1,0,United States,United States,America/New_York,America/New_York
+264,ISP,KISP,ORF,KORF,ISP-ORF,1,0,United States,United States,America/New_York,America/New_York
+265,ISP,KISP,CMH,KCMH,ISP-CMH,1,0,United States,United States,America/New_York,America/New_York
+266,JFK,KJFK,PHL,KPHL,JFK-PHL,1,0,United States,United States,America/New_York,America/New_York
+267,JFK,KJFK,HPN,KHPN,JFK-HPN,1,0,United States,United States,America/New_York,America/New_York
+268,JFK,KJFK,PEK,ZBAA,JFK-PEK,0,1,United States,China,America/New_York,Asia/Shanghai
+269,JFK,KJFK,GDL,MMGL,JFK-GDL,0,1,United States,Mexico,America/New_York,America/Mexico_City
+270,JFK,KJFK,CLO,SKCL,JFK-CLO,0,1,United States,Colombia,America/New_York,America/Bogota
+271,JFK,KJFK,BZN,KBZN,JFK-BZN,1,0,United States,United States,America/New_York,America/Denver
+272,JFK,KJFK,TAB,TTCP,JFK-TAB,0,1,United States,Trinidad and Tobago,America/New_York,America/Port_of_Spain
+273,JFK,KJFK,MEM,KMEM,JFK-MEM,1,0,United States,United States,America/New_York,America/Chicago
+274,JFK,KJFK,SNA,KSNA,JFK-SNA,1,0,United States,United States,America/New_York,America/Los_Angeles
+275,JFK,KJFK,SKB,TKPK,JFK-SKB,0,1,United States,Saint Kitts and Nevis,America/New_York,America/St_Kitts
+276,JFK,KJFK,SAP,MHLM,JFK-SAP,0,1,United States,Honduras,America/New_York,America/Tegucigalpa
+277,JFK,KJFK,SDF,KSDF,JFK-SDF,1,0,United States,United States,America/New_York,America/Kentucky/Louisville
+278,JFK,KJFK,RUH,OERK,JFK-RUH,0,1,United States,Saudi Arabia,America/New_York,Asia/Riyadh
+279,JFK,KJFK,TAS,UTTT,JFK-TAS,0,1,United States,Uzbekistan,America/New_York,Asia/Tashkent
+280,JFK,KJFK,MTY,MMMY,JFK-MTY,0,1,United States,Mexico,America/New_York,America/Monterrey
+281,JFK,KJFK,BEG,LYBE,JFK-BEG,0,1,United States,Serbia,America/New_York,Europe/Belgrade
+282,JFK,KJFK,LZU,KLZU,JFK-LZU,1,0,United States,United States,America/New_York,America/New_York
+283,JFK,KJFK,PTK,KPTK,JFK-PTK,1,0,United States,United States,America/New_York,America/Detroit
+284,JFK,KJFK,ISP,KISP,JFK-ISP,1,0,United States,United States,America/New_York,America/New_York
+285,JFK,KJFK,BLM,KBLM,JFK-BLM,1,0,United States,United States,America/New_York,America/New_York
+286,JFK,KJFK,BWI,KBWI,JFK-BWI,1,0,United States,United States,America/New_York,America/New_York
+287,JFK,KJFK,VIE,LOWW,JFK-VIE,0,1,United States,Austria,America/New_York,Europe/Vienna
+288,JFK,KJFK,VCE,LIPZ,JFK-VCE,0,1,United States,Italy,America/New_York,Europe/Rome
+289,JFK,KJFK,LFW,DXXX,JFK-LFW,0,1,United States,Togo,America/New_York,Africa/Lome
+290,JFK,KJFK,AMM,OJAI,JFK-AMM,0,1,United States,Jordan,America/New_York,Asia/Amman
+291,JFK,KJFK,BER,EDDB,JFK-BER,0,1,United States,Berlin,America/New_York,Europe/Berlin
+292,JFK,KJFK,SUA,KSUA,JFK-SUA,1,0,United States,United States,America/New_York,America/New_York
+293,JFK,KJFK,RFD,KRFD,JFK-RFD,1,0,United States,United States,America/New_York,America/Chicago
+294,LGA,KLGA,ISP,KISP,LGA-ISP,1,0,United States,United States,America/New_York,America/New_York
+295,LGA,KLGA,JFK,KJFK,LGA-JFK,1,0,United States,United States,America/New_York,America/New_York
+296,LGA,KLGA,AXA,TQPF,LGA-AXA,0,1,United States,Anguilla,America/New_York,America/Anguilla
+297,LGA,KLGA,SCE,KUNV,LGA-SCE,1,0,United States,United States,America/New_York,America/New_York
+298,LGA,KLGA,MMU,KMMU,LGA-MMU,1,0,United States,United States,America/New_York,America/New_York
+299,LGA,KLGA,BDL,KBDL,LGA-BDL,1,0,United States,United States,America/New_York,America/New_York
+300,ISP,KISP,PYM,KPYM,ISP-PYM,1,0,United States,United States,America/New_York,America/New_York
+301,ISP,KISP,SUA,KSUA,ISP-SUA,1,0,United States,United States,America/New_York,America/New_York
+302,ISP,KISP,ISP,KISP,ISP-ISP,1,0,United States,United States,America/New_York,America/New_York
+303,ISP,KISP,LEB,KLEB,ISP-LEB,1,0,United States,United States,America/New_York,America/New_York
+304,ISP,KISP,HAR,KCXY,ISP-HAR,1,0,United States,United States,America/New_York,America/New_York
+305,ISP,KISP,CHO,KCHO,ISP-CHO,1,0,United States,United States,America/New_York,America/New_York
+306,ISP,KISP,ZAG,LDZA,ISP-ZAG,0,1,United States,Croatia,America/New_York,Europe/Zagreb
+307,JFK,KJFK,EMA,EGNX,JFK-EMA,0,1,United States,United Kingdom,America/New_York,Europe/London
+308,JFK,KJFK,PDK,KPDK,JFK-PDK,1,0,United States,United States,America/New_York,America/New_York
+309,JFK,KJFK,HGH,ZSHC,JFK-HGH,0,1,United States,China,America/New_York,Asia/Shanghai
+310,JFK,KJFK,THV,KTHV,JFK-THV,1,0,United States,United States,America/New_York,America/New_York
+311,JFK,KJFK,TER,LPLA,JFK-TER,0,1,United States,Portugal,America/New_York,Atlantic/Azores
+312,JFK,KJFK,SBD,KSBD,JFK-SBD,1,0,United States,United States,America/New_York,America/Los_Angeles
+313,LGA,KLGA,PWK,KPWK,LGA-PWK,1,0,United States,United States,America/New_York,America/Chicago
+314,LGA,KLGA,MVY,KMVY,LGA-MVY,1,0,United States,United States,America/New_York,America/New_York
+315,LGA,KLGA,BED,KBED,LGA-BED,1,0,United States,United States,America/New_York,America/New_York
+316,LGA,KLGA,PVD,KPVD,LGA-PVD,1,0,United States,United States,America/New_York,America/New_York
+317,ISP,KISP,DSM,KDSM,ISP-DSM,1,0,United States,United States,America/New_York,America/Chicago
+318,ISP,KISP,ALB,KALB,ISP-ALB,1,0,United States,United States,America/New_York,America/New_York
+319,JFK,KJFK,BON,TNCB,JFK-BON,0,1,United States,"Bonaire, Saint Eustatius and Saba",America/New_York,America/Kralendijk
+320,JFK,KJFK,FXE,KFXE,JFK-FXE,1,0,United States,United States,America/New_York,America/New_York
+321,JFK,KJFK,AGC,KAGC,JFK-AGC,1,0,United States,United States,America/New_York,America/New_York
+322,JFK,KJFK,LEX,KLEX,JFK-LEX,1,0,United States,United States,America/New_York,America/New_York
+323,JFK,KJFK,CKG,ZUCK,JFK-CKG,0,1,United States,China,America/New_York,Asia/Shanghai
+324,LGA,KLGA,SXM,TNCM,LGA-SXM,0,1,United States,Sint Maarten,America/New_York,America/Lower_Princes
+325,LGA,KLGA,PLS,MBPV,LGA-PLS,0,1,United States,Turks and Caicos Islands,America/New_York,America/Grand_Turk
+326,LGA,KLGA,SLC,KSLC,LGA-SLC,1,0,United States,United States,America/New_York,America/Denver
+327,LGA,KLGA,AUA,TNCA,LGA-AUA,0,1,United States,Aruba,America/New_York,America/Aruba
+328,LGA,KLGA,SFO,KSFO,LGA-SFO,1,0,United States,United States,America/New_York,America/Los_Angeles
+329,LGA,KLGA,SWF,KSWF,LGA-SWF,1,0,United States,United States,America/New_York,America/New_York
+330,LGA,KLGA,TEB,KTEB,LGA-TEB,1,0,United States,United States,America/New_York,America/New_York
+331,LGA,KLGA,LEX,KLEX,LGA-LEX,1,0,United States,United States,America/New_York,America/New_York
+332,LGA,KLGA,LAS,KLAS,LGA-LAS,1,0,United States,United States,America/New_York,America/Los_Angeles
+333,ISP,KISP,PTV,KPTV,ISP-PTV,1,0,United States,United States,America/New_York,America/Los_Angeles
+334,ISP,KISP,HPN,KHPN,ISP-HPN,1,0,United States,United States,America/New_York,America/New_York
+335,ISP,KISP,BQK,KBQK,ISP-BQK,1,0,United States,United States,America/New_York,America/New_York
+336,ISP,KISP,BNA,KBNA,ISP-BNA,1,0,United States,United States,America/New_York,America/Chicago
+337,ISP,KISP,GON,KGON,ISP-GON,1,0,United States,United States,America/New_York,America/New_York
+338,ISP,KISP,FOK,KFOK,ISP-FOK,1,0,United States,United States,America/New_York,America/New_York
+339,JFK,KJFK,OSU,KOSU,JFK-OSU,1,0,United States,United States,America/New_York,America/New_York
+340,JFK,KJFK,EWR,KEWR,JFK-EWR,1,0,United States,United States,America/New_York,America/New_York
+341,LGA,KLGA,DAY,KDAY,LGA-DAY,1,0,United States,United States,America/New_York,America/New_York
+342,LGA,KLGA,ROA,KROA,LGA-ROA,1,0,United States,United States,America/New_York,America/New_York
+343,LGA,KLGA,TVC,KTVC,LGA-TVC,1,0,United States,United States,America/New_York,America/Detroit
+344,LGA,KLGA,APF,KAPF,LGA-APF,1,0,United States,United States,America/New_York,America/New_York
+345,LGA,KLGA,BZN,KBZN,LGA-BZN,1,0,United States,United States,America/New_York,America/Denver
+346,LGA,KLGA,PIE,KPIE,LGA-PIE,1,0,United States,United States,America/New_York,America/New_York
+347,LGA,KLGA,ASE,KASE,LGA-ASE,1,0,United States,United States,America/New_York,America/Denver
+348,LGA,KLGA,BGI,TBPB,LGA-BGI,0,1,United States,Barbados,America/New_York,America/Barbados
+349,LGA,KLGA,CHA,KCHA,LGA-CHA,1,0,United States,United States,America/New_York,America/New_York
+350,ISP,KISP,OAK,KOAK,ISP-OAK,1,0,United States,United States,America/New_York,America/Los_Angeles
+351,ISP,KISP,LAL,KLAL,ISP-LAL,1,0,United States,United States,America/New_York,America/New_York
+352,ISP,KISP,JVL,KJVL,ISP-JVL,1,0,United States,United States,America/New_York,America/Chicago
+353,ISP,KISP,YYZ,CYYZ,ISP-YYZ,0,1,United States,Canada,America/New_York,America/Toronto
+354,ISP,KISP,RUT,KRUT,ISP-RUT,1,0,United States,United States,America/New_York,America/New_York
+355,ISP,KISP,PHF,KPHF,ISP-PHF,1,0,United States,United States,America/New_York,America/New_York
+356,JFK,KJFK,MLB,KMLB,JFK-MLB,1,0,United States,United States,America/New_York,America/New_York
+357,JFK,KJFK,QQQ,KMQJ,JFK-QQQ,1,0,United States,United States,America/New_York,
+358,JFK,KJFK,APF,KAPF,JFK-APF,1,0,United States,United States,America/New_York,America/New_York
+359,JFK,KJFK,BED,KBED,JFK-BED,1,0,United States,United States,America/New_York,America/New_York
+360,JFK,KJFK,XNA,KXNA,JFK-XNA,1,0,United States,United States,America/New_York,America/Chicago
+361,LGA,KLGA,MHT,KMHT,LGA-MHT,1,0,United States,United States,America/New_York,America/New_York
+362,LGA,KLGA,ORH,KORH,LGA-ORH,1,0,United States,United States,America/New_York,America/New_York
+363,ISP,KISP,MMU,KMMU,ISP-MMU,1,0,United States,United States,America/New_York,America/New_York
+364,ISP,KISP,GSP,KGSP,ISP-GSP,1,0,United States,United States,America/New_York,America/New_York
+365,ISP,KISP,JAC,KJAC,ISP-JAC,1,0,United States,United States,America/New_York,America/Denver
+366,ISP,KISP,ORH,KORH,ISP-ORH,1,0,United States,United States,America/New_York,America/New_York
+367,ISP,KISP,BOS,KBOS,ISP-BOS,1,0,United States,United States,America/New_York,America/New_York
+368,ISP,KISP,CLT,KCLT,ISP-CLT,1,0,United States,United States,America/New_York,America/New_York
+369,JFK,KJFK,ALB,KALB,JFK-ALB,1,0,United States,United States,America/New_York,America/New_York
+370,JFK,KJFK,MCN,KMCN,JFK-MCN,1,0,United States,United States,America/New_York,America/New_York
+371,JFK,KJFK,MDW,KMDW,JFK-MDW,1,0,United States,United States,America/New_York,America/Chicago
+372,JFK,KJFK,LEB,KLEB,JFK-LEB,1,0,United States,United States,America/New_York,America/New_York
+373,JFK,KJFK,ABV,DNAA,JFK-ABV,0,1,United States,Nigeria,America/New_York,Africa/Lagos
+374,JFK,KJFK,RZE,EPRZ,JFK-RZE,0,1,United States,Poland,America/New_York,Europe/Warsaw
+375,LGA,KLGA,LNK,KLNK,LGA-LNK,1,0,United States,United States,America/New_York,America/Chicago
+376,LGA,KLGA,RDG,KRDG,LGA-RDG,1,0,United States,United States,America/New_York,America/New_York
+377,ISP,KISP,LYH,KLYH,ISP-LYH,1,0,United States,United States,America/New_York,America/New_York
+378,ISP,KISP,MYR,KMYR,ISP-MYR,1,0,United States,United States,America/New_York,America/New_York
+379,JFK,KJFK,BDL,KBDL,JFK-BDL,1,0,United States,United States,America/New_York,America/New_York
+380,JFK,KJFK,PVR,MMPR,JFK-PVR,0,1,United States,Mexico,America/New_York,America/Mexico_City
+381,JFK,KJFK,HHH,KHXD,JFK-HHH,1,0,United States,United States,America/New_York,America/New_York
+382,JFK,KJFK,RST,KRST,JFK-RST,1,0,United States,United States,America/New_York,America/Chicago
+383,JFK,KJFK,FRG,KFRG,JFK-FRG,1,0,United States,United States,America/New_York,America/New_York
+384,LGA,KLGA,ADW,KADW,LGA-ADW,0,0,United States,,America/New_York,
+385,LGA,KLGA,SJU,TJSJ,LGA-SJU,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+386,LGA,KLGA,YHM,CYHM,LGA-YHM,0,1,United States,Canada,America/New_York,America/Toronto
+387,ISP,KISP,VDI,KVDI,ISP-VDI,0,0,United States,,America/New_York,
+388,ISP,KISP,ORL,KORL,ISP-ORL,1,0,United States,United States,America/New_York,America/New_York
+389,ISP,KISP,BKL,KBKL,ISP-BKL,1,0,United States,United States,America/New_York,America/New_York
+390,JFK,KJFK,BTR,KBTR,JFK-BTR,1,0,United States,United States,America/New_York,America/Chicago
+391,JFK,KJFK,DOV,KDOV,JFK-DOV,1,0,United States,United States,America/New_York,America/New_York
+392,JFK,KJFK,SWF,KSWF,JFK-SWF,1,0,United States,United States,America/New_York,America/New_York
+393,LGA,KLGA,PGD,KPGD,LGA-PGD,1,0,United States,United States,America/New_York,America/New_York
+394,LGA,KLGA,MDQ,SAZM,LGA-MDQ,0,1,United States,Argentina,America/New_York,America/Argentina/Buenos_Aires
+395,ISP,KISP,SCF,KSDL,ISP-SCF,1,0,United States,United States,America/New_York,America/Phoenix
+396,ISP,KISP,RKH,KUZA,ISP-RKH,1,0,United States,United States,America/New_York,America/New_York
+397,ISP,KISP,MGJ,KMGJ,ISP-MGJ,1,0,United States,United States,America/New_York,America/New_York
+398,ISP,KISP,OXC,KOXC,ISP-OXC,1,0,United States,United States,America/New_York,America/New_York
+399,JFK,KJFK,TUL,KTUL,JFK-TUL,1,0,United States,United States,America/New_York,America/Chicago
+400,JFK,KJFK,LWB,KLWB,JFK-LWB,1,0,United States,United States,America/New_York,America/New_York
+401,JFK,KJFK,ASE,KASE,JFK-ASE,1,0,United States,United States,America/New_York,America/Denver
+402,LGA,KLGA,OXC,KOXC,LGA-OXC,1,0,United States,United States,America/New_York,America/New_York
+403,LGA,KLGA,RST,KRST,LGA-RST,1,0,United States,United States,America/New_York,America/Chicago
+404,LGA,KLGA,LUK,KLUK,LGA-LUK,1,0,United States,United States,America/New_York,America/New_York
+405,LGA,KLGA,HAR,KCXY,LGA-HAR,1,0,United States,United States,America/New_York,America/New_York
+406,LGA,KLGA,SUA,KSUA,LGA-SUA,1,0,United States,United States,America/New_York,America/New_York
+407,JFK,KJFK,ACY,KACY,JFK-ACY,1,0,United States,United States,America/New_York,America/New_York
+408,JFK,KJFK,MMU,KMMU,JFK-MMU,1,0,United States,United States,America/New_York,America/New_York
+409,ISP,KISP,YOW,CYOW,ISP-YOW,0,1,United States,Canada,America/New_York,America/Toronto
+410,JFK,KJFK,TYS,KTYS,JFK-TYS,1,0,United States,United States,America/New_York,America/New_York
+411,JFK,KJFK,UST,KSGJ,JFK-UST,1,0,United States,United States,America/New_York,America/New_York
+412,LGA,KLGA,PHF,KPHF,LGA-PHF,1,0,United States,United States,America/New_York,America/New_York
+413,ISP,KISP,SOP,KSOP,ISP-SOP,1,0,United States,United States,America/New_York,America/New_York
+414,JFK,KJFK,HVN,KHVN,JFK-HVN,1,0,United States,United States,America/New_York,America/New_York
+415,JFK,KJFK,ENW,KENW,JFK-ENW,1,0,United States,United States,America/New_York,America/Chicago
+416,JFK,KJFK,NLU,MMSM,JFK-NLU,0,0,United States,,America/New_York,
+417,LGA,KLGA,ENW,KENW,LGA-ENW,1,0,United States,United States,America/New_York,America/Chicago
+418,LGA,KLGA,TLH,KTLH,LGA-TLH,1,0,United States,United States,America/New_York,America/New_York
+419,ISP,KISP,SCE,KUNV,ISP-SCE,1,0,United States,United States,America/New_York,America/New_York
+420,JFK,KJFK,BHM,KBHM,JFK-BHM,1,0,United States,United States,America/New_York,America/Chicago
+421,LGA,KLGA,PDK,KPDK,LGA-PDK,1,0,United States,United States,America/New_York,America/New_York
+422,ISP,KISP,HVN,KHVN,ISP-HVN,1,0,United States,United States,America/New_York,America/New_York
+423,ISP,KISP,ACY,KACY,ISP-ACY,1,0,United States,United States,America/New_York,America/New_York
+424,LGA,KLGA,LBE,KLBE,LGA-LBE,1,0,United States,United States,America/New_York,America/New_York
+425,ISP,KISP,PHL,KPHL,ISP-PHL,1,0,United States,United States,America/New_York,America/New_York
+426,ISP,KISP,BTV,KBTV,ISP-BTV,1,0,United States,United States,America/New_York,America/New_York
+427,LGA,KLGA,EGE,KEGE,LGA-EGE,1,0,United States,United States,America/New_York,America/Denver
+428,ISP,KISP,IAD,KIAD,ISP-IAD,1,0,United States,United States,America/New_York,America/New_York
+429,ISP,KISP,PWM,KPWM,ISP-PWM,1,0,United States,United States,America/New_York,America/New_York
+430,ISP,KISP,FRG,KFRG,ISP-FRG,1,0,United States,United States,America/New_York,America/New_York
+431,JFK,KJFK,PSM,KPSM,JFK-PSM,1,0,United States,United States,America/New_York,America/New_York
+432,LGA,KLGA,DET,KDET,LGA-DET,1,0,United States,United States,America/New_York,America/Detroit
+433,ISP,KISP,TTN,KTTN,ISP-TTN,1,0,United States,United States,America/New_York,America/New_York
+434,JFK,KJFK,ABY,KABY,JFK-ABY,1,0,United States,United States,America/New_York,America/New_York
+435,JFK,KJFK,OAK,KOAK,JFK-OAK,1,0,United States,United States,America/New_York,America/Los_Angeles
+436,ISP,KISP,UST,KSGJ,ISP-UST,1,0,United States,United States,America/New_York,America/New_York
+437,ISP,KISP,MSP,KMSP,ISP-MSP,1,0,United States,United States,America/New_York,America/Chicago
+438,ISP,KISP,LUK,KLUK,ISP-LUK,1,0,United States,United States,America/New_York,America/New_York
+439,ISP,KISP,RIC,KRIC,ISP-RIC,1,0,United States,United States,America/New_York,America/New_York
+440,ISP,KISP,ICT,KICT,ISP-ICT,1,0,United States,United States,America/New_York,America/Chicago
+441,JFK,KJFK,MNZ,KHEF,JFK-MNZ,0,0,United States,,America/New_York,
+442,JFK,KJFK,YMX,CYMX,JFK-YMX,0,1,United States,Canada,America/New_York,America/Montreal
+443,JFK,KJFK,GRR,KGRR,JFK-GRR,1,0,United States,United States,America/New_York,America/Detroit
+444,JFK,KJFK,FTY,KFTY,JFK-FTY,1,0,United States,United States,America/New_York,America/New_York
+445,LGA,KLGA,UST,KSGJ,LGA-UST,1,0,United States,United States,America/New_York,America/New_York
+446,LGA,KLGA,SIG,TJIG,LGA-SIG,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+447,LGA,KLGA,BWI,KBWI,LGA-BWI,1,0,United States,United States,America/New_York,America/New_York
+448,LGA,KLGA,CGF,KCGF,LGA-CGF,0,0,United States,,America/New_York,
+449,ISP,KISP,LGA,KLGA,ISP-LGA,1,0,United States,United States,America/New_York,America/New_York
+450,ISP,KISP,ATL,KATL,ISP-ATL,1,0,United States,United States,America/New_York,America/New_York
+451,ISP,KISP,PLS,MBPV,ISP-PLS,0,1,United States,Turks and Caicos Islands,America/New_York,America/Grand_Turk
+452,JFK,KJFK,HGR,KHGR,JFK-HGR,1,0,United States,United States,America/New_York,America/New_York
+453,JFK,KJFK,MDT,KMDT,JFK-MDT,1,0,United States,United States,America/New_York,America/New_York
+454,JFK,KJFK,YQM,CYQM,JFK-YQM,0,1,United States,Canada,America/New_York,America/Moncton
+455,JFK,KJFK,YYT,CYYT,JFK-YYT,0,1,United States,Canada,America/New_York,America/St_Johns
+456,LGA,KLGA,SAT,KSAT,LGA-SAT,1,0,United States,United States,America/New_York,America/Chicago
+457,LGA,KLGA,PTK,KPTK,LGA-PTK,1,0,United States,United States,America/New_York,America/Detroit
+458,LGA,KLGA,FTY,KFTY,LGA-FTY,1,0,United States,United States,America/New_York,America/New_York
+459,LGA,KLGA,OPF,KOPF,LGA-OPF,1,0,United States,United States,America/New_York,America/New_York
+460,ISP,KISP,HGR,KHGR,ISP-HGR,1,0,United States,United States,America/New_York,America/New_York
+461,ISP,KISP,BLM,KBLM,ISP-BLM,1,0,United States,United States,America/New_York,America/New_York
+462,JFK,KJFK,CAE,KCAE,JFK-CAE,1,0,United States,United States,America/New_York,America/New_York
+463,JFK,KJFK,RUT,KRUT,JFK-RUT,1,0,United States,United States,America/New_York,America/New_York
+464,JFK,KJFK,DAL,KDAL,JFK-DAL,1,0,United States,United States,America/New_York,America/Chicago
+465,LGA,KLGA,HVN,KHVN,LGA-HVN,1,0,United States,United States,America/New_York,America/New_York
+466,ISP,KISP,MSY,KMSY,ISP-MSY,1,0,United States,United States,America/New_York,America/Chicago
+467,ISP,KISP,PIE,KPIE,ISP-PIE,1,0,United States,United States,America/New_York,America/New_York
+468,JFK,KJFK,TTN,KTTN,JFK-TTN,1,0,United States,United States,America/New_York,America/New_York
+469,JFK,KJFK,ROA,KROA,JFK-ROA,1,0,United States,United States,America/New_York,America/New_York
+470,ISP,KISP,DCA,KDCA,ISP-DCA,1,0,United States,United States,America/New_York,America/New_York
+471,ISP,KISP,AUA,TNCA,ISP-AUA,0,1,United States,Aruba,America/New_York,America/Aruba
+472,ISP,KISP,ISM,KISM,ISP-ISM,1,0,United States,United States,America/New_York,America/New_York
+473,ISP,KISP,LCI,KLCI,ISP-LCI,1,0,United States,United States,America/New_York,America/New_York
+474,ISP,KISP,BED,KBED,ISP-BED,1,0,United States,United States,America/New_York,America/New_York
+475,ISP,KISP,FXE,KFXE,ISP-FXE,1,0,United States,United States,America/New_York,America/New_York
+476,LGA,KLGA,PSM,KPSM,LGA-PSM,1,0,United States,United States,America/New_York,America/New_York
+477,JFK,KJFK,ABQ,KABQ,JFK-ABQ,1,0,United States,United States,America/New_York,America/Denver
+478,LGA,KLGA,TOL,KTOL,LGA-TOL,1,0,United States,United States,America/New_York,America/New_York
+479,ISP,KISP,AVP,KAVP,ISP-AVP,1,0,United States,United States,America/New_York,America/New_York
+480,JFK,KJFK,VNY,KVNY,JFK-VNY,1,0,United States,United States,America/New_York,America/Los_Angeles
+481,LGA,KLGA,TTN,KTTN,LGA-TTN,1,0,United States,United States,America/New_York,America/New_York
+482,LGA,KLGA,FRG,KFRG,LGA-FRG,1,0,United States,United States,America/New_York,America/New_York
+483,ISP,KISP,RDG,KRDG,ISP-RDG,1,0,United States,United States,America/New_York,America/New_York
+484,JFK,KJFK,ABE,KABE,JFK-ABE,1,0,United States,United States,America/New_York,America/New_York
+485,JFK,KJFK,CHO,KCHO,JFK-CHO,1,0,United States,United States,America/New_York,America/New_York
+486,JFK,KJFK,LIT,KLIT,JFK-LIT,1,0,United States,United States,America/New_York,America/Chicago
+487,JFK,KJFK,OSC,KOSC,JFK-OSC,1,0,United States,United States,America/New_York,America/Detroit
+488,LGA,KLGA,ICT,KICT,LGA-ICT,1,0,United States,United States,America/New_York,America/Chicago
+489,LGA,KLGA,EWB,KEWB,LGA-EWB,1,0,United States,United States,America/New_York,America/New_York
+490,ISP,KISP,SLC,KSLC,ISP-SLC,1,0,United States,United States,America/New_York,America/Denver
+491,ISP,KISP,MDW,KMDW,ISP-MDW,1,0,United States,United States,America/New_York,America/Chicago
+492,JFK,KJFK,CAK,KCAK,JFK-CAK,1,0,United States,United States,America/New_York,America/New_York
+493,ISP,KISP,AXA,TQPF,ISP-AXA,0,1,United States,Anguilla,America/New_York,America/Anguilla
+494,ISP,KISP,SYR,KSYR,ISP-SYR,1,0,United States,United States,America/New_York,America/New_York
+495,ISP,KISP,MTN,KMTN,ISP-MTN,1,0,United States,United States,America/New_York,America/New_York
+496,JFK,KJFK,BHB,KBHB,JFK-BHB,1,0,United States,United States,America/New_York,America/New_York
+497,LGA,KLGA,VNC,KVNC,LGA-VNC,1,0,United States,United States,America/New_York,America/New_York
+498,LGA,KLGA,EWR,KEWR,LGA-EWR,1,0,United States,United States,America/New_York,America/New_York
+499,LGA,KLGA,ISM,KISM,LGA-ISM,1,0,United States,United States,America/New_York,America/New_York
+500,LGA,KLGA,BBX,KLOM,LGA-BBX,1,0,United States,United States,America/New_York,America/New_York
+501,LGA,KLGA,ABE,KABE,LGA-ABE,1,0,United States,United States,America/New_York,America/New_York
+502,ISP,KISP,HYA,KHYA,ISP-HYA,1,0,United States,United States,America/New_York,America/New_York
+503,JFK,KJFK,SFB,KSFB,JFK-SFB,1,0,United States,United States,America/New_York,America/New_York
+504,ISP,KISP,BQN,TJBQ,ISP-BQN,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+505,ISP,KISP,JFK,KJFK,ISP-JFK,1,0,United States,United States,America/New_York,America/New_York
+506,JFK,KJFK,TOL,KTOL,JFK-TOL,1,0,United States,United States,America/New_York,America/New_York
+507,LGA,KLGA,CAK,KCAK,LGA-CAK,1,0,United States,United States,America/New_York,America/New_York
+508,LGA,KLGA,AGS,KAGS,LGA-AGS,1,0,United States,United States,America/New_York,America/New_York
+509,ISP,KISP,SJC,KSJC,ISP-SJC,1,0,United States,United States,America/New_York,America/Los_Angeles
+510,ISP,KISP,BZN,KBZN,ISP-BZN,1,0,United States,United States,America/New_York,America/Denver
+511,JFK,KJFK,SHJ,OMSJ,JFK-SHJ,0,1,United States,United Arab Emirates,America/New_York,Asia/Dubai
+512,ISP,KISP,CLE,KCLE,ISP-CLE,1,0,United States,United States,America/New_York,America/New_York
+513,ISP,KISP,CON,KCON,ISP-CON,0,0,United States,,America/New_York,
+514,ISP,KISP,CDW,KCDW,ISP-CDW,1,0,United States,United States,America/New_York,America/New_York
+515,JFK,KJFK,LUK,KLUK,JFK-LUK,1,0,United States,United States,America/New_York,America/New_York
+516,ISP,KISP,FTY,KFTY,ISP-FTY,1,0,United States,United States,America/New_York,America/New_York
+517,ISP,KISP,TYS,KTYS,ISP-TYS,1,0,United States,United States,America/New_York,America/New_York
+518,JFK,KJFK,SLN,KSLN,JFK-SLN,1,0,United States,United States,America/New_York,America/Chicago
+519,JFK,KJFK,DAB,KDAB,JFK-DAB,1,0,United States,United States,America/New_York,America/New_York
+520,JFK,KJFK,ARB,KARB,JFK-ARB,1,0,United States,United States,America/New_York,America/Detroit
+521,JFK,KJFK,HAM,EDDH,JFK-HAM,0,1,United States,Germany,America/New_York,Europe/Berlin
+522,LGA,KLGA,VNY,KVNY,LGA-VNY,1,0,United States,United States,America/New_York,America/Los_Angeles
+523,LGA,KLGA,RKD,KRKD,LGA-RKD,1,0,United States,United States,America/New_York,America/New_York
+524,LGA,KLGA,BUR,KBUR,LGA-BUR,1,0,United States,United States,America/New_York,America/Los_Angeles
+525,ISP,KISP,AIK,KAIK,ISP-AIK,1,0,United States,United States,America/New_York,America/New_York
+526,ISP,KISP,MOB,KMOB,ISP-MOB,1,0,United States,United States,America/New_York,America/Chicago
+527,JFK,KJFK,VJI,KVJI,JFK-VJI,0,0,United States,,America/New_York,
+528,JFK,KJFK,SPZ,KASG,JFK-SPZ,1,0,United States,United States,America/New_York,America/Chicago
+529,LGA,KLGA,DAB,KDAB,LGA-DAB,1,0,United States,United States,America/New_York,America/New_York
+530,LGA,KLGA,BCT,KBCT,LGA-BCT,1,0,United States,United States,America/New_York,America/New_York
+531,LGA,KLGA,GHB,MYEM,LGA-GHB,0,1,United States,Bahamas,America/New_York,America/Nassau
+532,LGA,KLGA,FXE,KFXE,LGA-FXE,1,0,United States,United States,America/New_York,America/New_York
+533,LGA,KLGA,MTH,KMTH,LGA-MTH,1,0,United States,United States,America/New_York,America/New_York
+534,LGA,KLGA,RAK,GMMX,LGA-RAK,0,1,United States,Morocco,America/New_York,Africa/Casablanca
+535,ISP,KISP,FCM,KFCM,ISP-FCM,1,0,United States,United States,America/New_York,America/Chicago
+536,ISP,KISP,CUN,MMUN,ISP-CUN,0,1,United States,Mexico,America/New_York,America/Cancun
+537,ISP,KISP,EEN,KEEN,ISP-EEN,1,0,United States,United States,America/New_York,America/New_York
+538,ISP,KISP,WSH,KHWV,ISP-WSH,1,0,United States,United States,America/New_York,America/New_York
+539,ISP,KISP,HFD,KHFD,ISP-HFD,1,0,United States,United States,America/New_York,America/New_York
+540,ISP,KISP,GSH,KGSH,ISP-GSH,0,0,United States,,America/New_York,
+541,JFK,KJFK,EWB,KEWB,JFK-EWB,1,0,United States,United States,America/New_York,America/New_York
+542,JFK,KJFK,LFT,KLFT,JFK-LFT,1,0,United States,United States,America/New_York,America/Chicago
+543,LGA,KLGA,AZS,MDCY,LGA-AZS,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+544,LGA,KLGA,MTN,KMTN,LGA-MTN,1,0,United States,United States,America/New_York,America/New_York
+545,LGA,KLGA,SBN,KSBN,LGA-SBN,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+546,ISP,KISP,MNZ,KHEF,ISP-MNZ,0,0,United States,,America/New_York,
+547,LGA,KLGA,AVP,KAVP,LGA-AVP,1,0,United States,United States,America/New_York,America/New_York
+548,ISP,KISP,DXR,KDXR,ISP-DXR,1,0,United States,United States,America/New_York,America/New_York
+549,ISP,KISP,DPA,KDPA,ISP-DPA,1,0,United States,United States,America/New_York,America/Chicago
+550,ISP,KISP,PNE,KPNE,ISP-PNE,1,0,United States,United States,America/New_York,America/New_York
+551,ISP,KISP,STT,TIST,ISP-STT,0,1,United States,U.S. Virgin Islands,America/New_York,America/St_Thomas
+552,JFK,KJFK,OCF,KOCF,JFK-OCF,0,0,United States,,America/New_York,
+553,JFK,KJFK,BVY,KBVY,JFK-BVY,1,0,United States,United States,America/New_York,America/New_York
+554,LGA,KLGA,BVY,KBVY,LGA-BVY,1,0,United States,United States,America/New_York,America/New_York
+555,ISP,KISP,GSO,KGSO,ISP-GSO,1,0,United States,United States,America/New_York,America/New_York
+556,ISP,KISP,ROA,KROA,ISP-ROA,1,0,United States,United States,America/New_York,America/New_York
+557,ISP,KISP,PWK,KPWK,ISP-PWK,1,0,United States,United States,America/New_York,America/Chicago
+558,ISP,KISP,LLY,KVAY,ISP-LLY,0,0,United States,,America/New_York,
+559,JFK,KJFK,TEX,KTEX,JFK-TEX,1,0,United States,United States,America/New_York,America/Denver
+560,JFK,KJFK,MHT,KMHT,JFK-MHT,1,0,United States,United States,America/New_York,America/New_York
+561,JFK,KJFK,BCT,KBCT,JFK-BCT,1,0,United States,United States,America/New_York,America/New_York
+562,JFK,KJFK,MQY,KMQY,JFK-MQY,1,0,United States,United States,America/New_York,America/Chicago
+563,JFK,KJFK,SCE,KUNV,JFK-SCE,1,0,United States,United States,America/New_York,America/New_York
+564,JFK,KJFK,STC,KSTC,JFK-STC,1,0,United States,United States,America/New_York,America/Chicago
+565,ISP,KISP,BDL,KBDL,ISP-BDL,1,0,United States,United States,America/New_York,America/New_York
+566,ISP,KISP,ASH,KASH,ISP-ASH,1,0,United States,United States,America/New_York,America/New_York
+567,ISP,KISP,OIC,KOIC,ISP-OIC,0,0,United States,,America/New_York,
+568,ISP,KISP,FOE,KFOE,ISP-FOE,1,0,United States,United States,America/New_York,America/Chicago
+569,JFK,KJFK,BBX,KLOM,JFK-BBX,1,0,United States,United States,America/New_York,America/New_York
+570,JFK,KJFK,BKL,KBKL,JFK-BKL,1,0,United States,United States,America/New_York,America/New_York
+571,JFK,KJFK,SAF,KSAF,JFK-SAF,1,0,United States,United States,America/New_York,America/Denver
+572,JFK,KJFK,YHU,CYHU,JFK-YHU,0,1,United States,Canada,America/New_York,America/Montreal
+573,LGA,KLGA,ACK,KACK,LGA-ACK,1,0,United States,United States,America/New_York,America/New_York
+574,LGA,KLGA,YOW,CYOW,LGA-YOW,0,1,United States,Canada,America/New_York,America/Toronto
+575,JFK,KJFK,ORL,KORL,JFK-ORL,1,0,United States,United States,America/New_York,America/New_York
+576,LGA,KLGA,BKL,KBKL,LGA-BKL,1,0,United States,United States,America/New_York,America/New_York
+577,LGA,KLGA,YHU,CYHU,LGA-YHU,0,1,United States,Canada,America/New_York,America/Montreal
+578,ISP,KISP,BDR,KBDR,ISP-BDR,1,0,United States,United States,America/New_York,America/New_York
+579,JFK,KJFK,POU,KPOU,JFK-POU,1,0,United States,United States,America/New_York,America/New_York
+580,JFK,KJFK,SBN,KSBN,JFK-SBN,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+581,JFK,KJFK,SUS,KSUS,JFK-SUS,1,0,United States,United States,America/New_York,America/Chicago
+582,LGA,KLGA,SUS,KSUS,LGA-SUS,1,0,United States,United States,America/New_York,America/Chicago
+583,ISP,KISP,PVD,KPVD,ISP-PVD,1,0,United States,United States,America/New_York,America/New_York
+584,JFK,KJFK,KIX,RJBB,JFK-KIX,0,1,United States,Japan,America/New_York,Asia/Tokyo
+585,ISP,KISP,YHU,CYHU,ISP-YHU,0,1,United States,Canada,America/New_York,America/Montreal
+586,ISP,KISP,SYI,KSYI,ISP-SYI,0,0,United States,,America/New_York,
+587,ISP,KISP,PSM,KPSM,ISP-PSM,1,0,United States,United States,America/New_York,America/New_York
+588,JFK,KJFK,GYD,UBBB,JFK-GYD,0,1,United States,Azerbaijan,America/New_York,Asia/Baku
+589,JFK,KJFK,PNE,KPNE,JFK-PNE,1,0,United States,United States,America/New_York,America/New_York
+590,JFK,KJFK,ELH,MYEH,JFK-ELH,0,1,United States,Bahamas,America/New_York,America/Nassau
+591,JFK,KJFK,MSN,KMSN,JFK-MSN,1,0,United States,United States,America/New_York,America/Chicago
+592,JFK,KJFK,HHN,EDFH,JFK-HHN,0,1,United States,Germany,America/New_York,Europe/Berlin
+593,JFK,KJFK,LBE,KLBE,JFK-LBE,1,0,United States,United States,America/New_York,America/New_York
+594,JFK,KJFK,ILG,KILG,JFK-ILG,1,0,United States,United States,America/New_York,America/New_York
+595,JFK,KJFK,TLH,KTLH,JFK-TLH,1,0,United States,United States,America/New_York,America/New_York
+596,JFK,KJFK,OXC,KOXC,JFK-OXC,1,0,United States,United States,America/New_York,America/New_York
+597,JFK,KJFK,PWK,KPWK,JFK-PWK,1,0,United States,United States,America/New_York,America/Chicago
+598,LGA,KLGA,FDY,KFDY,LGA-FDY,1,0,United States,United States,America/New_York,America/New_York
+599,ISP,KISP,BVY,KBVY,ISP-BVY,1,0,United States,United States,America/New_York,America/New_York
+600,JFK,KJFK,MTN,KMTN,JFK-MTN,1,0,United States,United States,America/New_York,America/New_York
+601,JFK,KJFK,SSI,KSSI,JFK-SSI,1,0,United States,United States,America/New_York,America/New_York
+602,LGA,KLGA,ADS,KADS,LGA-ADS,1,0,United States,United States,America/New_York,America/Chicago
+603,LGA,KLGA,PWA,KPWA,LGA-PWA,1,0,United States,United States,America/New_York,America/Chicago
+604,ISP,KISP,LCQ,KLCQ,ISP-LCQ,1,0,United States,United States,America/New_York,America/New_York
+605,JFK,KJFK,CMI,KCMI,JFK-CMI,1,0,United States,United States,America/New_York,America/Chicago
+606,JFK,KJFK,CGF,KCGF,JFK-CGF,0,0,United States,,America/New_York,
+607,LGA,KLGA,SJC,KSJC,LGA-SJC,1,0,United States,United States,America/New_York,America/Los_Angeles
+608,ISP,KISP,RKD,KRKD,ISP-RKD,1,0,United States,United States,America/New_York,America/New_York
+609,ISP,KISP,LBE,KLBE,ISP-LBE,1,0,United States,United States,America/New_York,America/New_York
+610,ISP,KISP,GED,KGED,ISP-GED,1,0,United States,United States,America/New_York,America/New_York
+611,JFK,KJFK,UGN,KUGN,JFK-UGN,1,0,United States,United States,America/New_York,America/Chicago
+612,JFK,KJFK,ASH,KASH,JFK-ASH,1,0,United States,United States,America/New_York,America/New_York
+613,LGA,KLGA,MHH,MYAM,LGA-MHH,0,1,United States,Bahamas,America/New_York,America/Nassau
+614,LGA,KLGA,MNZ,KHEF,LGA-MNZ,0,0,United States,,America/New_York,
+615,LGA,KLGA,YWG,CYWG,LGA-YWG,0,1,United States,Canada,America/New_York,America/Winnipeg
+616,LGA,KLGA,CTH,KMQS,LGA-CTH,1,0,United States,United States,America/New_York,America/New_York
+617,ISP,KISP,SIG,TJIG,ISP-SIG,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+618,ISP,KISP,AHN,KAHN,ISP-AHN,1,0,United States,United States,America/New_York,America/New_York
+619,JFK,KJFK,FNT,KFNT,JFK-FNT,1,0,United States,United States,America/New_York,America/Detroit
+620,JFK,KJFK,ISO,KISO,JFK-ISO,0,0,United States,,America/New_York,
+621,JFK,KJFK,PBG,KPBG,JFK-PBG,1,0,United States,United States,America/New_York,America/New_York
+622,LGA,KLGA,ESN,KESN,LGA-ESN,1,0,United States,United States,America/New_York,America/New_York
+623,ISP,KISP,ILM,KILM,ISP-ILM,1,0,United States,United States,America/New_York,America/New_York
+624,ISP,KISP,BBX,KLOM,ISP-BBX,1,0,United States,United States,America/New_York,America/New_York
+625,ISP,KISP,QQY,KBUY,ISP-QQY,0,0,United States,,America/New_York,
+626,JFK,KJFK,FOK,KFOK,JFK-FOK,1,0,United States,United States,America/New_York,America/New_York
+627,JFK,KJFK,GON,KGON,JFK-GON,1,0,United States,United States,America/New_York,America/New_York
+628,JFK,KJFK,BAH,OBBI,JFK-BAH,0,1,United States,Bahrain,America/New_York,Asia/Bahrain
+629,LGA,KLGA,LEB,KLEB,LGA-LEB,1,0,United States,United States,America/New_York,America/New_York
+630,LGA,KLGA,SPZ,KASG,LGA-SPZ,1,0,United States,United States,America/New_York,America/Chicago
+631,LGA,KLGA,SOP,KSOP,LGA-SOP,1,0,United States,United States,America/New_York,America/New_York
+632,ISP,KISP,VNY,KVNY,ISP-VNY,1,0,United States,United States,America/New_York,America/Los_Angeles
+633,ISP,KISP,BUF,KBUF,ISP-BUF,1,0,United States,United States,America/New_York,America/New_York
+634,JFK,KJFK,MID,MMMD,JFK-MID,0,1,United States,Mexico,America/New_York,America/Merida
+635,JFK,KJFK,AVW,KAVQ,JFK-AVW,1,0,United States,United States,America/New_York,America/Phoenix
+636,JFK,KJFK,EEN,KEEN,JFK-EEN,1,0,United States,United States,America/New_York,America/New_York
+637,JFK,KJFK,CTH,KMQS,JFK-CTH,1,0,United States,United States,America/New_York,America/New_York
+638,JFK,KJFK,NPT,KUUU,JFK-NPT,1,0,United States,United States,America/New_York,America/New_York
+639,LGA,KLGA,MVL,KMVL,LGA-MVL,1,0,United States,United States,America/New_York,America/New_York
+640,ISP,KISP,BAF,KBAF,ISP-BAF,1,0,United States,United States,America/New_York,America/New_York
+641,JFK,KJFK,COU,KCOU,JFK-COU,1,0,United States,United States,America/New_York,America/Chicago
+642,JFK,KJFK,JFK,KJFK,JFK-JFK,1,0,United States,United States,America/New_York,America/New_York
+643,JFK,KJFK,SBA,KSBA,JFK-SBA,1,0,United States,United States,America/New_York,America/Los_Angeles
+644,JFK,KJFK,RIL,KRIL,JFK-RIL,1,0,United States,United States,America/New_York,America/Denver
+645,JFK,KJFK,ILN,KILN,JFK-ILN,1,0,United States,United States,America/New_York,America/New_York
+646,LGA,KLGA,PIB,KPIB,LGA-PIB,1,0,United States,United States,America/New_York,America/Chicago
+647,LGA,KLGA,BLM,KBLM,LGA-BLM,1,0,United States,United States,America/New_York,America/New_York
+648,LGA,KLGA,DOL,LFRG,LGA-DOL,0,1,United States,France,America/New_York,Europe/Paris
+649,LGA,KLGA,ISO,KISO,LGA-ISO,0,0,United States,,America/New_York,
+650,ISP,KISP,RST,KRST,ISP-RST,1,0,United States,United States,America/New_York,America/Chicago
+651,ISP,KISP,LNS,KLNS,ISP-LNS,1,0,United States,United States,America/New_York,America/New_York
+652,ISP,KISP,AUZ,KARR,ISP-AUZ,1,0,United States,United States,America/New_York,America/Chicago
+653,ISP,KISP,YHM,CYHM,ISP-YHM,0,1,United States,Canada,America/New_York,America/Toronto
+654,JFK,KJFK,LOU,KLOU,JFK-LOU,1,0,United States,United States,America/New_York,America/Kentucky/Louisville
+655,JFK,KJFK,AVP,KAVP,JFK-AVP,1,0,United States,United States,America/New_York,America/New_York
+656,LGA,KLGA,DMO,KDMO,LGA-DMO,1,0,United States,United States,America/New_York,America/Chicago
+657,ISP,KISP,EWB,KEWB,ISP-EWB,1,0,United States,United States,America/New_York,America/New_York
+658,ISP,KISP,LOZ,KLOZ,ISP-LOZ,1,0,United States,United States,America/New_York,America/New_York
+659,JFK,KJFK,GSP,KGSP,JFK-GSP,1,0,United States,United States,America/New_York,America/New_York
+660,LGA,KLGA,DUB,EIDW,LGA-DUB,0,1,United States,Ireland,America/New_York,Europe/Dublin
+661,LGA,KLGA,STP,KSTP,LGA-STP,1,0,United States,United States,America/New_York,America/Chicago
+662,ISP,KISP,ITH,KITH,ISP-ITH,1,0,United States,United States,America/New_York,America/New_York
+663,ISP,KISP,SFO,KSFO,ISP-SFO,1,0,United States,United States,America/New_York,America/Los_Angeles
+664,ISP,KISP,YHZ,CYHZ,ISP-YHZ,0,1,United States,Canada,America/New_York,America/Halifax
+665,JFK,KJFK,AMA,KAMA,JFK-AMA,1,0,United States,United States,America/New_York,America/Chicago
+666,LGA,KLGA,NPT,KUUU,LGA-NPT,1,0,United States,United States,America/New_York,America/New_York
+667,LGA,KLGA,MRY,KMRY,LGA-MRY,1,0,United States,United States,America/New_York,America/Los_Angeles
+668,LGA,KLGA,LWM,KLWM,LGA-LWM,1,0,United States,United States,America/New_York,America/New_York
+669,ISP,KISP,JAX,KJAX,ISP-JAX,1,0,United States,United States,America/New_York,America/New_York
+670,ISP,KISP,YXU,CYXU,ISP-YXU,0,1,United States,Canada,America/New_York,America/Toronto
+671,ISP,KISP,WWD,KWWD,ISP-WWD,1,0,United States,United States,America/New_York,America/New_York
+672,JFK,KJFK,GSO,KGSO,JFK-GSO,1,0,United States,United States,America/New_York,America/New_York
+673,LGA,KLGA,JZI,KJZI,LGA-JZI,1,0,United States,United States,America/New_York,
+674,ISP,KISP,LAN,KLAN,ISP-LAN,1,0,United States,United States,America/New_York,America/Detroit
+675,ISP,KISP,MVY,KMVY,ISP-MVY,1,0,United States,United States,America/New_York,America/New_York
+676,ISP,KISP,BGM,KBGM,ISP-BGM,1,0,United States,United States,America/New_York,America/New_York
+677,ISP,KISP,LWM,KLWM,ISP-LWM,1,0,United States,United States,America/New_York,America/New_York
+678,JFK,KJFK,CHA,KCHA,JFK-CHA,1,0,United States,United States,America/New_York,America/New_York
+679,LGA,KLGA,OSU,KOSU,LGA-OSU,1,0,United States,United States,America/New_York,America/New_York
+680,ISP,KISP,CRE,KCRE,ISP-CRE,1,0,United States,United States,America/New_York,America/New_York
+681,ISP,KISP,ALN,KALN,ISP-ALN,1,0,United States,United States,America/New_York,America/Chicago
+682,LGA,KLGA,ACY,KACY,LGA-ACY,1,0,United States,United States,America/New_York,America/New_York
+683,LGA,KLGA,PSF,KPSF,LGA-PSF,0,0,United States,,America/New_York,
+684,LGA,KLGA,QQQ,KMQJ,LGA-QQQ,1,0,United States,United States,America/New_York,
+685,ISP,KISP,AGC,KAGC,ISP-AGC,1,0,United States,United States,America/New_York,America/New_York
+686,LGA,KLGA,SCH,KSCH,LGA-SCH,1,0,United States,United States,America/New_York,America/New_York
+687,ISP,KISP,USA,KJQF,ISP-USA,1,0,United States,United States,America/New_York,
+688,JFK,KJFK,EVV,KEVV,JFK-EVV,1,0,United States,United States,America/New_York,America/Chicago
+689,LGA,KLGA,GNV,KGNV,LGA-GNV,1,0,United States,United States,America/New_York,America/New_York
+690,LGA,KLGA,AUS,KAUS,LGA-AUS,1,0,United States,United States,America/New_York,America/Chicago
+691,LGA,KLGA,MQY,KMQY,LGA-MQY,1,0,United States,United States,America/New_York,America/Chicago
+692,LGA,KLGA,GCM,MWCR,LGA-GCM,0,1,United States,Cayman Islands,America/New_York,America/Cayman
+693,ISP,KISP,POU,KPOU,ISP-POU,1,0,United States,United States,America/New_York,America/New_York
+694,JFK,KJFK,CRG,KCRG,JFK-CRG,1,0,United States,United States,America/New_York,America/New_York
+695,JFK,KJFK,JCI,KIXD,JFK-JCI,1,0,United States,United States,America/New_York,America/Chicago
+696,JFK,KJFK,YIP,KYIP,JFK-YIP,1,0,United States,United States,America/New_York,America/Detroit
+697,LGA,KLGA,MTP,KMTP,LGA-MTP,1,0,United States,United States,America/New_York,America/New_York
+698,ISP,KISP,OWD,KOWD,ISP-OWD,1,0,United States,United States,America/New_York,America/New_York
+699,ISP,KISP,GCM,MWCR,ISP-GCM,0,1,United States,Cayman Islands,America/New_York,America/Cayman
+700,ISP,KISP,SLN,KSLN,ISP-SLN,1,0,United States,United States,America/New_York,America/Chicago
+701,JFK,KJFK,YNG,KYNG,JFK-YNG,1,0,United States,United States,America/New_York,America/New_York
+702,JFK,KJFK,STN,EGSS,JFK-STN,0,1,United States,United Kingdom,America/New_York,Europe/London
+703,ISP,KISP,PBG,KPBG,ISP-PBG,1,0,United States,United States,America/New_York,America/New_York
+704,ISP,KISP,JST,KJST,ISP-JST,1,0,United States,United States,America/New_York,America/New_York
+705,LGA,KLGA,RBW,KRBW,LGA-RBW,1,0,United States,United States,America/New_York,America/New_York
+706,LGA,KLGA,TEX,KTEX,LGA-TEX,1,0,United States,United States,America/New_York,America/Denver
+707,LGA,KLGA,MTJ,KMTJ,LGA-MTJ,1,0,United States,United States,America/New_York,America/Denver
+708,LGA,KLGA,SAN,KSAN,LGA-SAN,1,0,United States,United States,America/New_York,America/Los_Angeles
+709,LGA,KLGA,RIL,KRIL,LGA-RIL,1,0,United States,United States,America/New_York,America/Denver
+710,ISP,KISP,JZI,KJZI,ISP-JZI,1,0,United States,United States,America/New_York,
+711,ISP,KISP,BHM,KBHM,ISP-BHM,1,0,United States,United States,America/New_York,America/Chicago
+712,ISP,KISP,VQQ,KVQQ,ISP-VQQ,0,0,United States,,America/New_York,
+713,JFK,KJFK,BKG,KBBG,JFK-BKG,1,0,United States,United States,America/New_York,America/Chicago
+714,ISP,KISP,EWR,KEWR,ISP-EWR,1,0,United States,United States,America/New_York,America/New_York
+715,ISP,KISP,STL,KSTL,ISP-STL,1,0,United States,United States,America/New_York,America/Chicago
+716,ISP,KISP,SVH,KSVH,ISP-SVH,1,0,United States,United States,America/New_York,America/New_York
+717,JFK,KJFK,SEG,KSEG,JFK-SEG,1,0,United States,United States,America/New_York,America/New_York
+718,LGA,KLGA,CDN,KCDN,LGA-CDN,0,0,United States,,America/New_York,
+719,JFK,KJFK,SOP,KSOP,JFK-SOP,1,0,United States,United States,America/New_York,America/New_York
+720,JFK,KJFK,RDG,KRDG,JFK-RDG,1,0,United States,United States,America/New_York,America/New_York
+721,ISP,KISP,BWG,KBWG,ISP-BWG,1,0,United States,United States,America/New_York,America/Chicago
+722,ISP,KISP,OMA,KOMA,ISP-OMA,1,0,United States,United States,America/New_York,America/Chicago
+723,JFK,KJFK,BUD,LHBP,JFK-BUD,0,1,United States,Hungary,America/New_York,Europe/Budapest
+724,LGA,KLGA,FWA,KFWA,LGA-FWA,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+725,LGA,KLGA,MIV,KMIV,LGA-MIV,1,0,United States,United States,America/New_York,America/New_York
+726,ISP,KISP,CGE,KCGE,ISP-CGE,1,0,United States,United States,America/New_York,America/New_York
+727,JFK,KJFK,QNY,KHFY,JFK-QNY,0,0,United States,,America/New_York,
+728,JFK,KJFK,YQB,CYQB,JFK-YQB,0,1,United States,Canada,America/New_York,America/Montreal
+729,LGA,KLGA,SCF,KSDL,LGA-SCF,1,0,United States,United States,America/New_York,America/Phoenix
+730,LGA,KLGA,BJC,KBJC,LGA-BJC,1,0,United States,United States,America/New_York,America/Denver
+731,LGA,KLGA,SUN,KSUN,LGA-SUN,1,0,United States,United States,America/New_York,America/Boise
+732,ISP,KISP,FPR,KFPR,ISP-FPR,1,0,United States,United States,America/New_York,America/New_York
+733,JFK,KJFK,YYR,CYYR,JFK-YYR,0,1,United States,Canada,America/New_York,America/Goose_Bay
+734,JFK,KJFK,ELM,KELM,JFK-ELM,1,0,United States,United States,America/New_York,America/New_York
+735,ISP,KISP,TMB,KTMB,ISP-TMB,1,0,United States,United States,America/New_York,America/New_York
+736,ISP,KISP,ACK,KACK,ISP-ACK,1,0,United States,United States,America/New_York,America/New_York
+737,JFK,KJFK,GRK,KGRK,JFK-GRK,1,0,United States,United States,America/New_York,America/Chicago
+738,JFK,KJFK,OMA,KOMA,JFK-OMA,1,0,United States,United States,America/New_York,America/Chicago
+739,JFK,KJFK,PHF,KPHF,JFK-PHF,1,0,United States,United States,America/New_York,America/New_York
+740,JFK,KJFK,ILM,KILM,JFK-ILM,1,0,United States,United States,America/New_York,America/New_York
+741,JFK,KJFK,JRA,KJRA,JFK-JRA,0,0,United States,,America/New_York,
+742,LGA,KLGA,LTN,EGGW,LGA-LTN,0,1,United States,United Kingdom,America/New_York,Europe/London
+743,ISP,KISP,RME,KRME,ISP-RME,1,0,United States,United States,America/New_York,America/New_York
+744,JFK,KJFK,PQI,KPQI,JFK-PQI,1,0,United States,United States,America/New_York,America/New_York
+745,JFK,KJFK,LNS,KLNS,JFK-LNS,1,0,United States,United States,America/New_York,America/New_York
+746,JFK,KJFK,SOF,LBSF,JFK-SOF,0,1,United States,Bulgaria,America/New_York,Europe/Sofia
+747,LGA,KLGA,MHE,KMHE,LGA-MHE,1,0,United States,United States,America/New_York,America/Chicago
+748,LGA,KLGA,BDR,KBDR,LGA-BDR,1,0,United States,United States,America/New_York,America/New_York
+749,LGA,KLGA,QQR,KRYY,LGA-QQR,0,0,United States,,America/New_York,
+750,ISP,KISP,BGR,KBGR,ISP-BGR,1,0,United States,United States,America/New_York,America/New_York
+751,JFK,KJFK,BGM,KBGM,JFK-BGM,1,0,United States,United States,America/New_York,America/New_York
+752,LGA,KLGA,QQN,KJWN,LGA-QQN,0,0,United States,,America/New_York,
+753,ISP,KISP,SAV,KSAV,ISP-SAV,1,0,United States,United States,America/New_York,America/New_York
+754,ISP,KISP,BCB,KBCB,ISP-BCB,1,0,United States,United States,America/New_York,America/New_York
+755,ISP,KISP,BTL,KBTL,ISP-BTL,1,0,United States,United States,America/New_York,America/Detroit
+756,JFK,KJFK,TLS,LFBO,JFK-TLS,0,1,United States,France,America/New_York,Europe/Paris
+757,JFK,KJFK,SRW,KRUQ,JFK-SRW,1,0,United States,United States,America/New_York,America/New_York
+758,JFK,KJFK,HOU,KHOU,JFK-HOU,1,0,United States,United States,America/New_York,America/Chicago
+759,ISP,KISP,AUO,KAUO,ISP-AUO,1,0,United States,United States,America/New_York,America/Chicago
+760,ISP,KISP,GAI,KGAI,ISP-GAI,1,0,United States,United States,America/New_York,America/New_York
+761,JFK,KJFK,NCE,LFMN,JFK-NCE,0,1,United States,France,America/New_York,Europe/Paris
+762,JFK,KJFK,VKO,UUWW,JFK-VKO,0,1,United States,Russia,America/New_York,Europe/Moscow
+763,ISP,KISP,SEF,KSEF,ISP-SEF,1,0,United States,United States,America/New_York,America/New_York
+764,ISP,KISP,FLO,KFLO,ISP-FLO,1,0,United States,United States,America/New_York,America/New_York
+765,ISP,KISP,SJU,TJSJ,ISP-SJU,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+766,JFK,KJFK,GSB,KGSB,JFK-GSB,0,0,United States,,America/New_York,
+767,JFK,KJFK,DET,KDET,JFK-DET,1,0,United States,United States,America/New_York,America/Detroit
+768,JFK,KJFK,GPT,KGPT,JFK-GPT,1,0,United States,United States,America/New_York,America/Chicago
+769,JFK,KJFK,OSL,ENGM,JFK-OSL,0,1,United States,Norway,America/New_York,Europe/Oslo
+770,JFK,KJFK,MYR,KMYR,JFK-MYR,1,0,United States,United States,America/New_York,America/New_York
+771,JFK,KJFK,RDM,KRDM,JFK-RDM,1,0,United States,United States,America/New_York,America/Los_Angeles
+772,JFK,KJFK,LCA,LCLK,JFK-LCA,0,1,United States,Cyprus,America/New_York,Asia/Nicosia
+773,LGA,KLGA,SBM,KSBM,LGA-SBM,1,0,United States,United States,America/New_York,America/Chicago
+774,LGA,KLGA,ERI,KERI,LGA-ERI,1,0,United States,United States,America/New_York,America/New_York
+775,LGA,KLGA,BDA,TXKF,LGA-BDA,0,1,United States,Bermuda,America/New_York,Atlantic/Bermuda
+776,LGA,KLGA,OWD,KOWD,LGA-OWD,1,0,United States,United States,America/New_York,America/New_York
+777,ISP,KISP,LKP,KLKP,ISP-LKP,1,0,United States,United States,America/New_York,America/New_York
+778,JFK,KJFK,APA,KAPA,JFK-APA,1,0,United States,United States,America/New_York,America/Denver
+779,ISP,KISP,SFM,KSFM,ISP-SFM,1,0,United States,United States,America/New_York,America/New_York
+780,ISP,KISP,NAS,MYNN,ISP-NAS,0,1,United States,Bahamas,America/New_York,America/Nassau
+781,JFK,KJFK,YOW,CYOW,JFK-YOW,0,1,United States,Canada,America/New_York,America/Toronto
+782,JFK,KJFK,TAO,ZSQD,JFK-TAO,0,1,United States,China,America/New_York,Asia/Shanghai
+783,JFK,KJFK,FLO,KFLO,JFK-FLO,1,0,United States,United States,America/New_York,America/New_York
+784,ISP,KISP,EGE,KEGE,ISP-EGE,1,0,United States,United States,America/New_York,America/Denver
+785,ISP,KISP,MHH,MYAM,ISP-MHH,0,1,United States,Bahamas,America/New_York,America/Nassau
+786,ISP,KISP,WSG,KAFJ,ISP-WSG,1,0,United States,United States,America/New_York,America/New_York
+787,ISP,KISP,CAK,KCAK,ISP-CAK,1,0,United States,United States,America/New_York,America/New_York
+788,JFK,KJFK,ERI,KERI,JFK-ERI,1,0,United States,United States,America/New_York,America/New_York
+789,LGA,KLGA,SSI,KSSI,LGA-SSI,1,0,United States,United States,America/New_York,America/New_York
+790,LGA,KLGA,STN,EGSS,LGA-STN,0,1,United States,United Kingdom,America/New_York,Europe/London
+791,ISP,KISP,THV,KTHV,ISP-THV,1,0,United States,United States,America/New_York,America/New_York
+792,ISP,KISP,YNG,KYNG,ISP-YNG,1,0,United States,United States,America/New_York,America/New_York
+793,JFK,KJFK,AFW,KAFW,JFK-AFW,1,0,United States,United States,America/New_York,America/Chicago
+794,JFK,KJFK,YBG,CYBG,JFK-YBG,0,1,United States,Canada,America/New_York,America/Montreal
+795,JFK,KJFK,BJC,KBJC,JFK-BJC,1,0,United States,United States,America/New_York,America/Denver
+796,ISP,KISP,SAT,KSAT,ISP-SAT,1,0,United States,United States,America/New_York,America/Chicago
+797,ISP,KISP,ELH,MYEH,ISP-ELH,0,1,United States,Bahamas,America/New_York,America/Nassau
+798,JFK,KJFK,JZI,KJZI,JFK-JZI,1,0,United States,United States,America/New_York,
+799,JFK,KJFK,PIE,KPIE,JFK-PIE,1,0,United States,United States,America/New_York,America/New_York
+800,LGA,KLGA,TMB,KTMB,LGA-TMB,1,0,United States,United States,America/New_York,America/New_York
+801,LGA,KLGA,FAY,KFAY,LGA-FAY,1,0,United States,United States,America/New_York,America/New_York
+802,JFK,KJFK,DYS,KDYS,JFK-DYS,0,0,United States,,America/New_York,
+803,JFK,KJFK,OWD,KOWD,JFK-OWD,1,0,United States,United States,America/New_York,America/New_York
+804,JFK,KJFK,SHD,KSHD,JFK-SHD,1,0,United States,United States,America/New_York,America/New_York
+805,LGA,KLGA,JCI,KIXD,LGA-JCI,1,0,United States,United States,America/New_York,America/Chicago
+806,LGA,KLGA,LAX,KLAX,LGA-LAX,1,0,United States,United States,America/New_York,America/Los_Angeles
+807,LGA,KLGA,GRB,KGRB,LGA-GRB,1,0,United States,United States,America/New_York,America/Chicago
+808,JFK,KJFK,RME,KRME,JFK-RME,1,0,United States,United States,America/New_York,America/New_York
+809,JFK,KJFK,PVU,KPVU,JFK-PVU,1,0,United States,United States,America/New_York,America/Denver
+810,JFK,KJFK,AGS,KAGS,JFK-AGS,1,0,United States,United States,America/New_York,America/New_York
+811,JFK,KJFK,SMF,KSMF,JFK-SMF,1,0,United States,United States,America/New_York,America/Los_Angeles
+812,LGA,KLGA,ANC,PANC,LGA-ANC,1,0,United States,United States,America/New_York,America/Anchorage
+813,ISP,KISP,SBN,KSBN,ISP-SBN,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+814,JFK,KJFK,CHR,LFLX,JFK-CHR,0,1,United States,France,America/New_York,Europe/Paris
+815,JFK,KJFK,MIV,KMIV,JFK-MIV,1,0,United States,United States,America/New_York,America/New_York
+816,JFK,KJFK,LTN,EGGW,JFK-LTN,0,1,United States,United Kingdom,America/New_York,Europe/London
+817,LGA,KLGA,CEU,KCEU,LGA-CEU,1,0,United States,United States,America/New_York,America/New_York
+818,LGA,KLGA,QQA,KANE,LGA-QQA,1,0,United States,United States,America/New_York,
+819,ISP,KISP,FSD,KFSD,ISP-FSD,1,0,United States,United States,America/New_York,America/Chicago
+820,JFK,KJFK,HTO,KJPX,JFK-HTO,1,0,United States,United States,America/New_York,America/New_York
+821,LGA,KLGA,EEN,KEEN,LGA-EEN,1,0,United States,United States,America/New_York,America/New_York
+822,ISP,KISP,FMY,KFMY,ISP-FMY,1,0,United States,United States,America/New_York,America/New_York
+823,ISP,KISP,ILG,KILG,ISP-ILG,1,0,United States,United States,America/New_York,America/New_York
+824,JFK,KJFK,VRB,KVRB,JFK-VRB,1,0,United States,United States,America/New_York,America/New_York
+825,ISP,KISP,IND,KIND,ISP-IND,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+826,JFK,KJFK,BTP,KBTP,JFK-BTP,1,0,United States,United States,America/New_York,America/New_York
+827,JFK,KJFK,YKF,CYKF,JFK-YKF,0,1,United States,Canada,America/New_York,America/Toronto
+828,JFK,KJFK,JAN,KJAN,JFK-JAN,1,0,United States,United States,America/New_York,America/Chicago
+829,LGA,KLGA,LNS,KLNS,LGA-LNS,1,0,United States,United States,America/New_York,America/New_York
+830,ISP,KISP,LDJ,KLDJ,ISP-LDJ,1,0,United States,United States,America/New_York,America/New_York
+831,ISP,KISP,ISO,KISO,ISP-ISO,0,0,United States,,America/New_York,
+832,ISP,KISP,PGV,KPGV,ISP-PGV,1,0,United States,United States,America/New_York,America/New_York
+833,ISP,KISP,LIR,MRLB,ISP-LIR,0,1,United States,Costa Rica,America/New_York,America/Costa_Rica
+834,ISP,KISP,GRR,KGRR,ISP-GRR,1,0,United States,United States,America/New_York,America/Detroit
+835,JFK,KJFK,STR,EDDS,JFK-STR,0,1,United States,Germany,America/New_York,Europe/Berlin
+836,JFK,KJFK,ARN,ESSA,JFK-ARN,0,1,United States,Sweden,America/New_York,Europe/Stockholm
+837,JFK,KJFK,LGB,KLGB,JFK-LGB,1,0,United States,United States,America/New_York,America/Los_Angeles
+838,LGA,KLGA,TLV,LLBG,LGA-TLV,0,1,United States,Israel,America/New_York,Asia/Jerusalem
+839,LGA,KLGA,HHH,KHXD,LGA-HHH,1,0,United States,United States,America/New_York,America/New_York
+840,LGA,KLGA,HSV,KHSV,LGA-HSV,1,0,United States,United States,America/New_York,America/Chicago
+841,ISP,KISP,HOU,KHOU,ISP-HOU,1,0,United States,United States,America/New_York,America/Chicago
+842,JFK,KJFK,AND,KAND,JFK-AND,1,0,United States,United States,America/New_York,America/New_York
+843,JFK,KJFK,RKD,KRKD,JFK-RKD,1,0,United States,United States,America/New_York,America/New_York
+844,LGA,KLGA,MIE,KMIE,LGA-MIE,0,0,United States,,America/New_York,
+845,LGA,KLGA,FMY,KFMY,LGA-FMY,1,0,United States,United States,America/New_York,America/New_York
+846,LGA,KLGA,PNE,KPNE,LGA-PNE,1,0,United States,United States,America/New_York,America/New_York
+847,ISP,KISP,LZU,KLZU,ISP-LZU,1,0,United States,United States,America/New_York,America/New_York
+848,ISP,KISP,BDA,TXKF,ISP-BDA,0,1,United States,Bermuda,America/New_York,Atlantic/Bermuda
+849,JFK,KJFK,MUO,KMUO,JFK-MUO,1,0,United States,United States,America/New_York,America/Boise
+850,LGA,KLGA,FOK,KFOK,LGA-FOK,1,0,United States,United States,America/New_York,America/New_York
+851,LGA,KLGA,ATW,KATW,LGA-ATW,1,0,United States,United States,America/New_York,America/Chicago
+852,ISP,KISP,YQB,CYQB,ISP-YQB,0,1,United States,Canada,America/New_York,America/Montreal
+853,JFK,KJFK,HAR,KCXY,JFK-HAR,1,0,United States,United States,America/New_York,America/New_York
+854,LGA,KLGA,CUN,MMUN,LGA-CUN,0,1,United States,Mexico,America/New_York,America/Cancun
+855,LGA,KLGA,SAF,KSAF,LGA-SAF,1,0,United States,United States,America/New_York,America/Denver
+856,LGA,KLGA,VRB,KVRB,LGA-VRB,1,0,United States,United States,America/New_York,America/New_York
+857,ISP,KISP,ECG,KECG,ISP-ECG,1,0,United States,United States,America/New_York,America/New_York
+858,ISP,KISP,SWF,KSWF,ISP-SWF,1,0,United States,United States,America/New_York,America/New_York
+859,JFK,KJFK,QQR,KRYY,JFK-QQR,0,0,United States,,America/New_York,
+860,LGA,KLGA,LGA,KLGA,LGA-LGA,1,0,United States,United States,America/New_York,America/New_York
+861,LGA,KLGA,NHZ,KBXM,LGA-NHZ,1,0,United States,United States,America/New_York,America/New_York
+862,LGA,KLGA,BVX,KBVX,LGA-BVX,1,0,United States,United States,America/New_York,America/Chicago
+863,LGA,KLGA,BGM,KBGM,LGA-BGM,1,0,United States,United States,America/New_York,America/New_York
+864,LGA,KLGA,BQK,KBQK,LGA-BQK,1,0,United States,United States,America/New_York,America/New_York
+865,ISP,KISP,SEG,KSEG,ISP-SEG,1,0,United States,United States,America/New_York,America/New_York
+866,JFK,KJFK,BDR,KBDR,JFK-BDR,1,0,United States,United States,America/New_York,America/New_York
+867,JFK,KJFK,GNV,KGNV,JFK-GNV,1,0,United States,United States,America/New_York,America/New_York
+868,ISP,KISP,SMD,KSMD,ISP-SMD,0,0,United States,,America/New_York,
+869,JFK,KJFK,ISM,KISM,JFK-ISM,1,0,United States,United States,America/New_York,America/New_York
+870,LGA,KLGA,HTO,KJPX,LGA-HTO,1,0,United States,United States,America/New_York,America/New_York
+871,ISP,KISP,QQN,KJWN,ISP-QQN,0,0,United States,,America/New_York,
+872,ISP,KISP,ABE,KABE,ISP-ABE,1,0,United States,United States,America/New_York,America/New_York
+873,JFK,KJFK,ADW,KADW,JFK-ADW,0,0,United States,,America/New_York,
+874,JFK,KJFK,ROG,KROG,JFK-ROG,1,0,United States,United States,America/New_York,America/Chicago
+875,LGA,KLGA,NCO,KOQU,LGA-NCO,1,0,United States,United States,America/New_York,America/New_York
+876,LGA,KLGA,LCI,KLCI,LGA-LCI,1,0,United States,United States,America/New_York,America/New_York
+877,LGA,KLGA,PYM,KPYM,LGA-PYM,1,0,United States,United States,America/New_York,America/New_York
+878,LGA,KLGA,MRK,KMKY,LGA-MRK,1,0,United States,United States,America/New_York,America/New_York
+879,LGA,KLGA,GON,KGON,LGA-GON,1,0,United States,United States,America/New_York,America/New_York
+880,ISP,KISP,MLI,KMLI,ISP-MLI,1,0,United States,United States,America/New_York,America/Chicago
+881,JFK,KJFK,PTW,KPTW,JFK-PTW,1,0,United States,United States,America/New_York,America/New_York
+882,LGA,KLGA,LGS,SAMM,LGA-LGS,0,1,United States,Argentina,America/New_York,America/Argentina/Mendoza
+883,ISP,KISP,MEX,MMMX,ISP-MEX,0,1,United States,Mexico,America/New_York,America/Mexico_City
+884,ISP,KISP,FDK,KFDK,ISP-FDK,1,0,United States,United States,America/New_York,America/New_York
+885,ISP,KISP,SUS,KSUS,ISP-SUS,1,0,United States,United States,America/New_York,America/Chicago
+886,JFK,KJFK,MLJ,KMLJ,JFK-MLJ,1,0,United States,United States,America/New_York,America/New_York
+887,ISP,KISP,YSJ,CYSJ,ISP-YSJ,0,1,United States,Canada,America/New_York,America/Moncton
+888,JFK,KJFK,JST,KJST,JFK-JST,1,0,United States,United States,America/New_York,America/New_York
+889,LGA,KLGA,USA,KJQF,LGA-USA,1,0,United States,United States,America/New_York,
+890,ISP,KISP,HTO,KJPX,ISP-HTO,1,0,United States,United States,America/New_York,America/New_York
+891,JFK,KJFK,WWD,KWWD,JFK-WWD,1,0,United States,United States,America/New_York,America/New_York
+892,JFK,KJFK,DEH,KDEH,JFK-DEH,1,0,United States,United States,America/New_York,America/Chicago
+893,LGA,KLGA,AIK,KAIK,LGA-AIK,1,0,United States,United States,America/New_York,America/New_York
+894,LGA,KLGA,BTP,KBTP,LGA-BTP,1,0,United States,United States,America/New_York,America/New_York
+895,LGA,KLGA,YMX,CYMX,LGA-YMX,0,1,United States,Canada,America/New_York,America/Montreal
+896,ISP,KISP,OLE,KOLE,ISP-OLE,0,0,United States,,America/New_York,
+897,ISP,KISP,NCO,KOQU,ISP-NCO,1,0,United States,United States,America/New_York,America/New_York
+898,ISP,KISP,GVT,KGVT,ISP-GVT,1,0,United States,United States,America/New_York,America/Chicago
+899,ISP,KISP,PDK,KPDK,ISP-PDK,1,0,United States,United States,America/New_York,America/New_York
+900,JFK,KJFK,DPA,KDPA,JFK-DPA,1,0,United States,United States,America/New_York,America/Chicago
+901,JFK,KJFK,NAN,NFFN,JFK-NAN,0,0,United States,,America/New_York,Pacific/Fiji
+902,LGA,KLGA,IPT,KIPT,LGA-IPT,1,0,United States,United States,America/New_York,America/New_York
+903,LGA,KLGA,SLN,KSLN,LGA-SLN,1,0,United States,United States,America/New_York,America/Chicago
+904,ISP,KISP,PSF,KPSF,ISP-PSF,0,0,United States,,America/New_York,
+905,JFK,KJFK,LDE,LFBT,JFK-LDE,0,1,United States,France,America/New_York,Europe/Paris
+906,ISP,KISP,PTK,KPTK,ISP-PTK,1,0,United States,United States,America/New_York,America/Detroit
+907,JFK,KJFK,BUR,KBUR,JFK-BUR,1,0,United States,United States,America/New_York,America/Los_Angeles
+908,JFK,KJFK,ONT,KONT,JFK-ONT,1,0,United States,United States,America/New_York,America/Los_Angeles
+909,JFK,KJFK,FAY,KFAY,JFK-FAY,1,0,United States,United States,America/New_York,America/New_York
+910,ISP,KISP,LWB,KLWB,ISP-LWB,1,0,United States,United States,America/New_York,America/New_York
+911,LGA,KLGA,CPS,KCPS,LGA-CPS,1,0,United States,United States,America/New_York,America/Chicago
+912,LGA,KLGA,FKB,EDSB,LGA-FKB,0,1,United States,Germany,America/New_York,Europe/Berlin
+913,LGA,KLGA,YYT,CYYT,LGA-YYT,0,1,United States,Canada,America/New_York,America/St_Johns
+914,LGA,KLGA,YIP,KYIP,LGA-YIP,1,0,United States,United States,America/New_York,America/Detroit
+915,LGA,KLGA,TYR,KTYR,LGA-TYR,1,0,United States,United States,America/New_York,America/Chicago
+916,JFK,KJFK,USA,KJQF,JFK-USA,1,0,United States,United States,America/New_York,
+917,LGA,KLGA,MJX,KMJX,LGA-MJX,1,0,United States,United States,America/New_York,America/New_York
+918,ISP,KISP,PSK,KPSK,ISP-PSK,1,0,United States,United States,America/New_York,America/New_York
+919,JFK,KJFK,AVL,KAVL,JFK-AVL,1,0,United States,United States,America/New_York,America/New_York
+920,LGA,KLGA,MDT,KMDT,LGA-MDT,1,0,United States,United States,America/New_York,America/New_York
+921,ISP,KISP,CGF,KCGF,ISP-CGF,0,0,United States,,America/New_York,
+922,JFK,KJFK,PUS,RKPK,JFK-PUS,0,1,United States,South Korea,America/New_York,Asia/Seoul
+923,JFK,KJFK,NAP,LIRN,JFK-NAP,0,1,United States,Italy,America/New_York,Europe/Rome
+924,JFK,KJFK,PRG,LKPR,JFK-PRG,0,1,United States,Czech Republic,America/New_York,Europe/Prague
+925,LGA,KLGA,PHX,KPHX,LGA-PHX,1,0,United States,United States,America/New_York,America/Phoenix
+926,ISP,KISP,AGS,KAGS,ISP-AGS,1,0,United States,United States,America/New_York,America/New_York
+927,JFK,KJFK,SGH,KSGH,JFK-SGH,0,0,United States,,America/New_York,
+928,JFK,KJFK,SUX,KSUX,JFK-SUX,1,0,United States,United States,America/New_York,America/Chicago
+929,JFK,KJFK,PKB,KPKB,JFK-PKB,1,0,United States,United States,America/New_York,America/New_York
+930,LGA,KLGA,SGR,KSGR,LGA-SGR,1,0,United States,United States,America/New_York,America/Chicago
+931,ISP,KISP,MJX,KMJX,ISP-MJX,1,0,United States,United States,America/New_York,America/New_York
+932,ISP,KISP,CAE,KCAE,ISP-CAE,1,0,United States,United States,America/New_York,America/New_York
+933,ISP,KISP,TRI,KTRI,ISP-TRI,1,0,United States,United States,America/New_York,America/New_York
+934,JFK,KJFK,XCM,CYCK,JFK-XCM,0,1,United States,Canada,America/New_York,America/Toronto
+935,LGA,KLGA,TYQ,KTYQ,LGA-TYQ,1,0,United States,United States,America/New_York,
+936,ISP,KISP,FKL,KFKL,ISP-FKL,1,0,United States,United States,America/New_York,America/New_York
+937,JFK,KJFK,LAL,KLAL,JFK-LAL,1,0,United States,United States,America/New_York,America/New_York
+938,JFK,KJFK,EUG,KEUG,JFK-EUG,1,0,United States,United States,America/New_York,America/Los_Angeles
+939,LGA,KLGA,ITH,KITH,LGA-ITH,1,0,United States,United States,America/New_York,America/New_York
+940,JFK,KJFK,AZI,OMAD,JFK-AZI,0,1,United States,United Arab Emirates,America/New_York,Asia/Dubai
+941,JFK,KJFK,DWC,OMDW,JFK-DWC,0,0,United States,,America/New_York,
+942,ISP,KISP,RIL,KRIL,ISP-RIL,1,0,United States,United States,America/New_York,America/Denver
+943,ISP,KISP,ROC,KROC,ISP-ROC,1,0,United States,United States,America/New_York,America/New_York
+944,JFK,KJFK,BQK,KBQK,JFK-BQK,1,0,United States,United States,America/New_York,America/New_York
+945,LGA,KLGA,SFZ,KSFZ,LGA-SFZ,1,0,United States,United States,America/New_York,America/New_York
+946,LGA,KLGA,FCM,KFCM,LGA-FCM,1,0,United States,United States,America/New_York,America/Chicago
+947,LGA,KLGA,ORL,KORL,LGA-ORL,1,0,United States,United States,America/New_York,America/New_York
+948,LGA,KLGA,CKB,KCKB,LGA-CKB,1,0,United States,United States,America/New_York,America/New_York
+949,LGA,KLGA,MOB,KMOB,LGA-MOB,1,0,United States,United States,America/New_York,America/Chicago
+950,LGA,KLGA,HYA,KHYA,LGA-HYA,1,0,United States,United States,America/New_York,America/New_York
+951,ISP,KISP,MSV,KMSV,ISP-MSV,1,0,United States,United States,America/New_York,America/New_York
+952,JFK,KJFK,QQN,KJWN,JFK-QQN,0,0,United States,,America/New_York,
+953,LGA,KLGA,SUM,KSMS,LGA-SUM,0,0,United States,,America/New_York,
+954,ISP,KISP,TIX,KTIX,ISP-TIX,1,0,United States,United States,America/New_York,America/New_York
+955,ISP,KISP,HSH,KHND,ISP-HSH,1,0,United States,United States,America/New_York,America/Los_Angeles
+956,ISP,KISP,LAS,KLAS,ISP-LAS,1,0,United States,United States,America/New_York,America/Los_Angeles
+957,LGA,KLGA,FTW,KFTW,LGA-FTW,1,0,United States,United States,America/New_York,America/Chicago
+958,LGA,KLGA,INT,KINT,LGA-INT,1,0,United States,United States,America/New_York,America/New_York
+959,LGA,KLGA,CEF,KCEF,LGA-CEF,1,0,United States,United States,America/New_York,America/New_York
+960,LGA,KLGA,YTZ,CYTZ,LGA-YTZ,0,1,United States,Canada,America/New_York,America/Toronto
+961,ISP,KISP,DAL,KDAL,ISP-DAL,1,0,United States,United States,America/New_York,America/Chicago
+962,JFK,KJFK,NBW,MUGM,JFK-NBW,0,1,United States,Cuba,America/New_York,America/Havana
+963,LGA,KLGA,AZI,OMAD,LGA-AZI,0,1,United States,United Arab Emirates,America/New_York,Asia/Dubai
+964,ISP,KISP,GKT,KGKT,ISP-GKT,1,0,United States,United States,America/New_York,America/New_York
+965,ISP,KISP,LAX,KLAX,ISP-LAX,1,0,United States,United States,America/New_York,America/Los_Angeles
+966,ISP,KISP,DAY,KDAY,ISP-DAY,1,0,United States,United States,America/New_York,America/New_York
+967,JFK,KJFK,GAI,KGAI,JFK-GAI,1,0,United States,United States,America/New_York,America/New_York
+968,JFK,KJFK,VER,MMVR,JFK-VER,0,1,United States,Mexico,America/New_York,America/Mexico_City
+969,LGA,KLGA,LYH,KLYH,LGA-LYH,1,0,United States,United States,America/New_York,America/New_York
+970,ISP,KISP,INT,KINT,ISP-INT,1,0,United States,United States,America/New_York,America/New_York
+971,ISP,KISP,TYQ,KTYQ,ISP-TYQ,1,0,United States,United States,America/New_York,
+972,ISP,KISP,BHB,KBHB,ISP-BHB,1,0,United States,United States,America/New_York,America/New_York
+973,ISP,KISP,MEM,KMEM,ISP-MEM,1,0,United States,United States,America/New_York,America/Chicago
+974,JFK,KJFK,SFM,KSFM,JFK-SFM,1,0,United States,United States,America/New_York,America/New_York
+975,JFK,KJFK,VGT,KVGT,JFK-VGT,1,0,United States,United States,America/New_York,America/Los_Angeles
+976,JFK,KJFK,NCO,KOQU,JFK-NCO,1,0,United States,United States,America/New_York,America/New_York
+977,JFK,KJFK,GLA,EGPF,JFK-GLA,0,1,United States,United Kingdom,America/New_York,Europe/London
+978,LGA,KLGA,AVW,KAVQ,LGA-AVW,1,0,United States,United States,America/New_York,America/Phoenix
+979,LGA,KLGA,CDW,KCDW,LGA-CDW,1,0,United States,United States,America/New_York,America/New_York
+980,LGA,KLGA,ACT,KACT,LGA-ACT,1,0,United States,United States,America/New_York,America/Chicago
+981,LGA,KLGA,CID,KCID,LGA-CID,1,0,United States,United States,America/New_York,America/Chicago
+982,ISP,KISP,LEE,KLEE,ISP-LEE,1,0,United States,United States,America/New_York,America/New_York
+983,ISP,KISP,WRI,KWRI,ISP-WRI,0,0,United States,,America/New_York,
+984,ISP,KISP,LRF,KLRF,ISP-LRF,1,0,United States,United States,America/New_York,America/Chicago
+985,JFK,KJFK,BID,KBID,JFK-BID,1,0,United States,United States,America/New_York,America/New_York
+986,JFK,KJFK,MRK,KMKY,JFK-MRK,1,0,United States,United States,America/New_York,America/New_York
+987,LGA,KLGA,DPA,KDPA,LGA-DPA,1,0,United States,United States,America/New_York,America/Chicago
+988,ISP,KISP,NHZ,KBXM,ISP-NHZ,1,0,United States,United States,America/New_York,America/New_York
+989,ISP,KISP,SNA,KSNA,ISP-SNA,1,0,United States,United States,America/New_York,America/Los_Angeles
+990,JFK,KJFK,CTA,LICC,JFK-CTA,0,1,United States,Italy,America/New_York,Europe/Rome
+991,JFK,KJFK,DSI,KDTS,JFK-DSI,0,0,United States,,America/New_York,
+992,LGA,KLGA,CRG,KCRG,LGA-CRG,1,0,United States,United States,America/New_York,America/New_York
+993,LGA,KLGA,TUS,KTUS,LGA-TUS,1,0,United States,United States,America/New_York,America/Phoenix
+994,ISP,KISP,PPM,KPMP,ISP-PPM,0,0,United States,,America/New_York,America/New_York
+995,ISP,KISP,CTH,KMQS,ISP-CTH,1,0,United States,United States,America/New_York,America/New_York
+996,ISP,KISP,PUJ,MDPC,ISP-PUJ,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+997,ISP,KISP,PVC,KPVC,ISP-PVC,1,0,United States,United States,America/New_York,America/New_York
+998,JFK,KJFK,PWA,KPWA,JFK-PWA,1,0,United States,United States,America/New_York,America/Chicago
+999,JFK,KJFK,CDW,KCDW,JFK-CDW,1,0,United States,United States,America/New_York,America/New_York
+1000,JFK,KJFK,NUQ,KNUQ,JFK-NUQ,0,0,United States,,America/New_York,
+1001,ISP,KISP,OCE,KOXB,ISP-OCE,1,0,United States,United States,America/New_York,America/New_York
+1002,ISP,KISP,BMG,KBMG,ISP-BMG,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+1003,ISP,KISP,CEF,KCEF,ISP-CEF,1,0,United States,United States,America/New_York,America/New_York
+1004,ISP,KISP,BKW,KBKW,ISP-BKW,1,0,United States,United States,America/New_York,America/New_York
+1005,JFK,KJFK,MTP,KMTP,JFK-MTP,1,0,United States,United States,America/New_York,America/New_York
+1006,JFK,KJFK,SGF,KSGF,JFK-SGF,1,0,United States,United States,America/New_York,America/Chicago
+1007,LGA,KLGA,WST,KWST,LGA-WST,1,0,United States,United States,America/New_York,America/New_York
+1008,ISP,KISP,EFK,KEFK,ISP-EFK,1,0,United States,United States,America/New_York,America/New_York
+1009,ISP,KISP,EIS,TUPJ,ISP-EIS,0,1,United States,British Virgin Islands,America/New_York,America/Tortola
+1010,JFK,KJFK,ESN,KESN,JFK-ESN,1,0,United States,United States,America/New_York,America/New_York
+1011,ISP,KISP,QQK,KIKV,ISP-QQK,0,0,United States,,America/New_York,
+1012,JFK,KJFK,CPS,KCPS,JFK-CPS,1,0,United States,United States,America/New_York,America/Chicago
+1013,JFK,KJFK,ONH,,JFK-ONH,0,0,United States,,America/New_York,
+1014,JFK,KJFK,NHZ,KBXM,JFK-NHZ,1,0,United States,United States,America/New_York,America/New_York
+1015,JFK,KJFK,MGM,KMGM,JFK-MGM,1,0,United States,United States,America/New_York,America/Chicago
+1016,LGA,KLGA,ELH,MYEH,LGA-ELH,0,1,United States,Bahamas,America/New_York,America/Nassau
+1017,ISP,KISP,MSN,KMSN,ISP-MSN,1,0,United States,United States,America/New_York,America/Chicago
+1018,LGA,KLGA,CON,KCON,LGA-CON,0,0,United States,,America/New_York,
+1019,ISP,KISP,MVL,KMVL,ISP-MVL,1,0,United States,United States,America/New_York,America/New_York
+1020,ISP,KISP,AND,KAND,ISP-AND,1,0,United States,United States,America/New_York,America/New_York
+1021,ISP,KISP,COS,KCOS,ISP-COS,1,0,United States,United States,America/New_York,America/Denver
+1022,ISP,KISP,PHX,KPHX,ISP-PHX,1,0,United States,United States,America/New_York,America/Phoenix
+1023,JFK,KJFK,FSD,KFSD,JFK-FSD,1,0,United States,United States,America/New_York,America/Chicago
+1024,LGA,KLGA,OAJ,KOAJ,LGA-OAJ,1,0,United States,United States,America/New_York,America/New_York
+1025,ISP,KISP,SGH,KSGH,ISP-SGH,0,0,United States,,America/New_York,
+1026,JFK,KJFK,TYQ,KTYQ,JFK-TYQ,1,0,United States,United States,America/New_York,
+1027,JFK,KJFK,LWM,KLWM,JFK-LWM,1,0,United States,United States,America/New_York,America/New_York
+1028,JFK,KJFK,GYY,KGYY,JFK-GYY,1,0,United States,United States,America/New_York,America/Chicago
+1029,JFK,KJFK,SCF,KSDL,JFK-SCF,1,0,United States,United States,America/New_York,America/Phoenix
+1030,JFK,KJFK,MHH,MYAM,JFK-MHH,0,1,United States,Bahamas,America/New_York,America/Nassau
+1031,LGA,KLGA,AUZ,KARR,LGA-AUZ,1,0,United States,United States,America/New_York,America/Chicago
+1032,LGA,KLGA,OAK,KOAK,LGA-OAK,1,0,United States,United States,America/New_York,America/Los_Angeles
+1033,JFK,KJFK,GGE,KGGE,JFK-GGE,1,0,United States,United States,America/New_York,America/New_York
+1034,JFK,KJFK,DSM,KDSM,JFK-DSM,1,0,United States,United States,America/New_York,America/Chicago
+1035,ISP,KISP,UES,KUES,ISP-UES,0,0,United States,,America/New_York,
+1036,JFK,KJFK,MRN,KMRN,JFK-MRN,1,0,United States,United States,America/New_York,America/New_York
+1037,JFK,KJFK,CEU,KCEU,JFK-CEU,1,0,United States,United States,America/New_York,America/New_York
+1038,JFK,KJFK,ELP,KELP,JFK-ELP,1,0,United States,United States,America/New_York,America/Denver
+1039,LGA,KLGA,AMW,KAMW,LGA-AMW,1,0,United States,United States,America/New_York,America/Chicago
+1040,JFK,KJFK,LCQ,KLCQ,JFK-LCQ,1,0,United States,United States,America/New_York,America/New_York
+1041,LGA,KLGA,MKC,KMKC,LGA-MKC,1,0,United States,United States,America/New_York,America/Chicago
+1042,ISP,KISP,ARN,ESSA,ISP-ARN,0,1,United States,Sweden,America/New_York,Europe/Stockholm
+1043,JFK,KJFK,BRI,LIBD,JFK-BRI,0,1,United States,Italy,America/New_York,Europe/Rome
+1044,ISP,KISP,IPT,KIPT,ISP-IPT,1,0,United States,United States,America/New_York,America/New_York
+1045,ISP,KISP,HTS,KHTS,ISP-HTS,1,0,United States,United States,America/New_York,America/New_York
+1046,JFK,KJFK,LCI,KLCI,JFK-LCI,1,0,United States,United States,America/New_York,America/New_York
+1047,ISP,KISP,SPG,KSPG,ISP-SPG,1,0,United States,United States,America/New_York,America/New_York
+1048,ISP,KISP,CRW,KCRW,ISP-CRW,1,0,United States,United States,America/New_York,America/New_York
+1049,JFK,KJFK,GED,KGED,JFK-GED,1,0,United States,United States,America/New_York,America/New_York
+1050,JFK,KJFK,OCE,KOXB,JFK-OCE,1,0,United States,United States,America/New_York,America/New_York
+1051,JFK,KJFK,BSL,LFSB,JFK-BSL,0,1,United States,Switzerland,America/New_York,Europe/Zurich
+1052,JFK,KJFK,PMO,LICJ,JFK-PMO,0,1,United States,Italy,America/New_York,Europe/Rome
+1053,ISP,KISP,GYY,KGYY,ISP-GYY,1,0,United States,United States,America/New_York,America/Chicago
+1054,JFK,KJFK,MPO,KMPO,JFK-MPO,1,0,United States,United States,America/New_York,America/New_York
+1055,JFK,KJFK,WVL,KWVL,JFK-WVL,1,0,United States,United States,America/New_York,America/New_York
+1056,LGA,KLGA,SJD,MMSD,LGA-SJD,0,1,United States,Mexico,America/New_York,America/Mazatlan
+1057,ISP,KISP,AVL,KAVL,ISP-AVL,1,0,United States,United States,America/New_York,America/New_York
+1058,ISP,KISP,TVC,KTVC,ISP-TVC,1,0,United States,United States,America/New_York,America/Detroit
+1059,ISP,KISP,LEX,KLEX,ISP-LEX,1,0,United States,United States,America/New_York,America/New_York
+1060,LGA,KLGA,HAO,KHAO,LGA-HAO,0,0,United States,,America/New_York,
+1061,LGA,KLGA,RKW,KRKW,LGA-RKW,1,0,United States,United States,America/New_York,America/New_York
+1062,LGA,KLGA,FCA,KGPI,LGA-FCA,1,0,United States,United States,America/New_York,America/Denver
+1063,LGA,KLGA,YYC,CYYC,LGA-YYC,0,1,United States,Canada,America/New_York,America/Edmonton
+1064,JFK,KJFK,WDG,KWDG,JFK-WDG,1,0,United States,United States,America/New_York,America/Chicago
+1065,JFK,KJFK,FSC,LFKF,JFK-FSC,0,1,United States,France,America/New_York,Europe/Paris
+1066,LGA,KLGA,YHZ,CYHZ,LGA-YHZ,0,1,United States,Canada,America/New_York,America/Halifax
+1067,LGA,KLGA,ELP,KELP,LGA-ELP,1,0,United States,United States,America/New_York,America/Denver
+1068,ISP,KISP,SFZ,KSFZ,ISP-SFZ,1,0,United States,United States,America/New_York,America/New_York
+1069,ISP,KISP,ANP,KANP,ISP-ANP,1,0,United States,United States,America/New_York,America/New_York
+1070,ISP,KISP,ZRH,LSZH,ISP-ZRH,0,1,United States,Switzerland,America/New_York,Europe/Zurich
+1071,JFK,KJFK,RVS,KRVS,JFK-RVS,1,0,United States,United States,America/New_York,America/Chicago
+1072,JFK,KJFK,OLE,KOLE,JFK-OLE,0,0,United States,,America/New_York,
+1073,LGA,KLGA,RBK,,LGA-RBK,0,0,United States,,America/New_York,
+1074,ISP,KISP,LRD,KLRD,ISP-LRD,1,0,United States,United States,America/New_York,America/Chicago
+1075,LGA,KLGA,NUQ,KNUQ,LGA-NUQ,0,0,United States,,America/New_York,
+1076,ISP,KISP,PCT,,ISP-PCT,0,0,United States,,America/New_York,
+1077,JFK,KJFK,SFZ,KSFZ,JFK-SFZ,1,0,United States,United States,America/New_York,America/New_York
+1078,ISP,KISP,ZBM,CZBM,ISP-ZBM,0,1,United States,Canada,America/New_York,America/Montreal
+1079,JFK,KJFK,ZZV,KZZV,JFK-ZZV,1,0,United States,United States,America/New_York,America/New_York
+1080,JFK,KJFK,PVC,KPVC,JFK-PVC,1,0,United States,United States,America/New_York,America/New_York
+1081,LGA,KLGA,CRE,KCRE,LGA-CRE,1,0,United States,United States,America/New_York,America/New_York
+1082,LGA,KLGA,TCL,KTCL,LGA-TCL,1,0,United States,United States,America/New_York,America/Chicago
+1083,JFK,KJFK,TVC,KTVC,JFK-TVC,1,0,United States,United States,America/New_York,America/Detroit
+1084,ISP,KISP,HAO,KHAO,ISP-HAO,0,0,United States,,America/New_York,
+1085,ISP,KISP,YUL,CYUL,ISP-YUL,0,1,United States,Canada,America/New_York,America/Montreal
+1086,ISP,KISP,PRG,LKPR,ISP-PRG,0,1,United States,Czech Republic,America/New_York,Europe/Prague
+1087,ISP,KISP,SHD,KSHD,ISP-SHD,1,0,United States,United States,America/New_York,America/New_York
+1088,JFK,KJFK,SJT,KSJT,JFK-SJT,1,0,United States,United States,America/New_York,America/Chicago
+1089,LGA,KLGA,BRD,KBRD,LGA-BRD,1,0,United States,United States,America/New_York,America/Chicago
+1090,LGA,KLGA,ECP,KECP,LGA-ECP,1,0,United States,United States,America/New_York,America/Chicago
+1091,ISP,KISP,BID,KBID,ISP-BID,1,0,United States,United States,America/New_York,America/New_York
+1092,LGA,KLGA,PVC,KPVC,LGA-PVC,1,0,United States,United States,America/New_York,America/New_York
+1093,ISP,KISP,QQZ,KBAZ,ISP-QQZ,1,0,United States,United States,America/New_York,
+1094,ISP,KISP,WST,KWST,ISP-WST,1,0,United States,United States,America/New_York,America/New_York
+1095,ISP,KISP,LRM,MDLR,ISP-LRM,0,1,United States,Dominican Republic,America/New_York,America/Santo_Domingo
+1096,JFK,KJFK,BEH,KBEH,JFK-BEH,0,0,United States,,America/New_York,
+1097,JFK,KJFK,CLD,KCRQ,JFK-CLD,1,0,United States,United States,America/New_York,America/Los_Angeles
+1098,ISP,KISP,ESN,KESN,ISP-ESN,1,0,United States,United States,America/New_York,America/New_York
+1099,ISP,KISP,RKV,BIRK,ISP-RKV,0,1,United States,Iceland,America/New_York,Atlantic/Reykjavik
+1100,JFK,KJFK,CVO,KCVO,JFK-CVO,1,0,United States,United States,America/New_York,America/Los_Angeles
+1101,JFK,KJFK,BMI,KBMI,JFK-BMI,1,0,United States,United States,America/New_York,America/Chicago
+1102,LGA,KLGA,HEZ,KHEZ,LGA-HEZ,1,0,United States,United States,America/New_York,America/Chicago
+1103,LGA,KLGA,YXE,CYXE,LGA-YXE,0,1,United States,Canada,America/New_York,America/Regina
+1104,JFK,KJFK,BOI,KBOI,JFK-BOI,1,0,United States,United States,America/New_York,America/Boise
+1105,JFK,KJFK,LUZ,EPLB,JFK-LUZ,0,0,United States,,America/New_York,
+1106,JFK,KJFK,DAY,KDAY,JFK-DAY,1,0,United States,United States,America/New_York,America/New_York
+1107,LGA,KLGA,RNT,KRNT,LGA-RNT,1,0,United States,United States,America/New_York,America/Los_Angeles
+1108,LGA,KLGA,ELM,KELM,LGA-ELM,1,0,United States,United States,America/New_York,America/New_York
+1109,LGA,KLGA,SNN,EINN,LGA-SNN,0,1,United States,Ireland,America/New_York,Europe/Dublin
+1110,JFK,KJFK,IAG,KIAG,JFK-IAG,1,0,United States,United States,America/New_York,America/New_York
+1111,JFK,KJFK,ADD,HAAB,JFK-ADD,0,1,United States,Ethiopia,America/New_York,Africa/Addis_Ababa
+1112,LGA,KLGA,WWD,KWWD,LGA-WWD,1,0,United States,United States,America/New_York,America/New_York
+1113,JFK,KJFK,CAY,SOCA,JFK-CAY,0,1,United States,French Guiana,America/New_York,America/Cayenne
+1114,LGA,KLGA,NEW,KNEW,LGA-NEW,1,0,United States,United States,America/New_York,America/Chicago
+1115,JFK,KJFK,MGY,KMGY,JFK-MGY,1,0,United States,United States,America/New_York,America/New_York
+1116,ISP,KISP,HHH,KHXD,ISP-HHH,1,0,United States,United States,America/New_York,America/New_York
+1117,JFK,KJFK,YCM,CYSN,JFK-YCM,0,1,United States,Canada,America/New_York,America/Toronto
+1118,LGA,KLGA,BQH,EGKB,LGA-BQH,0,1,United States,United Kingdom,America/New_York,Europe/London
+1119,LGA,KLGA,FLO,KFLO,LGA-FLO,1,0,United States,United States,America/New_York,America/New_York
+1120,ISP,KISP,FDY,KFDY,ISP-FDY,1,0,United States,United States,America/New_York,America/New_York
+1121,ISP,KISP,SCH,KSCH,ISP-SCH,1,0,United States,United States,America/New_York,America/New_York
+1122,ISP,KISP,LNK,KLNK,ISP-LNK,1,0,United States,United States,America/New_York,America/Chicago
+1123,JFK,KJFK,GFL,KGFL,JFK-GFL,1,0,United States,United States,America/New_York,America/New_York
+1124,LGA,KLGA,MBS,KMBS,LGA-MBS,1,0,United States,United States,America/New_York,America/Detroit
+1125,LGA,KLGA,HCC,,LGA-HCC,0,0,United States,,America/New_York,
+1126,ISP,KISP,CHA,KCHA,ISP-CHA,1,0,United States,United States,America/New_York,America/New_York
+1127,JFK,KJFK,FCM,KFCM,JFK-FCM,1,0,United States,United States,America/New_York,America/Chicago
+1128,JFK,KJFK,ECP,KECP,JFK-ECP,1,0,United States,United States,America/New_York,America/Chicago
+1129,JFK,KJFK,LBG,LFPB,JFK-LBG,0,1,United States,France,America/New_York,Europe/Paris
+1130,LGA,KLGA,LBG,LFPB,LGA-LBG,0,1,United States,France,America/New_York,Europe/Paris
+1131,LGA,KLGA,BEH,KBEH,LGA-BEH,0,0,United States,,America/New_York,
+1132,ISP,KISP,MFD,KMFD,ISP-MFD,1,0,United States,United States,America/New_York,America/New_York
+1133,JFK,KJFK,DYL,KDYL,JFK-DYL,1,0,United States,United States,America/New_York,America/New_York
+1134,ISP,KISP,DTW,KDTW,ISP-DTW,1,0,United States,United States,America/New_York,America/Detroit
+1135,JFK,KJFK,SJC,KSJC,JFK-SJC,1,0,United States,United States,America/New_York,America/Los_Angeles
+1136,JFK,KJFK,EFD,KEFD,JFK-EFD,1,0,United States,United States,America/New_York,America/Chicago
+1137,JFK,KJFK,BPT,KBPT,JFK-BPT,1,0,United States,United States,America/New_York,America/Chicago
+1138,JFK,KJFK,FTW,KFTW,JFK-FTW,1,0,United States,United States,America/New_York,America/Chicago
+1139,ISP,KISP,APN,KAPN,ISP-APN,1,0,United States,United States,America/New_York,America/Detroit
+1140,ISP,KISP,SNN,EINN,ISP-SNN,0,1,United States,Ireland,America/New_York,Europe/Dublin
+1141,LGA,KLGA,BHB,KBHB,LGA-BHB,1,0,United States,United States,America/New_York,America/New_York
+1142,JFK,KJFK,WSH,KHWV,JFK-WSH,1,0,United States,United States,America/New_York,America/New_York
+1143,ISP,KISP,NCE,LFMN,ISP-NCE,0,1,United States,France,America/New_York,Europe/Paris
+1144,ISP,KISP,GLD,KGLD,ISP-GLD,1,0,United States,United States,America/New_York,America/Denver
+1145,JFK,KJFK,JAC,KJAC,JFK-JAC,1,0,United States,United States,America/New_York,America/Denver
+1146,JFK,KJFK,ART,KART,JFK-ART,1,0,United States,United States,America/New_York,America/New_York
+1147,JFK,KJFK,QQF,KFIN,JFK-QQF,1,0,United States,United States,America/New_York,
+1148,JFK,KJFK,OKC,KOKC,JFK-OKC,1,0,United States,United States,America/New_York,America/Chicago
+1149,JFK,KJFK,YWG,CYWG,JFK-YWG,0,1,United States,Canada,America/New_York,America/Winnipeg
+1150,JFK,KJFK,BFI,KBFI,JFK-BFI,1,0,United States,United States,America/New_York,America/Los_Angeles
+1151,LGA,KLGA,HSP,KHSP,LGA-HSP,0,0,United States,,America/New_York,
+1152,LGA,KLGA,QQV,KVPC,LGA-QQV,1,0,United States,United States,America/New_York,
+1153,JFK,KJFK,PCT,,JFK-PCT,0,0,United States,,America/New_York,
+1154,JFK,KJFK,YQG,CYQG,JFK-YQG,0,1,United States,Canada,America/New_York,America/Toronto
+1155,JFK,KJFK,BZZ,EGVN,JFK-BZZ,0,1,United States,United Kingdom,America/New_York,Europe/London
+1156,LGA,KLGA,SFM,KSFM,LGA-SFM,1,0,United States,United States,America/New_York,America/New_York
+1157,LGA,KLGA,STS,KSTS,LGA-STS,1,0,United States,United States,America/New_York,America/Los_Angeles
+1158,ISP,KISP,NPT,KUUU,ISP-NPT,1,0,United States,United States,America/New_York,America/New_York
+1159,ISP,KISP,AUG,KAUG,ISP-AUG,1,0,United States,United States,America/New_York,America/New_York
+1160,JFK,KJFK,YYG,CYYG,JFK-YYG,0,1,United States,Canada,America/New_York,America/Halifax
+1161,LGA,KLGA,HZL,KHZL,LGA-HZL,1,0,United States,United States,America/New_York,America/New_York
+1162,LGA,KLGA,IAG,KIAG,LGA-IAG,1,0,United States,United States,America/New_York,America/New_York
+1163,ISP,KISP,QQX,KDKX,ISP-QQX,0,0,United States,,America/New_York,
+1164,ISP,KISP,PSP,KPSP,ISP-PSP,1,0,United States,United States,America/New_York,America/Los_Angeles
+1165,JFK,KJFK,YQA,CYQA,JFK-YQA,0,1,United States,Canada,America/New_York,America/Toronto
+1166,LGA,KLGA,DND,EGPN,LGA-DND,0,1,United States,United Kingdom,America/New_York,Europe/London
+1167,LGA,KLGA,GAI,KGAI,LGA-GAI,1,0,United States,United States,America/New_York,America/New_York
+1168,LGA,KLGA,YNG,KYNG,LGA-YNG,1,0,United States,United States,America/New_York,America/New_York
+1169,LGA,KLGA,COE,KCOE,LGA-COE,1,0,United States,United States,America/New_York,America/Los_Angeles
+1170,ISP,KISP,DYL,KDYL,ISP-DYL,1,0,United States,United States,America/New_York,America/New_York
+1171,ISP,KISP,ABR,KABR,ISP-ABR,1,0,United States,United States,America/New_York,America/Chicago
+1172,JFK,KJFK,DND,EGPN,JFK-DND,0,1,United States,United Kingdom,America/New_York,Europe/London
+1173,JFK,KJFK,SUN,KSUN,JFK-SUN,1,0,United States,United States,America/New_York,America/Boise
+1174,ISP,KISP,ZAD,LDZD,ISP-ZAD,0,1,United States,Croatia,America/New_York,Europe/Zagreb
+1175,LGA,KLGA,SGF,KSGF,LGA-SGF,1,0,United States,United States,America/New_York,America/Chicago
+1176,LGA,KLGA,COS,KCOS,LGA-COS,1,0,United States,United States,America/New_York,America/Denver
+1177,ISP,KISP,APA,KAPA,ISP-APA,1,0,United States,United States,America/New_York,America/Denver
+1178,JFK,KJFK,TLC,MMTO,JFK-TLC,0,1,United States,Mexico,America/New_York,America/Mexico_City
+1179,LGA,KLGA,WVL,KWVL,LGA-WVL,1,0,United States,United States,America/New_York,America/New_York
+1180,JFK,KJFK,LEW,KLEW,JFK-LEW,1,0,United States,United States,America/New_York,America/New_York
+1181,ISP,KISP,DKK,KDKK,ISP-DKK,1,0,United States,United States,America/New_York,America/New_York
+1182,ISP,KISP,CRG,KCRG,ISP-CRG,1,0,United States,United States,America/New_York,America/New_York
+1183,JFK,KJFK,AUG,KAUG,JFK-AUG,1,0,United States,United States,America/New_York,America/New_York
+1184,LGA,KLGA,YSJ,CYSJ,LGA-YSJ,0,1,United States,Canada,America/New_York,America/Moncton
+1185,ISP,KISP,LEW,KLEW,ISP-LEW,1,0,United States,United States,America/New_York,America/New_York
+1186,ISP,KISP,YQA,CYQA,ISP-YQA,0,1,United States,Canada,America/New_York,America/Toronto
+1187,LGA,KLGA,LGB,KLGB,LGA-LGB,1,0,United States,United States,America/New_York,America/Los_Angeles
+1188,JFK,KJFK,MKC,KMKC,JFK-MKC,1,0,United States,United States,America/New_York,America/Chicago
+1189,LGA,KLGA,YQB,CYQB,LGA-YQB,0,1,United States,Canada,America/New_York,America/Montreal
+1190,JFK,KJFK,FID,,JFK-FID,0,0,United States,,America/New_York,
+1191,JFK,KJFK,IKB,KUKF,JFK-IKB,0,0,United States,,America/New_York,
+1192,JFK,KJFK,MEC,SEMT,JFK-MEC,0,1,United States,Ecuador,America/New_York,America/Guayaquil
+1193,LGA,KLGA,VLD,KVLD,LGA-VLD,1,0,United States,United States,America/New_York,America/New_York
+1194,JFK,KJFK,SIG,TJIG,JFK-SIG,0,1,United States,Puerto Rico,America/New_York,America/Puerto_Rico
+1195,LGA,KLGA,ALG,DAAG,LGA-ALG,0,0,United States,,America/New_York,Africa/Algiers
+1196,JFK,KJFK,OAJ,KOAJ,JFK-OAJ,1,0,United States,United States,America/New_York,America/New_York
+1197,JFK,KJFK,ATW,KATW,JFK-ATW,1,0,United States,United States,America/New_York,America/Chicago
+1198,LGA,KLGA,NCE,LFMN,LGA-NCE,0,1,United States,France,America/New_York,Europe/Paris
+1199,JFK,KJFK,TVL,KTVL,JFK-TVL,1,0,United States,United States,America/New_York,America/Los_Angeles
+1200,LGA,KLGA,PLN,KPLN,LGA-PLN,1,0,United States,United States,America/New_York,America/Detroit
+1201,JFK,KJFK,ALO,KALO,JFK-ALO,1,0,United States,United States,America/New_York,America/Chicago
+1202,JFK,KJFK,VNC,KVNC,JFK-VNC,1,0,United States,United States,America/New_York,America/New_York
+1203,LGA,KLGA,YCM,CYSN,LGA-YCM,0,1,United States,Canada,America/New_York,America/Toronto
+1204,LGA,KLGA,COU,KCOU,LGA-COU,1,0,United States,United States,America/New_York,America/Chicago
+1205,ISP,KISP,PNS,KPNS,ISP-PNS,1,0,United States,United States,America/New_York,America/Chicago
+1206,JFK,KJFK,GMU,KGMU,JFK-GMU,1,0,United States,United States,America/New_York,America/New_York
+1207,JFK,KJFK,CRW,KCRW,JFK-CRW,1,0,United States,United States,America/New_York,America/New_York
+1208,ISP,KISP,MRY,KMRY,ISP-MRY,1,0,United States,United States,America/New_York,America/Los_Angeles
+1209,LGA,KLGA,GMU,KGMU,LGA-GMU,1,0,United States,United States,America/New_York,America/New_York
+1210,ISP,KISP,IDI,KIDI,ISP-IDI,1,0,United States,United States,America/New_York,America/New_York
+1211,LGA,KLGA,JHW,KJHW,LGA-JHW,1,0,United States,United States,America/New_York,America/New_York
+1212,ISP,KISP,SAN,KSAN,ISP-SAN,1,0,United States,United States,America/New_York,America/Los_Angeles
+1213,ISP,KISP,YQM,CYQM,ISP-YQM,0,1,United States,Canada,America/New_York,America/Moncton
+1214,JFK,KJFK,FDY,KFDY,JFK-FDY,1,0,United States,United States,America/New_York,America/New_York
+1215,LGA,KLGA,MLB,KMLB,LGA-MLB,1,0,United States,United States,America/New_York,America/New_York
+1216,ISP,KISP,MTH,KMTH,ISP-MTH,1,0,United States,United States,America/New_York,America/New_York
+1217,ISP,KISP,ADS,KADS,ISP-ADS,1,0,United States,United States,America/New_York,America/Chicago
+1218,JFK,KJFK,LAN,KLAN,JFK-LAN,1,0,United States,United States,America/New_York,America/Detroit
+1219,JFK,KJFK,SFJ,BGSF,JFK-SFJ,0,1,United States,Greenland,America/New_York,America/Godthab
+1220,ISP,KISP,SBA,KSBA,ISP-SBA,1,0,United States,United States,America/New_York,America/Los_Angeles
+1221,JFK,KJFK,PNS,KPNS,JFK-PNS,1,0,United States,United States,America/New_York,America/Chicago
+1222,ISP,KISP,OJC,KOJC,ISP-OJC,1,0,United States,United States,America/New_York,America/Chicago
+1223,JFK,KJFK,MGJ,KMGJ,JFK-MGJ,1,0,United States,United States,America/New_York,America/New_York
+1224,LGA,KLGA,LFN,KLHZ,LGA-LFN,1,0,United States,United States,America/New_York,America/New_York
+1225,ISP,KISP,YIP,KYIP,ISP-YIP,1,0,United States,United States,America/New_York,America/Detroit
+1226,JFK,KJFK,MRF,KMRF,JFK-MRF,1,0,United States,United States,America/New_York,America/Chicago
+1227,LGA,KLGA,ATH,LGAV,LGA-ATH,0,1,United States,Greece,America/New_York,Europe/Athens
+1228,ISP,KISP,GFL,KGFL,ISP-GFL,1,0,United States,United States,America/New_York,America/New_York
+1229,JFK,KJFK,HKY,KHKY,JFK-HKY,1,0,United States,United States,America/New_York,America/New_York
+1230,ISP,KISP,YQI,CYQI,ISP-YQI,0,1,United States,Canada,America/New_York,America/Halifax
+1231,LGA,KLGA,BTR,KBTR,LGA-BTR,1,0,United States,United States,America/New_York,America/Chicago
+1232,LGA,KLGA,OLV,KOLV,LGA-OLV,1,0,United States,United States,America/New_York,America/Chicago
+1233,LGA,KLGA,JLN,KJLN,LGA-JLN,1,0,United States,United States,America/New_York,America/Chicago
+1234,JFK,KJFK,TMB,KTMB,JFK-TMB,1,0,United States,United States,America/New_York,America/New_York
+1235,LGA,KLGA,FNT,KFNT,LGA-FNT,1,0,United States,United States,America/New_York,America/Detroit
+1236,JFK,KJFK,OUN,KOUN,JFK-OUN,0,0,United States,,America/New_York,
+1237,JFK,KJFK,LIN,LIML,JFK-LIN,0,1,United States,Italy,America/New_York,Europe/Rome
+1238,JFK,KJFK,BJJ,KBJJ,JFK-BJJ,1,0,United States,United States,America/New_York,America/New_York
+1239,ISP,KISP,MQY,KMQY,ISP-MQY,1,0,United States,United States,America/New_York,America/Chicago
+1240,JFK,KJFK,VCV,KVCV,JFK-VCV,1,0,United States,United States,America/New_York,America/Los_Angeles
+1241,JFK,KJFK,PAH,KPAH,JFK-PAH,1,0,United States,United States,America/New_York,America/Chicago
+1242,ISP,KISP,ART,KART,ISP-ART,1,0,United States,United States,America/New_York,America/New_York
+1243,JFK,KJFK,BQH,EGKB,JFK-BQH,0,1,United States,United Kingdom,America/New_York,Europe/London
+1244,JFK,KJFK,YPS,CYPD,JFK-YPS,0,1,United States,Canada,America/New_York,America/Halifax
+1245,ISP,KISP,YYC,CYYC,ISP-YYC,0,1,United States,Canada,America/New_York,America/Edmonton
+1246,ISP,KISP,PIA,KPIA,ISP-PIA,1,0,United States,United States,America/New_York,America/Chicago
+1247,ISP,KISP,AKC,KAKR,ISP-AKC,1,0,United States,United States,America/New_York,America/New_York
+1248,JFK,KJFK,LNK,KLNK,JFK-LNK,1,0,United States,United States,America/New_York,America/Chicago
+1249,JFK,KJFK,DUS,EDDL,JFK-DUS,0,1,United States,Germany,America/New_York,Europe/Berlin
+1250,ISP,KISP,CVG,KCVG,ISP-CVG,1,0,United States,United States,America/New_York,America/New_York
+1251,ISP,KISP,YKF,CYKF,ISP-YKF,0,1,United States,Canada,America/New_York,America/Toronto
+1252,JFK,KJFK,BSB,SBBR,JFK-BSB,0,1,United States,Brazil,America/New_York,America/Sao_Paulo
+1253,LGA,KLGA,BMG,KBMG,LGA-BMG,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+1254,ISP,KISP,STN,EGSS,ISP-STN,0,1,United States,United Kingdom,America/New_York,Europe/London
+1255,ISP,KISP,SBY,KSBY,ISP-SBY,1,0,United States,United States,America/New_York,America/New_York
+1256,JFK,KJFK,BEY,OLBA,JFK-BEY,0,1,United States,Lebanon,America/New_York,Asia/Beirut
+1257,JFK,KJFK,BGW,ORBI,JFK-BGW,0,1,United States,Iraq,America/New_York,Asia/Baghdad
+1258,ISP,KISP,ORD,KORD,ISP-ORD,1,0,United States,United States,America/New_York,America/Chicago
+1259,ISP,KISP,FMH,KFMH,ISP-FMH,0,0,United States,,America/New_York,
+1260,LGA,KLGA,APC,KAPC,LGA-APC,1,0,United States,United States,America/New_York,America/Los_Angeles
+1261,ISP,KISP,BUR,KBUR,ISP-BUR,1,0,United States,United States,America/New_York,America/Los_Angeles
+1262,JFK,KJFK,NGU,KNGU,JFK-NGU,1,0,United States,United States,America/New_York,America/New_York
+1263,JFK,KJFK,LKP,KLKP,JFK-LKP,1,0,United States,United States,America/New_York,America/New_York
+1264,JFK,KJFK,PLN,KPLN,JFK-PLN,1,0,United States,United States,America/New_York,America/Detroit
+1265,LGA,KLGA,SHD,KSHD,LGA-SHD,1,0,United States,United States,America/New_York,America/New_York
+1266,JFK,KJFK,IMS,KIMS,JFK-IMS,0,0,United States,,America/New_York,
+1267,ISP,KISP,VNC,KVNC,ISP-VNC,1,0,United States,United States,America/New_York,America/New_York
+1268,JFK,KJFK,CCR,KCCR,JFK-CCR,1,0,United States,United States,America/New_York,America/Los_Angeles
+1269,JFK,KJFK,YTM,CYFJ,JFK-YTM,0,1,United States,Canada,America/New_York,America/Montreal
+1270,LGA,KLGA,GYY,KGYY,LGA-GYY,1,0,United States,United States,America/New_York,America/Chicago
+1271,JFK,KJFK,PIA,KPIA,JFK-PIA,1,0,United States,United States,America/New_York,America/Chicago
+1272,LGA,KLGA,HGR,KHGR,LGA-HGR,1,0,United States,United States,America/New_York,America/New_York
+1273,JFK,KJFK,LCK,KLCK,JFK-LCK,1,0,United States,United States,America/New_York,America/New_York
+1274,LGA,KLGA,MLI,KMLI,LGA-MLI,1,0,United States,United States,America/New_York,America/Chicago
+1275,ISP,KISP,PHN,KPHN,ISP-PHN,1,0,United States,United States,America/New_York,America/Detroit
+1276,LGA,KLGA,SVH,KSVH,LGA-SVH,1,0,United States,United States,America/New_York,America/New_York
+1277,LGA,KLGA,PSK,KPSK,LGA-PSK,1,0,United States,United States,America/New_York,America/New_York
+1278,LGA,KLGA,ARN,ESSA,LGA-ARN,0,1,United States,Sweden,America/New_York,Europe/Stockholm
+1279,LGA,KLGA,BFI,KBFI,LGA-BFI,1,0,United States,United States,America/New_York,America/Los_Angeles
+1280,LGA,KLGA,OCF,KOCF,LGA-OCF,0,0,United States,,America/New_York,
+1281,ISP,KISP,DAB,KDAB,ISP-DAB,1,0,United States,United States,America/New_York,America/New_York
+1282,JFK,KJFK,RBW,KRBW,JFK-RBW,1,0,United States,United States,America/New_York,America/New_York
+1283,LGA,KLGA,APA,KAPA,LGA-APA,1,0,United States,United States,America/New_York,America/Denver
+1284,LGA,KLGA,FOE,KFOE,LGA-FOE,1,0,United States,United States,America/New_York,America/Chicago
+1285,ISP,KISP,FLD,KFLD,ISP-FLD,1,0,United States,United States,America/New_York,America/Chicago
+1286,JFK,KJFK,INT,KINT,JFK-INT,1,0,United States,United States,America/New_York,America/New_York
+1287,ISP,KISP,CSV,KCSV,ISP-CSV,1,0,United States,United States,America/New_York,America/Chicago
+1288,JFK,KJFK,TOC,KTOC,JFK-TOC,1,0,United States,United States,America/New_York,America/New_York
+1289,ISP,KISP,QQF,KFIN,ISP-QQF,1,0,United States,United States,America/New_York,
+1290,ISP,KISP,OSU,KOSU,ISP-OSU,1,0,United States,United States,America/New_York,America/New_York
+1291,LGA,KLGA,MVN,KMVN,LGA-MVN,0,0,United States,,America/New_York,
+1292,JFK,KJFK,JXN,KJXN,JFK-JXN,1,0,United States,United States,America/New_York,America/Detroit
+1293,JFK,KJFK,CTS,RJCC,JFK-CTS,0,1,United States,Japan,America/New_York,Asia/Tokyo
+1294,LGA,KLGA,STT,TIST,LGA-STT,0,1,United States,U.S. Virgin Islands,America/New_York,America/St_Thomas
+1295,LGA,KLGA,MAF,KMAF,LGA-MAF,1,0,United States,United States,America/New_York,America/Chicago
+1296,JFK,KJFK,FSM,KFSM,JFK-FSM,1,0,United States,United States,America/New_York,America/Chicago
+1297,LGA,KLGA,FDK,KFDK,LGA-FDK,1,0,United States,United States,America/New_York,America/New_York
+1298,LGA,KLGA,BWG,KBWG,LGA-BWG,1,0,United States,United States,America/New_York,America/Chicago
+1299,ISP,KISP,CPS,KCPS,ISP-CPS,1,0,United States,United States,America/New_York,America/Chicago
+1300,ISP,KISP,EVV,KEVV,ISP-EVV,1,0,United States,United States,America/New_York,America/Chicago
+1301,JFK,KJFK,GUS,KGUS,JFK-GUS,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+1302,LGA,KLGA,ALN,KALN,LGA-ALN,1,0,United States,United States,America/New_York,America/Chicago
+1303,LGA,KLGA,PIR,KPIR,LGA-PIR,1,0,United States,United States,America/New_York,America/Chicago
+1304,ISP,KISP,MKC,KMKC,ISP-MKC,1,0,United States,United States,America/New_York,America/Chicago
+1305,ISP,KISP,SLK,KSLK,ISP-SLK,1,0,United States,United States,America/New_York,America/New_York
+1306,JFK,KJFK,SVH,KSVH,JFK-SVH,1,0,United States,United States,America/New_York,America/New_York
+1307,ISP,KISP,NRT,RJAA,ISP-NRT,0,1,United States,Japan,America/New_York,Asia/Tokyo
+1308,JFK,KJFK,ICT,KICT,JFK-ICT,1,0,United States,United States,America/New_York,America/Chicago
+1309,LGA,KLGA,YVR,CYVR,LGA-YVR,0,1,United States,Canada,America/New_York,America/Vancouver
+1310,LGA,KLGA,DVT,KDVT,LGA-DVT,1,0,United States,United States,America/New_York,America/Phoenix
+1311,JFK,KJFK,FYV,KFYV,JFK-FYV,1,0,United States,United States,America/New_York,America/Chicago
+1312,ISP,KISP,BFP,KBVI,ISP-BFP,1,0,United States,United States,America/New_York,America/New_York
+1313,LGA,KLGA,HNB,KHNB,LGA-HNB,0,0,United States,,America/New_York,
+1314,ISP,KISP,OCA,,ISP-OCA,0,0,United States,,America/New_York,
+1315,LGA,KLGA,DEC,KDEC,LGA-DEC,1,0,United States,United States,America/New_York,America/Chicago
+1316,ISP,KISP,DCU,KDCU,ISP-DCU,1,0,United States,United States,America/New_York,America/Chicago
+1317,JFK,KJFK,WRO,EPWR,JFK-WRO,0,1,United States,Poland,America/New_York,Europe/Warsaw
+1318,JFK,KJFK,TBS,UGTB,JFK-TBS,0,1,United States,Georgia,America/New_York,Asia/Tbilisi
+1319,LGA,KLGA,HFD,KHFD,LGA-HFD,1,0,United States,United States,America/New_York,America/New_York
+1320,ISP,KISP,PLN,KPLN,ISP-PLN,1,0,United States,United States,America/New_York,America/Detroit
+1321,JFK,KJFK,ADS,KADS,JFK-ADS,1,0,United States,United States,America/New_York,America/Chicago
+1322,JFK,KJFK,ABI,KABI,JFK-ABI,1,0,United States,United States,America/New_York,America/Chicago
+1323,LGA,KLGA,LWB,KLWB,LGA-LWB,1,0,United States,United States,America/New_York,America/New_York
+1324,ISP,KISP,IMT,KIMT,ISP-IMT,1,0,United States,United States,America/New_York,America/Menominee
+1325,LGA,KLGA,GVA,LSGG,LGA-GVA,0,1,United States,Switzerland,America/New_York,Europe/Zurich
+1326,JFK,KJFK,DNL,KDNL,JFK-DNL,1,0,United States,United States,America/New_York,America/New_York
+1327,JFK,KJFK,PSF,KPSF,JFK-PSF,0,0,United States,,America/New_York,
+1328,JFK,KJFK,TRI,KTRI,JFK-TRI,1,0,United States,United States,America/New_York,America/New_York
+1329,ISP,KISP,EAU,KEAU,ISP-EAU,1,0,United States,United States,America/New_York,America/Chicago
+1330,JFK,KJFK,ZBM,CZBM,JFK-ZBM,0,1,United States,Canada,America/New_York,America/Montreal
+1331,LGA,KLGA,QNY,KHFY,LGA-QNY,0,0,United States,,America/New_York,
+1332,LGA,KLGA,QQD,KDTO,LGA-QQD,0,0,United States,,America/New_York,
+1333,ISP,KISP,MKE,KMKE,ISP-MKE,1,0,United States,United States,America/New_York,America/Chicago
+1334,LGA,KLGA,DSI,KDTS,LGA-DSI,0,0,United States,,America/New_York,
+1335,JFK,KJFK,GRB,KGRB,JFK-GRB,1,0,United States,United States,America/New_York,America/Chicago
+1336,ISP,KISP,CKB,KCKB,ISP-CKB,1,0,United States,United States,America/New_York,America/New_York
+1337,JFK,KJFK,WGO,KOKV,JFK-WGO,0,0,United States,,America/New_York,
+1338,ISP,KISP,FAY,KFAY,ISP-FAY,1,0,United States,United States,America/New_York,America/New_York
+1339,JFK,KJFK,NIP,KNIP,JFK-NIP,1,0,United States,United States,America/New_York,America/New_York
+1340,JFK,KJFK,CGN,EDDK,JFK-CGN,0,1,United States,Germany,America/New_York,Europe/Berlin
+1341,LGA,KLGA,MDD,KMDD,LGA-MDD,1,0,United States,United States,America/New_York,America/Chicago
+1342,JFK,KJFK,CJJ,RKTU,JFK-CJJ,0,1,United States,South Korea,America/New_York,Asia/Seoul
+1343,LGA,KLGA,SFB,KSFB,LGA-SFB,1,0,United States,United States,America/New_York,America/New_York
+1344,ISP,KISP,MRK,KMKY,ISP-MRK,1,0,United States,United States,America/New_York,America/New_York
+1345,JFK,KJFK,MLA,LMML,JFK-MLA,0,1,United States,Malta,America/New_York,Europe/Malta
+1346,LGA,KLGA,ANU,TAPA,LGA-ANU,0,1,United States,Antigua and Barbuda,America/New_York,America/Antigua
+1347,ISP,KISP,SGF,KSGF,ISP-SGF,1,0,United States,United States,America/New_York,America/Chicago
+1348,LGA,KLGA,WDR,KWDR,LGA-WDR,1,0,United States,United States,America/New_York,America/New_York
+1349,JFK,KJFK,PAE,KPAE,JFK-PAE,1,0,United States,United States,America/New_York,America/Los_Angeles
+1350,JFK,KJFK,SME,KSME,JFK-SME,1,0,United States,United States,America/New_York,America/New_York
+1351,LGA,KLGA,RME,KRME,LGA-RME,1,0,United States,United States,America/New_York,America/New_York
+1352,ISP,KISP,SKB,TKPK,ISP-SKB,0,1,United States,Saint Kitts and Nevis,America/New_York,America/St_Kitts
+1353,LGA,KLGA,POU,KPOU,LGA-POU,1,0,United States,United States,America/New_York,America/New_York
+1354,ISP,KISP,HCC,K1B1,ISP-HCC,0,0,United States,,America/New_York,
+1355,LGA,KLGA,DOM,TDPD,LGA-DOM,0,1,United States,Dominica,America/New_York,America/Dominica
+1356,ISP,KISP,SSI,KSSI,ISP-SSI,1,0,United States,United States,America/New_York,America/New_York
+1357,ISP,KISP,IAH,KIAH,ISP-IAH,1,0,United States,United States,America/New_York,America/Chicago
+1358,ISP,KISP,TOL,KTOL,ISP-TOL,1,0,United States,United States,America/New_York,America/New_York
+1359,LGA,KLGA,GFL,KGFL,LGA-GFL,1,0,United States,United States,America/New_York,America/New_York
+1360,ISP,KISP,ANU,TAPA,ISP-ANU,0,1,United States,Antigua and Barbuda,America/New_York,America/Antigua
+1361,JFK,KJFK,MTJ,KMTJ,JFK-MTJ,1,0,United States,United States,America/New_York,America/Denver
+1362,ISP,KISP,GRI,KGRI,ISP-GRI,1,0,United States,United States,America/New_York,America/Chicago
+1363,LGA,KLGA,ZZV,KZZV,LGA-ZZV,1,0,United States,United States,America/New_York,America/New_York
+1364,ISP,KISP,BIM,MYBS,ISP-BIM,0,1,United States,Bahamas,America/New_York,America/Nassau
+1365,JFK,KJFK,MZJ,KMZJ,JFK-MZJ,1,0,United States,United States,America/New_York,America/Phoenix
+1366,JFK,KJFK,OGB,KOGB,JFK-OGB,1,0,United States,United States,America/New_York,America/New_York
+1367,JFK,KJFK,BKW,KBKW,JFK-BKW,1,0,United States,United States,America/New_York,America/New_York
+1368,LGA,KLGA,PVR,MMPR,LGA-PVR,0,1,United States,Mexico,America/New_York,America/Mexico_City
+1369,LGA,KLGA,YPQ,CYPQ,LGA-YPQ,0,1,United States,Canada,America/New_York,America/Toronto
+1370,LGA,KLGA,MRB,KMRB,LGA-MRB,1,0,United States,United States,America/New_York,America/New_York
+1371,LGA,KLGA,LBB,KLBB,LGA-LBB,1,0,United States,United States,America/New_York,America/Chicago
+1372,ISP,KISP,GGE,KGGE,ISP-GGE,1,0,United States,United States,America/New_York,America/New_York
+1373,ISP,KISP,QNW,KDMW,ISP-QNW,0,0,United States,,America/New_York,
+1374,ISP,KISP,STX,TISX,ISP-STX,0,1,United States,U.S. Virgin Islands,America/New_York,America/St_Thomas
+1375,ISP,KISP,FNL,KFNL,ISP-FNL,1,0,United States,United States,America/New_York,America/Denver
+1376,ISP,KISP,VPZ,KVPZ,ISP-VPZ,1,0,United States,United States,America/New_York,America/Chicago
+1377,ISP,KISP,QSO,KJYO,ISP-QSO,0,0,United States,,America/New_York,
+1378,ISP,KISP,ERI,KERI,ISP-ERI,1,0,United States,United States,America/New_York,America/New_York
+1379,ISP,KISP,FWA,KFWA,ISP-FWA,1,0,United States,United States,America/New_York,America/Indiana/Indianapolis
+1380,LGA,KLGA,SBA,KSBA,LGA-SBA,1,0,United States,United States,America/New_York,America/Los_Angeles
+1381,ISP,KISP,MDT,KMDT,ISP-MDT,1,0,United States,United States,America/New_York,America/New_York
+1382,ISP,KISP,NEW,KNEW,ISP-NEW,1,0,United States,United States,America/New_York,America/Chicago
+1383,LGA,KLGA,LEW,KLEW,LGA-LEW,1,0,United States,United States,America/New_York,America/New_York
+1384,LGA,KLGA,QNO,KAAO,LGA-QNO,0,0,United States,,America/New_York,
+1385,LGA,KLGA,MKG,KMKG,LGA-MKG,1,0,United States,United States,America/New_York,America/Detroit

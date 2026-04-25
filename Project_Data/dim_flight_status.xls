@@ -1,0 +1,7 @@
+status_key,flight_status,is_cancelled_flag,is_delayed_flag,is_landed_flag,is_active_flag,is_scheduled_flag,is_diverted_flag
+1,landed,0,0,1,0,0,0
+2,cancelled,1,0,0,0,0,0
+3,active,0,0,0,1,0,0
+4,scheduled,0,0,0,0,1,0
+5,diverted,0,0,0,0,0,1
+6,unknown,0,0,0,0,0,0
