@@ -65,9 +65,7 @@ This project focuses on building a data warehouse solution to analyze air traffi
 ## C. Architecture
 
 ### 1. Information Architecture
-- Describe the structure and flow of the information.
-- Include diagrams or images if necessary. 
-  - ![Information Architecture Diagram](path_to_image)
+- ![Information Architecture Diagram](Architectures/INFOARCH.drawio.png)
 
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
