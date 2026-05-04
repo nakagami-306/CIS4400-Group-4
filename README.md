@@ -98,8 +98,8 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - **Silver**: Cleaned and enriched data
   - **Gold**: Aggregated, ready-for-use data
 
-*Include any necessary images or diagrams to clarify the architecture.*
-  - ![Medallion Architecture Diagram](path_to_image)
+  <img width="687" height="316" alt="Medallion_Arch drawio (2)" src="https://github.com/user-attachments/assets/374cc700-195b-4ee6-8247-a4cd23e6d08c" />
+
 
 ## E. Methodology and Implementation
 
