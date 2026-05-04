@@ -102,23 +102,61 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - ![Medallion Architecture Diagram](path_to_image)
 
 ## E. Methodology and Implementation
-Describe the methodology used in the project and the steps followed during implementation.
 
-- Outline the approach taken (e.g., Agile, Waterfall).
-- Describe key phases, such as development, testing, deployment.
-- Example:
-  - Sprint 1: Setup and Data Collection
-  - Sprint 2: Data Processing and Model Building
-- Metadata Management
-  - Data Dictionary
-  - Mapping Sources and Target Systems
-  - List of all functions
-	- Function 1 
-	- Function 2
-	- Function 3
-- ETL Extract Load Transform
-- ELT Extract Transform Load
-- Tools 
+### Approach
+
+The project follows a phased delivery approach structured around the milestones set by the professor. Work was organized as a sequence of fixed-scope phases rather than time-boxed Agile sprints, with each phase producing concrete deliverables that fed directly into the next phase.
+
+### Phases
+
+- Phase 1 (target Feb 28, 2026): requirements gathering, cost, benefits, risks, and architecture. The team delivered the problem context, business, functional, and data requirements, and the Information, Data, Technical, and Product architecture diagrams.
+- Phase 2 (target Mar 14, 2026): data modeling. The dimensional model with Fact_Flight and six dimensions was authored in DbSchema as `FLIGHT_DBS_FINAL.dbs` and exported as the ER diagram `FLIGHTS_DB_PNG.png`.
+- Phase 3 (target Mar 28, 2026): data pipeline started. The initial ETL notebook handles JSON ingestion from `flightdata.zip`, reference CSV loading, and the raw-to-cleaned flight DataFrame.
+- Phase 4 (target Apr 11, 2026): data pipeline midway. Dimension tables for Date, Airport, Airline, Flight_Status, Aircraft, and Route were constructed, and Fact_Flight was assembled with surrogate keys. Dimension outputs were committed under `Project_Data/dim_*.xls`.
+- Phase 5 (target Apr 25, 2026): visualization started, in progress. Tableau dashboards on traffic patterns, cancellations, route distribution, and domestic vs. international composition are planned. Workbooks have not yet been committed at the time of writing.
+
+### Metadata Management
+
+The Data Dictionary covers every column of the flight fact and all six dimension tables, with column name, data type, description, and constraints or nullability. It is maintained in [`Data_Dictionary/Data_Dictionary_Flight.pdf`](Data_Dictionary/Data_Dictionary_Flight.pdf).
+
+Source data is provided externally by the professor as the `flightdata.zip` archive and six reference CSV files. These files are not committed to the repository; the ETL notebook expects them in the working directory at run time.
+
+Per-day Aviationstack JSON files inside `flightdata.zip` are flattened into Fact_Flight, Dim_Flight_Status, and Dim_Date. The flattening unpacks the nested departure, arrival, airline, flight, aircraft, and live objects, and derives delay minutes, cancellation, delayed, landed, active, scheduled, and diverted flags, plus the codeshare flag.
+
+The six reference CSVs feed the dimensions as follows. `CIS4400_project08_references_airports.csv` populates Dim_Airport, normalizing IATA and ICAO codes and attaching city, country, latitude, longitude, timezone, and GMT offset. `CIS4400_project08_references_airlines.csv` populates Dim_Airline, normalizing IATA and ICAO codes and attaching country, callsign, hub, and fleet info. `CIS4400_project08_references_aircrafts_types.csv` provides aircraft type code, aircraft name, and plane type id used in Dim_Aircraft. `CIS4400_project08_references_airplanes.csv` provides registration, model code, model name, series, class, production line, and engines, also used in Dim_Aircraft. `CIS4400_project08_references_cities.csv` enriches Dim_Airport by mapping city IATA to city name and timezone. `CIS4400_project08_references_countries.csv` enriches both Dim_Airport and Dim_Airline by mapping ISO-2 to country name and continent.
+
+Dim_Route is built from origin and destination IATA pairs derived from the flight JSON. Each unique pair receives a surrogate route key. A route is classified as domestic when the origin and destination country names match, joined through Dim_Airport which is itself enriched by the countries reference, and as international when they differ.
+
+The ETL notebook defines the following helper functions.
+
+- `clean_string(series)` strips whitespace and converts empty, `nan`, and `None` strings to NA.
+- `safe_str(series)` applies `clean_string` and uppercases the result.
+- `normalize_code(series)` standardizes IATA and ICAO codes to uppercase, NA-safe.
+- `to_datetime_safe(series)` parses timestamps with errors coerced to NaT, UTC-aware.
+- `bool_to_int(series)` converts boolean flags to 0 or 1, with NA filled as `False`.
+- `make_surrogate_key(df, key_name)` generates sequential surrogate keys for a dimension.
+- `read_json_files_from_zip(zip_path, max_files)` iterates JSON files inside a zip archive and unions them into a DataFrame.
+- `get_nested_value(obj, key)` safely accesses a nested key from an Aviationstack JSON object.
+
+### ETL vs. ELT
+
+The pipeline follows an ETL pattern. In the extract step, raw flight JSON from `flightdata.zip` and the six reference CSVs are read into pandas DataFrames. In the transform step, nested JSON is flattened, codes are normalized, timestamps are parsed, status flags such as cancelled, delayed, codeshare, and live-tracked are derived, routes are classified as domestic or international, and surrogate keys are assigned, all in memory. In the load step, the curated Fact_Flight and the six dimension tables are written as CSV files into a local `warehouse_output/` directory. The six dimension outputs are also exported to Excel and committed under `Project_Data/dim_*.xls` for inspection. The final relational target is BigQuery, per the Technical Architecture.
+
+ELT was not adopted because the source data requires substantial structural transformation, including nested JSON flattening, multi-source enrichment, and surrogate-key assignment, which is more naturally expressed in pandas than in SQL.
+
+### Tools
+
+- Python 3 and Jupyter Notebook are used to author and run the ETL notebook (`Cleaned _Flight_data (2).ipynb`).
+- pandas and numpy handle DataFrame transforms, cleaning, type coercion, and joins.
+- Standard library modules `json`, `zipfile`, and `os` are used to read JSON archives and manage paths.
+- Microsoft Excel is used to convert CSV outputs to `.xls` for the committed dimension tables.
+- DbSchema is used to author the Fact and Dimension model in `.dbs` format and export the ER diagram.
+- Google BigQuery and Google Cloud Storage are the planned warehouse and staging targets per the Technical Architecture.
+- Tableau Desktop is used to connect to the warehouse and build dashboards.
+- draw.io is used for the Information, Data, Technical, and Product architecture diagrams.
+- Git and GitHub are used for version control, code and documentation tracking, and pull-request review.
+
+The pipeline is currently executed manually by running the Jupyter notebook end-to-end. A managed orchestration layer such as Apache Airflow or Google Cloud Composer is referenced in the Technical Architecture as the production-scale equivalent, but is out of scope for the present implementation.
 
 ## F. Visualization
 Provide details of the visualizations created for the project.
