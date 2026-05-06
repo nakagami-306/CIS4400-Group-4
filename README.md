@@ -91,15 +91,29 @@ This project focuses on building a data warehouse solution to analyze air traffi
   - ![Dimensional Modeling Diagram](Dimensional_modeling/FLIGHTS_DB_PNG.png)
 
 
-### 2. Medallion Architecture
-- Explain the medallion architecture and its stages: Bronze, Silver, Gold.
-- Example:
-  - **Bronze**: Raw, unprocessed data
-  - **Silver**: Cleaned and enriched data
-  - **Gold**: Aggregated, ready-for-use data
+## 2. Medallion Architecture
 
-*Include any necessary images or diagrams to clarify the architecture.*
-  - ![Medallion Architecture Diagram](path_to_image)
+The project uses a Medallion Architecture to organize the flight data pipeline into three layers: Bronze, Silver, and Gold. This structure separates raw data storage, cleaned/transformed data, and business-ready analytics outputs.
+
+### Bronze Layer: Raw Data
+
+The Bronze layer has the original source data exactly as it was taken. This includes the raw flight dataset and reference files such as airports, airlines, aircraft, cities, and countries. These files are stored in cloud storage as the stage before any cleaning or transformation is done
+
+[RAW DATA](Raw_data)
+
+### Silver Layer: Cleaned and Transformed Data
+
+The Silver layer has cleaned, standardized, and structured data. In this stage, the raw data is transformed into a dimensional model. Cleaning steps include standardizing column names, converting data types, handling missing values, creating surrogate keys, and separating the data into fact and dimension tables.
+
+[CLEANED DATA](Project_Data)
+
+### Gold Layer: Business-Ready Analytics
+
+The Gold layer represents the final reporting and analytics layer. This includes aggregated metrics, dashboard-ready outputs, and Power BI visualizations used to answer the project’s business questions.
+
+[ANALYTICS AND VISUALS](DashBoard)
+
+  - ![Medallion Architecture Diagram](Architectures/Medallion_ARCH.drawio.png)
 
 ## E. Methodology and Implementation
 
