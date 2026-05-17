@@ -82,13 +82,67 @@ This project focuses on building a data warehouse solution to analyze air traffi
 ## D. Modeling
 
 ### 1. Dimensional Modeling
-- Explain the dimensional modeling
-- Example:
-  - **Facts**: describe all the facts
-  - **Dimension**: include all dimensions
 
-*Include any necessary images or diagrams to clarify the architecture.*
+In this project  we used a star schema dimensional model to organize the flight data for analytics. The central fact table is `fact_flight`, which stores the measurable flight activity records. The fact table connects to several dimension tables that describe the date, airports, airline, aircraft, route, and flight status.
+
   - ![Dimensional Modeling Diagram](Dimensional_modeling/FLIGHTS_DB_PNG.png)
+    
+### Fact Table
+
+#### `fact_flight`
+
+The `fact_flight` table is the center of the model and represents individual flight records. Each row contains flight-level information such as the flight date, airline, departure airport, arrival airport, aircraft, route, and flight status. It also includes operational fields such as scheduled, estimated, and actual departure and arrival times, delay minutes, cancellation flags, delay flags, landed flags, and live flight tracking fields.
+
+The fact table contains foreign keys that connect to the dimension tables:
+
+- `date_key`  to `dim_date`
+- `departure_airport_key`  to `dim_airport`
+- `arrival_airport_key`  to `dim_airport`
+- `airline_key`  to `dim_airline`
+- `status_key`  to `dim_flight_status`
+- `aircraft_key` conects to `dim_aircraft`
+- `route_key`  to `dim_route`
+
+### Dimension Tables
+
+#### `dim_date`
+
+The `dim_date` table allows for time related analysis. It includes full date, day of month, day of week, day name, week of year, month number, month name, quarter number, year number, and weekend indicator. This allows users to analyze flight patterns by day, month, quarter, year, and weekend vs. weekday.
+
+#### `dim_airport`
+
+The `dim_airport` table stores airport reference information. It includes airport ID, IATA code, ICAO code, airport name, city, country, continent, timezone, GMT offset, latitude, longitude, and phone number. This dimension is used twice in the fact table, once for the departure airport and once for the arrival airport.
+
+#### `dim_airline`
+
+The `dim_airline` table stores airline information such as airline ID, IATA code, ICAO code, airline name, callsign, hub code, country, founding date, fleet size, average fleet age, IATA prefix accounting, airline status, and airline type. This supports airline level analysis such as flight volume and cancellation performance by airline.
+
+#### `dim_flight_status`
+
+The `dim_flight_status` table stores the flight status category and related status flags. It includes the status key, flight status, cancellation flag, delayed flag, landed flag, active flag, scheduled flag, and diverted flag. This allows the dashboard to compare cancelled, landed, active, scheduled, delayed, and diverted flights.
+
+#### `dim_aircraft`
+
+The `dim_aircraft` table stores aircraft and airplane reference data. It includes aircraft key, IATA type code, aircraft registration, aircraft type reference ID, plane type ID, aircraft name, IATA codes, model code, model name, plane series, plane class, production line, engines count, engines type, and plane status. This allows flight activity to be analyzed by aircraft type and model.
+
+#### `dim_route`
+
+The `dim_route` table stores origin-destination route information. It includes route key, origin IATA code, origin ICAO code, destination IATA code, destination ICAO code, route name, domestic flag, international flag, origin country name, destination country name, origin timezone, and destination timezone. This dimension supports route analysis, top destination analysis, and domestic vs. international flight comparisons.
+
+### Relationships
+
+The dimensional model follows a one-to-many relationship structure. Each dimension table has one record per descriptive entity, while the `fact_flight` table can contain many flight records connected to those dimensions.
+
+Examples:
+
+- One date can relate to many flights.
+- One airline can operate many flights.
+- One airport can appear in many departure and arrival records.
+- One aircraft can be connected to many flights.
+- One route can appear in many flight records.
+- One flight status can describe many flights.
+
+This model allows Power BI users to filter and analyze flight data across time, airports, airlines, aircraft, routes, and statuses.
 
 
 ## 2. Medallion Architecture
@@ -173,28 +227,77 @@ ELT was not adopted because the source data requires substantial structural tran
 The pipeline is currently executed manually by running the Jupyter notebook end-to-end. A managed orchestration layer such as Apache Airflow or Google Cloud Composer is referenced in the Technical Architecture as the production-scale equivalent, but is out of scope for the present implementation.
 
 ## F. Visualization
-Provide details of the visualizations created for the project.
+## F. Visualization
 
-- Include charts, graphs, and any other visual representation of the data.
-  - ![Visualization Example](path_to_image)
-- Mention any libraries or tools used for visualization (e.g., Matplotlib, Tableau).
+The final interface for the project was created using Power BI. The dashboard lest users analyze flight activity for ISP, JFK, and LGA using different filters for airport, airline, flight status, date range, and hour range.
+
+The dashboard was divided into four main report pages which are:
+
+### 1. Dashboard Storyboard
+
+The storyboard page shows the user flow of the dashboard. beginning with filters for origin airport, airline, flight status, and date. The visuals then update to show flight volume by month, flight status breakdown, top routes, cancelled flights, domestic vs. international flights, and flight-level detail records.
+
+![Dashboard Storyboard](DashBoard/STORY_BOARD.png)
+
+### 2. Air Traffic Overview
+
+The overview page gives a summary of the flight dataset. It includes KPI cards for total flights, delayed flights, cancelled flights, landed flights, and average delay. It also includes charts for flight status breakdown, total flights by year/month, total flights by airport, and monthly flight trends by airport.
+
+![Air Traffic Overview](DashBoard/OVERVIEW.png)
+
+### 3. Airline Cancellation and Route Performance
+
+This page focuses on airline and route analysis. It compares flight volume by airline, cancellations by airline, popular destinations, and origin-destination route performance. This page supports the project requirement to track cancelled flights by airline and identify high-volume routes.
+
+![Airline Cancellation and Route Performance](DashBoard/AIRLINE_CANCELATIONS.png)
+
+### 4. Historical Flight Performance
+
+This page analyzes time-based flight patterns. It shows flight volume by month, day of week, and hour. These visuals help show peak periods and support resource planning for airports and airlines.
+
+![Historical Flight Performance](DashBoard/HISTORICAL_PERFORMANCE.png)
 
 ## G. Insights
 Highlight any key insights gained from the project.
 
-- Provide an overview of what was learned or discovered through data analysis.
-- Example:  
-  - High correlation between customer satisfaction and response time.
-  - Significant opportunity for cost reduction in supply chain operations.
+The Power BI dashboard revealed several important patterns in the flight data:
+
+1. JFK has the highest flight volume among the three airports.
+The overview dashboard shows JFK with the largest total flight count, followed by LGA, while ISP has significantly lower activity. This indicates that JFK is the primary airport in the dataset for overall traffic volume.
+
+2. Most flights are marked as landed.
+The flight status breakdown shows that the majority of flights were completed successfully. Landed flights make up the largest share of the dataset, while cancelled, diverted, and unknown flights represent much smaller portions.
+
+3. Flight volume changes noticeably by month.
+Monthly flight volume is strongest around April and May, with both months reaching about 109K flights. Volume drops sharply around September and October, with both months around 39K flights, before increasing again in December.
+
+4. Flight activity is highest during afternoon and evening hours.
+The hourly chart shows that flight volume rises throughout the day and peaks around the late afternoon and evening. The highest hourly volume appears around hour 17, with about 70K flights.
+
+5. Sunday, Thursday, and Monday have the highest flight volume.
+The day-of-week chart shows Sunday, Thursday, and Monday each around 145K flights. Saturday is the lowest day, with about 132K flights.
+
+6. Delta Air Lines has the highest flight volume.
+The airline performance page shows Delta Air Lines with about 140K flights, making it the highest-volume airline in the dataset.
+
+7. Delta Air Lines also has the highest cancellation count.
+The cancellations chart shows Delta Air Lines with about 2.7K cancellations. American Airlines and WestJet follow with about 1.4K cancellations each.
+
+8. The most popular destination is BOS.
+The popular destinations chart shows BOS as the top destination with about 44K flights, followed by LAX with about 41K flights and ATL with about 36K flights.
+
+9. Most flights are domestic.
+The domestic vs. international chart shows that around 79.75% of flights are domestic, while about 20.25% are international. This suggests the dataset is mainly focused on domestic U.S. air traffic.
 
 ## H. Conclusion
-Summarize the outcomes of the project and any potential next steps.
 
-- What was achieved?
-- How can the results be used moving forward?
-- Example:
-  - The project successfully reduced costs by 20% through process automation.
-  - Future work may include expanding the solution to new departments.
+## H. Conclusion
+
+-This project successfully built a data warehouse and analytics pipeline for aviation data related to ISP, JFK, and LGA. The team transformed raw flight and reference data into a dimensional model with fact and dimension tables, then used Power BI to create interactive dashboards for flight traffic analysis.
+
+-The final dashboard allows users to evaluate total flight volume, flight status, cancellations by airline, popular destinations, route activity, and historical traffic patterns. These insights can help airport analysts, airline managers, and operations teams better understand traffic trends, identify cancellation patterns, and support planning decisions.
+
+-Future improvements could include connecting to the live Aviationstack API, adding weather data, including cancellation reason data, and creating predictive models for delays or cancellations.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
