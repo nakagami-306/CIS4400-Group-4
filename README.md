@@ -292,10 +292,20 @@ Flights are mostly domestic. The domestic versus international graph demonstrate
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
 
-1. Author Last Name, First Name. *Title of Book*. Publisher, Year.
-2. "Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
-3. *Title of Website*. Website Publisher, Year, URL.
-
+1. Baruch College. CIS4400 Aviation Flight Dataset (2025). Google Cloud Storage, 2025, https://console.cloud.google.com/storage/browser/msba-online-data/CIS4400/project04/2025.
+2. Aviationstack API Documentation. APILayer, 2026, https://docs.apilayer.com/aviationstack/docs/api-documentation.
+3. Microsoft Azure Documentation. Microsoft, 2026, https://learn.microsoft.com/en-us/azure/.
+4. Snowflake Documentation. Snowflake Inc., 2026, https://docs.snowflake.com/.
+5. Tableau for Students. Tableau Software, 2026, https://www.tableau.com/academic/students.
+6. CIS4400 Group 4 Aviation Data Warehouse Project. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
+7. FLIGHTS_DB_PNG (Dimensional Model Diagram). GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Dimensional_modeling/FLIGHTS_DB_PNG.png.
+8. Information Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/INFOARCH.drawio.png.
+9. Data Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/DATAARCH.drawio.png.
+10. Technical Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/TECHARCH-Page-3.jpg.
+11. Product Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/PRODUCT_ARCH.drawio.png.
+12. Cleaned_Flight_Data (2) Jupyter Notebook. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
+13. Flight Analysis Power BI Dashboard (.pbix). Microsoft Power BI / SharePoint, 2026, https://cuny907-my.sharepoint.com/.
+14. Flight Analysis Dashboard Storyboard and Architecture Presentation. Canva, 2026, https://canva.link/vkpmx3ei5ruxk0x.
 ---
 
 *Replace placeholders like "path_to_image" with actual file paths or URLs.*
