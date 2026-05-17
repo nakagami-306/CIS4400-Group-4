@@ -291,8 +291,6 @@ The domestic vs. international chart shows that around 79.75% of flights are dom
 
 ## H. Conclusion
 
-## H. Conclusion
-
 -This project successfully built a data warehouse and analytics pipeline for aviation data related to ISP, JFK, and LGA. The team transformed raw flight and reference data into a dimensional model with fact and dimension tables, then used Power BI to create interactive dashboards for flight traffic analysis.
 
 -The final dashboard allows users to evaluate total flight volume, flight status, cancellations by airline, popular destinations, route activity, and historical traffic patterns. These insights can help airport analysts, airline managers, and operations teams better understand traffic trends, identify cancellation patterns, and support planning decisions.
