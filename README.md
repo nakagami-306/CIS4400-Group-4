@@ -227,10 +227,8 @@ ELT was not adopted because the source data requires substantial structural tran
 The pipeline is currently executed manually by running the Jupyter notebook end-to-end. A managed orchestration layer such as Apache Airflow or Google Cloud Composer is referenced in the Technical Architecture as the production-scale equivalent, but is out of scope for the present implementation.
 
 ## F. Visualization
-## F. Visualization
 
-The final interface for the project was created using Power BI. The dashboard lest users analyze flight activity for ISP, JFK, and LGA using different filters for airport, airline, flight status, date range, and hour range.
-
+The final interface for the project was developed in Power BI. The dashboard lets users analyze flight traffic at ISP, JFK, and LGA through various filtering options such as airport, carrier, flight status, date, and time range.
 The dashboard was divided into four main report pages which are:
 
 ### 1. Dashboard Storyboard
@@ -260,42 +258,36 @@ This page analyzes time-based flight patterns. It shows flight volume by month, 
 ## G. Insights
 Highlight any key insights gained from the project.
 
-The Power BI dashboard revealed several important patterns in the flight data:
+The Dash Board from Power BI dashboard shows us a lot of important patterns in our data such as:
 
-1. JFK has the highest flight volume among the three airports.
-The overview dashboard shows JFK with the largest total flight count, followed by LGA, while ISP has significantly lower activity. This indicates that JFK is the primary airport in the dataset for overall traffic volume.
+1. The JFK airport has the highest number of flights compared to the other two airports. From the overview of the dashboard, the JFK airport has the highest number of total flights, followed by the LGA airport, whereas the ISP airport has very few flights. Therefore, it can be concluded that the JFK airport is the main airport in terms of the number of flights.
 
-2. Most flights are marked as landed.
-The flight status breakdown shows that the majority of flights were completed successfully. Landed flights make up the largest share of the dataset, while cancelled, diverted, and unknown flights represent much smaller portions.
+2. The majority of flights are  'landed'. A break-down of the status of flights shows that majority of the flights were successful. The 'landed' category has the most flights in the data set, whereas 'cancelled', 'diverted', and 'unknown' have fewer flights compared to others.
 
-3. Flight volume changes noticeably by month.
-Monthly flight volume is strongest around April and May, with both months reaching about 109K flights. Volume drops sharply around September and October, with both months around 39K flights, before increasing again in December.
+3. There is variation of flight volume from month to month. Flight volume is highest in April and May, where both have approximately 109k flights, and lowest in September and October, where both have approximately 39k flights each.
 
-4. Flight activity is highest during afternoon and evening hours.
-The hourly chart shows that flight volume rises throughout the day and peaks around the late afternoon and evening. The highest hourly volume appears around hour 17, with about 70K flights.
+4. The level of flight activity is maximum during the afternoon and evening period.
+As depicted by the hourly graph, flight traffic increases steadily through the day and reaches its peak during the late afternoon/early evening time. The highest number of flights occurs during hour 17 with nearly 70K flights.
 
-5. Sunday, Thursday, and Monday have the highest flight volume.
-The day-of-week chart shows Sunday, Thursday, and Monday each around 145K flights. Saturday is the lowest day, with about 132K flights.
+5. Sundays, Thursdays, and Mondays have the highest traffic volume.
+The graph for daily variation indicates Sundays, Thursdays, and Mondays having the same number of flights, i.e., approximately 145K flights. Saturdays have the lowest volume, approximately 132K flights.
 
-6. Delta Air Lines has the highest flight volume.
-The airline performance page shows Delta Air Lines with about 140K flights, making it the highest-volume airline in the dataset.
+6. Delta Air Lines is the airline with the greatest number of flights.
+Delta Air Lines is shown on the airlines performance graph as having almost 140k flights, thus being the airline with the greatest number of flights in the dataset.
 
-7. Delta Air Lines also has the highest cancellation count.
-The cancellations chart shows Delta Air Lines with about 2.7K cancellations. American Airlines and WestJet follow with about 1.4K cancellations each.
+7. Delta Air Lines is also the airline with the greatest number of cancellations.
+According to the graph for the total cancellations, Delta Air Lines has almost 2.7k cancellations, while American Airlines and WestJet have 1.4k cancellations each.
 
-8. The most popular destination is BOS.
-The popular destinations chart shows BOS as the top destination with about 44K flights, followed by LAX with about 41K flights and ATL with about 36K flights.
+8. The most frequent destination is BOS.
+On the popular destinations chart, BOS is shown as the destination with almost 44k flights, with LAX and ATL following as the second and third destinations, with 41k 
 
-9. Most flights are domestic.
-The domestic vs. international chart shows that around 79.75% of flights are domestic, while about 20.25% are international. This suggests the dataset is mainly focused on domestic U.S. air traffic.
+9.Most are domestic flights.
+The domestic versus international chart clearly reveals that approximately 79.75% are domestic flights, whereas approximately 20.25% are international flights. It implies that the data set comprises mostly domestic air traffic within the United States.
+
 
 ## H. Conclusion
 
--This project successfully built a data warehouse and analytics pipeline for aviation data related to ISP, JFK, and LGA. The team transformed raw flight and reference data into a dimensional model with fact and dimension tables, then used Power BI to create interactive dashboards for flight traffic analysis.
-
--The final dashboard allows users to evaluate total flight volume, flight status, cancellations by airline, popular destinations, route activity, and historical traffic patterns. These insights can help airport analysts, airline managers, and operations teams better understand traffic trends, identify cancellation patterns, and support planning decisions.
-
--Future improvements could include connecting to the live Aviationstack API, adding weather data, including cancellation reason data, and creating predictive models for delays or cancellations.
+Flights are mostly domestic. The domestic versus international graph demonstrates that around 79.75% of flights are domestic, whereas only around 20.25% are -The data warehouse and analytics system have been effectively implemented to analyze data on aviation in relation to ISP, JFK, and LGA in this project. The data were processed using a dimensional modeling strategy in which facts and dimensions were extracted from the source data and then fed into Power BI to generate visualizations. The dashboard developed in this study enables users to assess total flight volume, flight status, cancellations per airline, top destinations, route activity, and historical flight traffic. This information can be valuable for making decisions regarding flight traffic and cancellations at airports. Further developments may involve connecting to the live Aviationstack API, integrating weather data, integrating cancellation cause data, and even building prediction models for delays and cancellations.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
