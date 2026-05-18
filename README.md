@@ -281,13 +281,12 @@ According to the graph for the total cancellations, Delta Air Lines has almost 2
 8. The most frequent destination is BOS.
 On the popular destinations chart, BOS is shown as the destination with almost 44k flights, with LAX and ATL following as the second and third destinations, with 41k 
 
-9.Most are domestic flights.
-The domestic versus international chart clearly reveals that approximately 79.75% are domestic flights, whereas approximately 20.25% are international flights. It implies that the data set comprises mostly domestic air traffic within the United States.
+9. Most are domestic flights. The domestic versus international chart clearly reveals that approximately 79.75% are domestic flights, whereas approximately 20.25% are international flights. It implies that the data set comprises mostly domestic air traffic within the United States.
 
 
 ## H. Conclusion
 
-Flights are mostly domestic. The domestic versus international graph demonstrates that around 79.75% of flights are domestic, whereas only around 20.25% are -The data warehouse and analytics system have been effectively implemented to analyze data on aviation in relation to ISP, JFK, and LGA in this project. The data were processed using a dimensional modeling strategy in which facts and dimensions were extracted from the source data and then fed into Power BI to generate visualizations. The dashboard developed in this study enables users to assess total flight volume, flight status, cancellations per airline, top destinations, route activity, and historical flight traffic. This information can be valuable for making decisions regarding flight traffic and cancellations at airports. Further developments may involve connecting to the live Aviationstack API, integrating weather data, integrating cancellation cause data, and even building prediction models for delays and cancellations.
+The data warehouse and analytics system have been effectively implemented to analyze data on aviation in relation to ISP, JFK, and LGA in this project. The data were processed using a dimensional modeling strategy in which facts and dimensions were extracted from the source data and then fed into Power BI to generate visualizations. The dashboard developed in this study enables users to assess total flight volume, flight status, cancellations per airline, top destinations, route activity, and historical flight traffic. This information can be valuable for making decisions regarding flight traffic and cancellations at airports. Further developments may involve connecting to the live Aviationstack API, integrating weather data, integrating cancellation cause data, and even building prediction models for delays and cancellations.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
