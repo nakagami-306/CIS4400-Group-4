@@ -296,16 +296,15 @@ Flights are mostly domestic. The domestic versus international graph demonstrate
 2. Aviationstack API Documentation. APILayer, 2026, https://docs.apilayer.com/aviationstack/docs/api-documentation.
 3. Microsoft Azure Documentation. Microsoft, 2026, https://learn.microsoft.com/en-us/azure/.
 4. Snowflake Documentation. Snowflake Inc., 2026, https://docs.snowflake.com/.
-5. Tableau for Students. Tableau Software, 2026, https://www.tableau.com/academic/students.
-6. CIS4400 Group 4 Aviation Data Warehouse Project. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
-7. FLIGHTS_DB_PNG (Dimensional Model Diagram). GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Dimensional_modeling/FLIGHTS_DB_PNG.png.
-8. Information Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/INFOARCH.drawio.png.
-9. Data Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/DATAARCH.drawio.png.
-10. Technical Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/TECHARCH-Page-3.jpg.
-11. Product Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/PRODUCT_ARCH.drawio.png.
-12. Cleaned_Flight_Data (2) Jupyter Notebook. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
-13. Flight Analysis Power BI Dashboard (.pbix). Microsoft Power BI / SharePoint, 2026, https://cuny907-my.sharepoint.com/.
-14. Flight Analysis Dashboard Storyboard and Architecture Presentation. Canva, 2026, https://canva.link/vkpmx3ei5ruxk0x.
+5. CIS4400 Group 4 Aviation Data Warehouse Project. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
+6. FLIGHTS_DB_PNG (Dimensional Model Diagram). GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Dimensional_modeling/FLIGHTS_DB_PNG.png.
+7. Information Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/INFOARCH.drawio.png.
+8. Data Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/DATAARCH.drawio.png.
+9. Technical Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/TECHARCH-Page-3.jpg.
+10. Product Architecture Diagram. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4/blob/main/Architectures/PRODUCT_ARCH.drawio.png.
+11. Cleaned_Flight_Data (2) Jupyter Notebook. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
+12. Flight Analysis Power BI Dashboard (.pbix). Microsoft Power BI / SharePoint, 2026, https://cuny907-my.sharepoint.com/.
+13. Flight Analysis Dashboard Storyboard and Architecture Presentation. Canva, 2026, https://canva.link/vkpmx3ei5ruxk0x.
 ---
 
 *Replace placeholders like "path_to_image" with actual file paths or URLs.*
