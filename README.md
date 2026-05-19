@@ -245,7 +245,7 @@ As depicted by the hourly graph, flight traffic increases steadily through the d
 The graph for daily variation indicates Sundays, Thursdays, and Mondays having the same number of flights, i.e., approximately 145K flights. Saturdays have the lowest volume, approximately 132K flights.
 
 6. Delta Air Lines is the airline with the greatest number of flights.
-Delta Air Lines is shown on the airlines performance graph as having almost 140k flights, thus being the airline with the greatest number of flights in the dataset.
+Delta Air Lines is shown on the airlines performance graph as having almost 140k flights, thus being the airline with the greatest number of flights in the dataset.The reasoning for their cancellations stem from staffing issues, system errors, and pilots unwilling to take extra flights.
 
 7. Delta Air Lines is also the airline with the greatest number of cancellations.
 According to the graph for the total cancellations, Delta Air Lines has almost 2.7k cancellations, while American Airlines and WestJet have 1.4k cancellations each.
@@ -276,6 +276,8 @@ The data warehouse and analytics system have been effectively implemented to ana
 11. Cleaned_Flight_Data (2) Jupyter Notebook. GitHub, 2026, https://github.com/nakagami-306/CIS4400-Group-4.
 12. Flight Analysis Power BI Dashboard (.pbix). Microsoft Power BI / SharePoint, 2026, https://cuny907-my.sharepoint.com/.
 13. Flight Analysis Dashboard Storyboard and Architecture Presentation. Canva, 2026, https://canva.link/vkpmx3ei5ruxk0x.
+14. Alessandro Passalalpi. “Delta Air Lines Leads the Way in Cancelled U.S. Flights with More Last-Minute Disruptions.” Aol.com, Yahoo, 17 May 2026, www.aol.com/lifestyle/delta-air-lines-leads-way-105120794.html. Accessed 19 May 2026.
+
 ---
 
 *Replace placeholders like "path_to_image" with actual file paths or URLs.*
