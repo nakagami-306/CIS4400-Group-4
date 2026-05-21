@@ -227,6 +227,9 @@ This page analyzes time-based flight patterns. It shows flight volume by month, 
 
 ![Historical Flight Performance](DashBoard/HISTORICAL_PERFORMANCE.png)
 
+### Power BI LINK
+https://app.powerbi.com/links/H6F1ma9P_2?ctid=6f60f0b3-5f06-4e09-9715-989dba8cc7d8&pbi_source=linkShare
+
 ## G. Insights
 Highlight any key insights gained from the project.
 
